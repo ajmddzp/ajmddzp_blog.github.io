@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>我的个人博客</title>
+</head>
+<body>
+    <h1>欢迎来到 ajmddzp 的博客</h1>
+    <p>正在加载文章数据...</p>
+    <div id="content"></div>
+
+    <script>
+        // 这里尝试读取你上传的那个 json 文件
+        fetch('2512.01165v1.json')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('content').innerHTML = 
+                    `<h2>最新文章: ${data.title}</h2>
+                     <p><strong>摘要:</strong> ${data.abstract}</p>
+                     <p><a href="${data.url}">原文链接</a></p>`;
+            })
+            .catch(error => {
+                document.getElementById('content').innerHTML = "无法读取数据，请检查文件名是否正确。";
+            });
+    </script>
+</body>
+</html>
