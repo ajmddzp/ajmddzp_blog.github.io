@@ -1,27 +1,174 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
-    <title>我的个人博客</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的论文库</title>
+    <style>
+        /* --- 页面基础样式 --- */
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        /* --- 卡片容器 (Grid布局) --- */
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            /* 自动适应屏幕宽度的网格 */
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* --- 单张卡片样式 --- */
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.2s;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        /* --- 卡片内容细节 --- */
+        .card-title {
+            font-size: 1.2em;
+            margin: 0 0 10px 0;
+            color: #2980b9;
+        }
+
+        .card-meta {
+            font-size: 0.85em;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+
+        .card-authors {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        /* 关键词标签样式 */
+        .keywords {
+            margin-bottom: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        .tag {
+            background: #e0f7fa;
+            color: #006064;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.75em;
+        }
+
+        /* 摘要截断 (只显示3行) */
+        .card-abstract {
+            font-size: 0.9em;
+            color: #555;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            /* 显示行数 */
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            margin-bottom: auto;
+            /* 把按钮推到底部 */
+        }
+
+        .card-link {
+            display: block;
+            margin-top: 15px;
+            text-align: center;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            padding: 8px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .card-link:hover {
+            background-color: #2980b9;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>欢迎来到 ajmddzp 的博客</h1>
-    <p>正在加载文章数据...</p>
-    <div id="content"></div>
+
+    <h1>📄 论文归档</h1>
+    <div id="app" class="card-container">
+        <p>正在加载数据...</p>
+    </div>
 
     <script>
-        // 这里尝试读取你上传的那个 json 文件
-        fetch('2512.01165v1.json')
-            .then(response => response.json())
-            .then(data => {
-                document.getElementById('content').innerHTML = 
-                    `<h2>最新文章: ${data.title}</h2>
-                     <p><strong>摘要:</strong> ${data.abstract}</p>
-                     <p><a href="${data.url}">原文链接</a></p>`;
-            })
-            .catch(error => {
-                document.getElementById('content').innerHTML = "无法读取数据，请检查文件名是否正确。";
-            });
+        async function loadPapers() {
+            const container = document.getElementById('app');
+            try {
+                // 1. 读取由脚本自动生成的索引文件
+                const response = await fetch('papers_index.json');
+                if (!response.ok) throw new Error("找不到索引文件");
+                const fileList = await response.json();
+
+                container.innerHTML = ''; // 清空"正在加载"
+
+                // 2. 遍历列表，读取每个 JSON 文件
+                for (const filename of fileList) {
+                    try {
+                        const paperRes = await fetch(filename);
+                        const paper = await paperRes.json();
+                        renderCard(paper);
+                    } catch (e) {
+                        console.warn(`无法读取文件: ${filename}`, e);
+                    }
+                }
+            } catch (error) {
+                container.innerHTML = `<p style="color:red; text-align:center">加载失败: 请确保运行了 deploy.sh 脚本来生成索引。</p>`;
+            }
+        }
+
+        function renderCard(data) {
+            const container = document.getElementById('app');
+
+            // 处理作者列表 (如果是数组则合并，如果是字符串直接用)
+            const authors = Array.isArray(data.authors) ? data.authors.join(", ") : data.authors;
+
+            // 处理关键词 (如果没有则显示空)
+            const keywordHtml = (data.extracted_keywords || [])
+                .map(k => `<span class="tag">${k}</span>`).join('');
+
+            const html = `
+                <div class="card">
+                    <h3 class="card-title">${data.title}</h3>
+                    <div class="card-meta">
+                        <span class="card-authors">${authors}</span>
+                    </div>
+                    <div class="keywords">${keywordHtml}</div>
+                    <div class="card-abstract">${data.abstract}</div>
+                    <a href="${data.url}" target="_blank" class="card-link">阅读原文</a>
+                </div>
+            `;
+            container.insertAdjacentHTML('beforeend', html);
+        }
+
+        loadPapers();
     </script>
 </body>
+
 </html>
