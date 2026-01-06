@@ -1,174 +1,202 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的论文库</title>
-    <style>
-        /* --- 页面基础样式 --- */
-        body {
-            font-family: 'Segoe UI', sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            padding: 20px;
-        }
-
-        h1 {
-            text-align: center;
-            color: #2c3e50;
-        }
-
-        /* --- 卡片容器 (Grid布局) --- */
-        .card-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            /* 自动适应屏幕宽度的网格 */
-            gap: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        /* --- 单张卡片样式 --- */
-        .card {
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            transition: transform 0.2s;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
-        }
-
-        /* --- 卡片内容细节 --- */
-        .card-title {
-            font-size: 1.2em;
-            margin: 0 0 10px 0;
-            color: #2980b9;
-        }
-
-        .card-meta {
-            font-size: 0.85em;
-            color: #7f8c8d;
-            margin-bottom: 10px;
-        }
-
-        .card-authors {
-            font-weight: bold;
-            color: #2c3e50;
-        }
-
-        /* 关键词标签样式 */
-        .keywords {
-            margin-bottom: 10px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 5px;
-        }
-
-        .tag {
-            background: #e0f7fa;
-            color: #006064;
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-size: 0.75em;
-        }
-
-        /* 摘要截断 (只显示3行) */
-        .card-abstract {
-            font-size: 0.9em;
-            color: #555;
-            display: -webkit-box;
-            -webkit-line-clamp: 4;
-            /* 显示行数 */
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            margin-bottom: auto;
-            /* 把按钮推到底部 */
-        }
-
-        .card-link {
-            display: block;
-            margin-top: 15px;
-            text-align: center;
-            background-color: #3498db;
-            color: white;
-            text-decoration: none;
-            padding: 8px;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-
-        .card-link:hover {
-            background-color: #2980b9;
-        }
-    </style>
+    <title>arXiv Fast Paper Reader</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Marked.js for Markdown rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
 </head>
 
 <body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 id="headerTitle" style="cursor: pointer;">arXiv Fast Paper Reader</h1>
+            <div class="header-actions">
+                <button id="configBtn" class="btn btn-secondary">⚙️ Config</button>
+                <button id="fetchBtn" class="btn btn-primary">🔄 Fetch Now</button>
+                <div class="stats" id="stats"></div>
+            </div>
+        </div>
+    </header>
 
-    <h1>📄 论文归档</h1>
-    <div id="app" class="card-container">
-        <p>正在加载数据...</p>
+    <!-- Update notification -->
+    <div id="updateNotification" class="update-notification" style="display: none;">
+        <span>🎉 有新的论文更新！</span>
+        <button onclick="refreshPapers()" class="btn-small">刷新查看</button>
+        <button onclick="dismissUpdate()" class="btn-small btn-dismiss">×</button>
     </div>
 
-    <script>
-        async function loadPapers() {
-            const container = document.getElementById('app');
-            try {
-                // 1. 读取由脚本自动生成的索引文件
-                const response = await fetch('papers_index.json');
-                if (!response.ok) throw new Error("找不到索引文件");
-                const fileList = await response.json();
+    <!-- Search Bar & Controls -->
+    <div class="search-container">
+        <div class="container">
+            <div class="search-bar-wrapper">
+                <input type="text" id="searchInput" class="search-input" placeholder="搜索论文...">
+                <select id="sortSelect" class="sort-select">
+                    <option value="relevance">按相关性排序</option>
+                    <option value="latest">按最新排序</option>
+                </select>
+                <button id="clearKeywordBtn" class="btn btn-secondary" style="display: none;">清除筛选</button>
+            </div>
+        </div>
+    </div>
 
-                container.innerHTML = ''; // 清空"正在加载"
+    <!-- Timeline -->
+    <main class="container">
+        <div id="timeline" class="timeline">
+            <!-- Papers will be loaded here -->
+        </div>
 
-                // 2. 遍历列表，读取每个 JSON 文件
-                for (const filename of fileList) {
-                    try {
-                        const paperRes = await fetch(filename);
-                        const paper = await paperRes.json();
-                        renderCard(paper);
-                    } catch (e) {
-                        console.warn(`无法读取文件: ${filename}`, e);
-                    }
-                }
-            } catch (error) {
-                container.innerHTML = `<p style="color:red; text-align:center">加载失败: 请确保运行了 deploy.sh 脚本来生成索引。</p>`;
-            }
-        }
+        <div id="loading" class="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Loading papers...</p>
+        </div>
 
-        function renderCard(data) {
-            const container = document.getElementById('app');
+        <div id="loadMore" class="load-more" style="display: none;">
+            <button class="btn btn-secondary">Load More</button>
+        </div>
 
-            // 处理作者列表 (如果是数组则合并，如果是字符串直接用)
-            const authors = Array.isArray(data.authors) ? data.authors.join(", ") : data.authors;
+        <!-- End marker is dynamically added by JS -->
+    </main>
 
-            // 处理关键词 (如果没有则显示空)
-            const keywordHtml = (data.extracted_keywords || [])
-                .map(k => `<span class="tag">${k}</span>`).join('');
+    <!-- Config Modal -->
+    <div id="configModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Configuration</h2>
+                <button class="close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <h3 style="margin-top: 0;">关键词设置</h3>
 
-            const html = `
-                <div class="card">
-                    <h3 class="card-title">${data.title}</h3>
-                    <div class="card-meta">
-                        <span class="card-authors">${authors}</span>
-                    </div>
-                    <div class="keywords">${keywordHtml}</div>
-                    <div class="card-abstract">${data.abstract}</div>
-                    <a href="${data.url}" target="_blank" class="card-link">阅读原文</a>
+                <div class="form-group">
+                    <label>Filter Keywords (comma separated)</label>
+                    <input type="text" id="filterKeywords" class="input"
+                        placeholder="machine learning, computer vision, NLP">
                 </div>
-            `;
-            container.insertAdjacentHTML('beforeend', html);
-        }
 
-        loadPapers();
-    </script>
+                <div class="form-group">
+                    <label>Negative Keywords (comma separated) - Auto-reject papers containing these</label>
+                    <input type="text" id="negativeKeywords" class="input" placeholder="medical, protein, clinical">
+                </div>
+
+                <h3>问答设置</h3>
+
+                <div class="form-group">
+                    <label>Preset Questions (one per line)</label>
+                    <textarea id="presetQuestions" class="textarea" rows="8"
+                        placeholder="What is the main contribution?&#10;What are the key innovations?"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>System Prompt</label>
+                    <textarea id="systemPrompt" class="textarea" rows="4"
+                        placeholder="You are a helpful AI assistant..."></textarea>
+                </div>
+
+                <h3>模型设置</h3>
+
+                <div class="form-group">
+                    <label>Model</label>
+                    <input type="text" id="model" class="input" placeholder="deepseek-chat">
+                </div>
+
+                <div class="form-group">
+                    <label>Temperature (0-2)</label>
+                    <input type="number" id="temperature" class="input" min="0" max="2" step="0.1" placeholder="0.3">
+                </div>
+
+                <div class="form-group">
+                    <label>Max Tokens (100-8000)</label>
+                    <input type="number" id="maxTokens" class="input" min="100" max="8000" step="100"
+                        placeholder="2000">
+                </div>
+
+                <h3>抓取设置</h3>
+
+                <div class="form-group">
+                    <label>Fetch Interval (seconds, minimum 60)</label>
+                    <input type="number" id="fetchInterval" class="input" min="60" step="60" placeholder="300">
+                </div>
+
+                <div class="form-group">
+                    <label>Max Papers Per Fetch (1-500)</label>
+                    <input type="number" id="maxPapersPerFetch" class="input" min="1" max="500" step="10"
+                        placeholder="100">
+                </div>
+
+                <h3>分析设置</h3>
+
+                <div class="form-group">
+                    <label>Concurrent Papers (1-50)</label>
+                    <input type="number" id="concurrentPapers" class="input" min="1" max="50" step="1" placeholder="10">
+                </div>
+
+                <div class="form-group">
+                    <label>Min Relevance Score for Stage 2 (0-10)</label>
+                    <input type="number" id="minRelevanceScoreForStage2" class="input" min="0" max="10" step="0.5"
+                        placeholder="6">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="saveConfig" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Paper Detail Modal -->
+    <div id="paperModal" class="modal">
+        <div class="modal-content modal-large">
+            <div class="modal-header">
+                <h2 id="paperTitle"></h2>
+                <div class="modal-header-actions">
+                    <button id="shareBtn" class="icon-btn" title="Share">⎘</button>
+                    <button id="fullscreenBtn" class="icon-btn" title="Toggle Fullscreen">⛶</button>
+                    <button class="close" title="Close">&times;</button>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div id="paperDetails"></div>
+
+                <!-- Relevance Editor (only for non-relevant papers) -->
+                <div id="relevanceEditor" class="relevance-editor" style="display: none;">
+                    <h3>🔧 修改相关性</h3>
+                    <p class="relevance-hint">此文章被AI标记为不相关（评分: <span
+                            id="currentRelevanceScore">0</span>/10），你可以手动修改为相关并重新评分。</p>
+                    <div class="relevance-controls">
+                        <label for="relevanceScoreInput">新评分 (0-10):</label>
+                        <input type="number" id="relevanceScoreInput" class="relevance-score-input" min="0" max="10"
+                            step="0.1" value="5">
+                        <button onclick="updateRelevance(currentPaperId)" class="btn btn-primary">
+                            ✓ 标记为相关
+                        </button>
+                    </div>
+                </div>
+
+                <div class="qa-section">
+                    <h3>💬 Questions & Answers</h3>
+                    <div id="qaList"></div>
+
+                    <div class="ask-input-container">
+                        <input type="text" id="askInput" class="input"
+                            placeholder="Ask a question about this paper... (Press Enter)">
+                        <div id="askLoading" class="ask-loading" style="display: none;">
+                            <div class="spinner-small"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
