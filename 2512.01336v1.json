@@ -1,0 +1,25 @@
+{
+  "id": "2512.01336v1",
+  "title": "Discovering Self-Protective Falling Policy for Humanoid Robot via Deep Reinforcement Learning",
+  "authors": [
+    "Diyuan Shi",
+    "Shangke Lyu",
+    "Donglin Wang"
+  ],
+  "abstract": "Humanoid robots have received significant research interests and advancements in recent years. Despite many successes, due to their morphology, dynamics and limitation of control policy, humanoid robots are prone to fall as compared to other embodiments like quadruped or wheeled robots. And its large weight, tall Center of Mass, high Degree-of-Freedom would cause serious hardware damages when falling uncontrolled, to both itself and surrounding objects. Existing researches in this field mostly focus on using control based methods that struggle to cater diverse falling scenarios and may introduce unsuitable human prior. On the other hand, large-scale Deep Reinforcement Learning and Curriculum Learning could be employed to incentivize humanoid agent discovering falling protection policy that fits its own nature and property. In this work, with carefully designed reward functions and domain diversification curriculum, we successfully train humanoid agent to explore falling protection behaviors and discover that by forming a `triangle' structure, the falling damages could be significantly reduced with its rigid-material body. With comprehensive metrics and experiments, we quantify its performance with comparison to other methods, visualize its falling behaviors and successfully transfer it to real world platform.",
+  "url": "https://arxiv.org/abs/2512.01336v1",
+  "html_url": "https://arxiv.org/html/2512.01336v1",
+  "html_content": "",
+  "preview_text": "Humanoid robots have received significant research interests and advancements in recent years. Despite many successes, due to their morphology, dynamics and limitation of control policy, humanoid robots are prone to fall as compared to other embodiments like quadruped or wheeled robots. And its large weight, tall Center of Mass, high Degree-of-Freedom would cause serious hardware damages when falling uncontrolled, to both itself and surrounding objects. Existing researches in this field mostly focus on using control based methods that struggle to cater diverse falling scenarios and may introduce unsuitable human prior. On the other hand, large-scale Deep Reinforcement Learning and Curriculum Learning could be employed to incentivize humanoid agent discovering falling protection policy that fits its own nature and property. In this work, with carefully designed reward functions and domain diversification curriculum, we successfully train humanoid agent to explore falling protection behaviors and discover that by forming a `triangle' structure, the falling damages could be significantly reduced with its rigid-material body. With comprehensive metrics and experiments, we quantify its performance with comparison to other methods, visualize its falling behaviors and successfully transfer it to real world platform.",
+  "is_relevant": null,
+  "relevance_score": 0.0,
+  "extracted_keywords": [],
+  "one_line_summary": "",
+  "detailed_summary": "",
+  "qa_pairs": [],
+  "is_hidden": false,
+  "is_starred": false,
+  "published_date": "2025-12-01T06:53:54Z",
+  "created_at": "2026-01-08T10:08:07.726352",
+  "updated_at": "2026-01-08T10:08:07.726359"
+}
