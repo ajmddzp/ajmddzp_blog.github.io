@@ -18,7 +18,9 @@
         <div class="container header-content">
             <div class="header-left">
                 <h1 id="headerTitle" onclick="location.reload()" title="点击重置">📑 论文知识库</h1>
-                <a href="https://github.com/MarsTechHAN/Arxiv-AI-Reader" target="_blank" class="github-link">
+
+                <a href="https://github.com/MarsTechHAN/Arxiv-AI-Reader" target="_blank" class="github-link"
+                    title="原项目地址">
                     <svg height="24" width="24" viewBox="0 0 16 16" style="fill: currentColor;">
                         <path fill-rule="evenodd"
                             d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
@@ -26,6 +28,7 @@
                     </svg>
                 </a>
             </div>
+
             <div class="header-search">
                 <input type="text" id="searchInput" placeholder="搜索标题、摘要、关键词...">
             </div>
@@ -33,8 +36,9 @@
     </header>
 
     <div class="container main-layout">
+
         <aside class="sidebar">
-            <div class="sidebar-section">
+            <div class="sidebar-section" id="statsSection">
                 <div class="stat-card">
                     <span id="totalCount">0</span>
                     <label>篇已收录论文</label>
@@ -44,34 +48,26 @@
             <nav class="nav-menu">
                 <div class="nav-group">
                     <h3 class="nav-title">📂 日期归档</h3>
-                    <ul id="dateIndexList" class="nav-list"></ul>
+                    <ul id="dateIndexList" class="nav-list">
+                    </ul>
                 </div>
 
                 <div class="nav-group">
-                    <div
-                        style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; padding-right: 10px;">
-                        <h3 class="nav-title" style="margin-bottom: 0;">🏷️ 热门关键词</h3>
-                        <span class="more-link" onclick="openKeywordModal()">全部 ></span>
-                    </div>
-                    <ul id="keywordIndexList" class="nav-list"></ul>
+                    <h3 class="nav-title">🏷️ 热门领域</h3>
+                    <ul id="keywordIndexList" class="nav-list">
+                    </ul>
                 </div>
             </nav>
         </aside>
 
         <main class="content-area">
-            <div class="content-toolbar">
-                <div class="filter-status" id="filterStatus" style="display: none;">
-                    <span id="currentFilterLabel"></span>
-                    <button class="btn-clear" onclick="resetFilter()">✕</button>
-                </div>
-                <div style="flex: 1;"></div>
-
-                <button class="btn-sort" onclick="toggleSortOrder()" id="sortBtn">
-                    📅 日期: 最新
-                </button>
+            <div class="filter-status" id="filterStatus" style="display: none;">
+                <span>正在显示: <strong id="currentFilterLabel"></strong></span>
+                <button onclick="resetFilter()">✕ 清除筛选</button>
             </div>
 
-            <div id="timeline" class="timeline"></div>
+            <div id="timeline" class="timeline">
+            </div>
 
             <div id="loading" class="loading">
                 <div class="spinner"></div>
@@ -83,25 +79,12 @@
     <div id="paperModal" class="modal">
         <div class="modal-content modal-large">
             <div class="modal-header">
-                <h2 id="paperTitle"></h2>
-                <button class="close" onclick="closeModal('paperModal')">&times;</button>
+                <h2 id="paperTitle">论文详情</h2>
+                <button class="close" title="关闭">&times;</button>
             </div>
             <div class="modal-body" id="paperDetails"></div>
             <div class="modal-footer">
                 <div id="qaList"></div>
-            </div>
-        </div>
-    </div>
-
-    <div id="keywordModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2>🏷️ 所有关键词索引</h2>
-                <button class="close" onclick="closeModal('keywordModal')">&times;</button>
-            </div>
-            <div class="modal-body">
-                <div class="keyword-cloud" id="allKeywordsContainer">
-                </div>
             </div>
         </div>
     </div>
