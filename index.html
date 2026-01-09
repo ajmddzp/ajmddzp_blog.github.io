@@ -66,6 +66,18 @@
                 <button onclick="resetFilter()">✕ 清除筛选</button>
             </div>
 
+            <div class="toolbar">
+                <div class="sort-controls">
+                    <span class="sort-label">排序方式:</span>
+                    <button class="sort-btn active" onclick="changeSort('date', this)" id="sortByDateBtn">
+                        📅 最新发布
+                    </button>
+                    <button class="sort-btn" onclick="changeSort('keyword', this)" id="sortByKeywordBtn">
+                        🏷️ 关键词 A-Z
+                    </button>
+                </div>
+            </div>
+
             <div id="timeline" class="timeline">
             </div>
 

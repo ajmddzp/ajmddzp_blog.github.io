@@ -2,7 +2,9 @@
 let globalData = {
     allPapers: [],      // 存储所有论文的完整数据
     indexByDate: {},    // 归档索引： {'2025年12月': [paper1, paper2...]}
-    indexByKeyword: {}  // 关键词索引： {'AI': [paper1...], 'CV': [paper2...]}
+    indexByKeyword: {}, // 关键词索引： {'AI': [paper1...], 'CV': [paper2...]}
+    currentDisplayedPapers: [], // 当前视图中需要显示的论文（用于切换排序时重绘）
+    sortMode: 'date'            // 默认排序模式: 'date' 或 'keyword'
 };
 
 // 初始化
@@ -53,7 +55,7 @@ async function initApp() {
 
 // 2. 数据预处理：构建索引
 function processData(papers) {
-    // 按发布日期降序排序 (最新的在前面)
+    // 默认按发布日期降序排序 (最新的在前面)
     papers.sort((a, b) => new Date(b.published_date || 0) - new Date(a.published_date || 0));
 
     globalData.allPapers = papers;
@@ -182,13 +184,38 @@ function resetFilter(element) {
     renderPapers(globalData.allPapers);
 }
 
-// 5. 渲染论文卡片列表
+// 新增：切换排序模式
+function changeSort(mode, btnElement) {
+    if (globalData.sortMode === mode) return; // 模式未变则不处理
+
+    // 1. 更新状态
+    globalData.sortMode = mode;
+
+    // 2. 更新按钮样式
+    document.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove('active'));
+    if (btnElement) {
+        btnElement.classList.add('active');
+    } else {
+        // 如果是通过代码调用（非点击），手动更新类名
+        const id = mode === 'date' ? 'sortByDateBtn' : 'sortByKeywordBtn';
+        document.getElementById(id)?.classList.add('active');
+    }
+
+    // 3. 重新渲染当前列表（renderPapers 会自动读取 sortMode 并排序）
+    renderPapers(globalData.currentDisplayedPapers);
+}
+
+
+// 5. 渲染论文卡片列表 (已修改为支持排序)
 function renderPapers(papers) {
+    // 1. 保存当前上下文，以便切换排序时使用
+    globalData.currentDisplayedPapers = papers;
+
     const timeline = document.getElementById('timeline');
     timeline.innerHTML = ''; // 清空列表
-    window.scrollTo(0, 0);   // 回到顶部
+    // window.scrollTo(0, 0);   // 回到顶部
 
-    if (papers.length === 0) {
+    if (!papers || papers.length === 0) {
         timeline.innerHTML = `
             <div style="grid-column: 1/-1; text-align:center; padding:40px; color:#94a3b8;">
                 <p>📭 没有找到匹配的论文</p>
@@ -196,7 +223,34 @@ function renderPapers(papers) {
         return;
     }
 
-    papers.forEach(paper => {
+    // 2. 创建副本并进行排序（不修改原始传入的数组）
+    let displayList = [...papers];
+
+    if (globalData.sortMode === 'date') {
+        // 按日期降序（最新的在前）
+        displayList.sort((a, b) => new Date(b.published_date || 0) - new Date(a.published_date || 0));
+    } else if (globalData.sortMode === 'keyword') {
+        // 按第一个关键词的首字母 A-Z 排序，若相同则按日期
+        displayList.sort((a, b) => {
+            // 获取第一个关键词，如果没有则为空字符串
+            const keyA = (a.extracted_keywords && a.extracted_keywords.length > 0)
+                ? a.extracted_keywords[0].trim().toLowerCase() : '';
+            const keyB = (b.extracted_keywords && b.extracted_keywords.length > 0)
+                ? b.extracted_keywords[0].trim().toLowerCase() : '';
+
+            // 字符串比较
+            const compareResult = keyA.localeCompare(keyB, 'zh-CN'); // 支持中文拼音排序
+
+            // 如果关键词相同，则按日期降序
+            if (compareResult === 0) {
+                return new Date(b.published_date || 0) - new Date(a.published_date || 0);
+            }
+            return compareResult;
+        });
+    }
+
+    // 3. 渲染列表
+    displayList.forEach(paper => {
         const card = document.createElement('div');
         card.className = 'paper-card';
 

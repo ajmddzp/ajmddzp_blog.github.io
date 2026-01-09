@@ -479,3 +479,53 @@ body {
         transform: rotate(360deg);
     }
 }
+
+/* --- 工具栏排序样式 (新增) --- */
+.toolbar {
+    display: flex;
+    justify-content: flex-end;
+    /* 按钮靠右对齐 */
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.sort-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #fff;
+    padding: 6px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+.sort-label {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.sort-btn {
+    border: none;
+    background: transparent;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.sort-btn:hover {
+    background: #f1f5f9;
+    color: var(--text-main);
+}
+
+.sort-btn.active {
+    background: #eff6ff;
+    color: var(--primary);
+    box-shadow: 0 1px 2px rgba(37, 99, 235, 0.1);
+}
