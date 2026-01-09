@@ -23,12 +23,12 @@
     "BOP dataset",
     "physics-based simulator"
   ],
-  "one_line_summary": "该论文研究基于单张RGB图像的物体位姿估计在机器人抓取任务中的可用性，与视频扩散或生成模型无关。",
+  "one_line_summary": "本文研究基于单张RGB图像的物体位姿估计在机器人抓取任务中的可用性，属于机器人视觉与感知领域。",
   "detailed_summary": "",
   "qa_pairs": [],
   "is_hidden": false,
   "is_starred": false,
   "published_date": "2025-12-01T16:39:39Z",
-  "created_at": "2026-01-09T09:59:24.083117",
-  "updated_at": "2026-01-09T09:59:24.083126"
+  "created_at": "2026-01-09T11:31:04.497905",
+  "updated_at": "2026-01-09T11:31:04.497926"
 }

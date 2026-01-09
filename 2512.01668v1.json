@@ -15,19 +15,19 @@
   "is_relevant": false,
   "relevance_score": 1.0,
   "extracted_keywords": [
-    "control barrier function",
+    "Control Barrier Functions",
     "Gaussian Process",
     "robotic navigation",
     "dynamic environments",
     "safe control",
-    "real-time obstacle avoidance"
+    "obstacle avoidance"
   ],
-  "one_line_summary": "本文提出一种基于高斯过程的动态对数控制屏障函数，用于动态环境中机器人的实时安全导航。",
+  "one_line_summary": "本文提出一种基于高斯过程的动态对数控制屏障函数，用于动态环境中机器人的安全导航。",
   "detailed_summary": "",
   "qa_pairs": [],
   "is_hidden": false,
   "is_starred": false,
   "published_date": "2025-12-01T13:38:43Z",
-  "created_at": "2026-01-09T09:59:21.887628",
-  "updated_at": "2026-01-09T09:59:21.887637"
+  "created_at": "2026-01-09T11:27:46.300230",
+  "updated_at": "2026-01-09T11:27:46.300240"
 }

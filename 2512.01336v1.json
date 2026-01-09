@@ -19,12 +19,12 @@
     "humanoid robot",
     "falling protection policy"
   ],
-  "one_line_summary": "通过深度强化学习训练人形机器人在跌倒时采取自我保护策略以减少损伤。",
+  "one_line_summary": "本文研究通过深度强化学习为仿人机器人发现自保护性跌倒策略，以减少跌倒造成的硬件损伤。",
   "detailed_summary": "",
   "qa_pairs": [],
   "is_hidden": false,
   "is_starred": false,
   "published_date": "2025-12-01T06:53:54Z",
-  "created_at": "2026-01-09T09:59:19.440761",
-  "updated_at": "2026-01-09T09:59:19.440784"
+  "created_at": "2026-01-09T11:25:33.485173",
+  "updated_at": "2026-01-09T11:25:33.485195"
 }

@@ -22,16 +22,16 @@
   "is_relevant": false,
   "relevance_score": 2.0,
   "extracted_keywords": [
-    "diffusion model",
+    "diffusion models",
     "generative models",
-    "iterative computation"
+    "robotic control"
   ],
-  "one_line_summary": "该论文探讨生成式模型在机器人控制策略中的应用，指出其优势主要来自迭代计算而非多模态建模能力。",
+  "one_line_summary": "本文探讨生成模型在机器人控制中的应用，指出其优势主要来自迭代计算而非多模态建模能力。",
   "detailed_summary": "",
   "qa_pairs": [],
   "is_hidden": false,
   "is_starred": false,
   "published_date": "2025-12-01T15:44:53Z",
-  "created_at": "2026-01-09T09:59:23.329547",
-  "updated_at": "2026-01-09T09:59:23.329557"
+  "created_at": "2026-01-09T11:30:13.564432",
+  "updated_at": "2026-01-09T11:30:13.564442"
 }
