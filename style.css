@@ -99,12 +99,14 @@ body {
     box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
 }
 
-/* --- 主布局 (双栏) --- */
+/* --- 主布局 (三栏) --- */
 .main-layout {
     display: flex;
     gap: 40px;
     margin-top: 30px;
     align-items: flex-start;
+    /* 确保三栏能够并排并支持两端对齐/间距 */
+    justify-content: space-between;
 }
 
 /* --- 左侧边栏 --- */
@@ -261,7 +263,6 @@ body {
     .timeline {
         grid-template-columns: repeat(2, 1fr);
     }
-
     /* 大屏双列 */
 }
 
@@ -528,4 +529,85 @@ body {
     background: #eff6ff;
     color: var(--primary);
     box-shadow: 0 1px 2px rgba(37, 99, 235, 0.1);
+}
+
+/* =========================================
+   新增：右侧侧边栏与博客跳转卡片样式
+   ========================================= */
+
+/* 右侧侧边栏容器 */
+.sidebar-right {
+    width: 260px; /* 固定宽度 */
+    flex-shrink: 0; /* 防止被挤压 */
+    position: sticky;
+    top: 90px; /* 距离顶部距离，与左侧保持一致 */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* 博客跳转卡片样式 */
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-card);
+    padding: 30px 20px;
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    text-decoration: none; /* 去掉下划线 */
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    cursor: pointer;
+}
+
+/* 悬停效果 */
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.1);
+    border-color: var(--primary); /* 悬停时变蓝 */
+}
+
+/* 卡片内的图标/Emoji */
+.blog-card-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    background: #eff6ff;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.blog-card:hover .blog-card-icon {
+    transform: scale(1.1) rotate(10deg);
+    background: var(--primary);
+    color: white;
+}
+
+/* 卡片标题 */
+.blog-card-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin-bottom: 8px;
+}
+
+/* 卡片描述文字 */
+.blog-card-desc {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+
+/* 响应式控制：屏幕宽度小于 1300px 时隐藏右侧栏 */
+@media (max-width: 1300px) {
+    .sidebar-right {
+        display: none;
+    }
 }

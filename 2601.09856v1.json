@@ -1,0 +1,34 @@
+{
+  "id": "2601.09856v1",
+  "title": "How Human Motion Prediction Quality Shapes Social Robot Navigation Performance in Constrained Spaces",
+  "authors": [
+    "Andrew Stratton",
+    "Phani Teja Singamaneni",
+    "Pranav Goyal",
+    "Rachid Alami",
+    "Christoforos Mavrogiannis"
+  ],
+  "abstract": "Motivated by the vision of integrating mobile robots closer to humans in warehouses, hospitals, manufacturing plants, and the home, we focus on robot navigation in dynamic and spatially constrained environments. Ensuring human safety, comfort, and efficiency in such settings requires that robots are endowed with a model of how humans move around them. Human motion prediction around robots is especially challenging due to the stochasticity of human behavior, differences in user preferences, and data scarcity. In this work, we perform a methodical investigation of the effects of human motion prediction quality on robot navigation performance, as well as human productivity and impressions. We design a scenario involving robot navigation among two human subjects in a constrained workspace and instantiate it in a user study ($N=80$) involving two different robot platforms, conducted across two sites from different world regions. Key findings include evidence that: 1) the widely adopted average displacement error is not a reliable predictor of robot navigation performance and human impressions; 2) the common assumption of human cooperation breaks down in constrained environments, with users often not reciprocating robot cooperation, and causing performance degradations; 3) more efficient robot navigation often comes at the expense of human efficiency and comfort.",
+  "url": "https://arxiv.org/abs/2601.09856v1",
+  "html_url": "https://arxiv.org/html/2601.09856v1",
+  "html_content": "",
+  "preview_text": "Motivated by the vision of integrating mobile robots closer to humans in warehouses, hospitals, manufacturing plants, and the home, we focus on robot navigation in dynamic and spatially constrained environments. Ensuring human safety, comfort, and efficiency in such settings requires that robots are endowed with a model of how humans move around them. Human motion prediction around robots is especially challenging due to the stochasticity of human behavior, differences in user preferences, and data scarcity. In this work, we perform a methodical investigation of the effects of human motion prediction quality on robot navigation performance, as well as human productivity and impressions. We design a scenario involving robot navigation among two human subjects in a constrained workspace and instantiate it in a user study ($N=80$) involving two different robot platforms, conducted across two sites from different world regions. Key findings include evidence that: 1) the widely adopted average displacement error is not a reliable predictor of robot navigation performance and human impressions; 2) the common assumption of human cooperation breaks down in constrained environments, with users often not reciprocating robot cooperation, and causing performance degradations; 3) more efficient robot navigation often comes at the expense of human efficiency and comfort.",
+  "is_relevant": false,
+  "relevance_score": 2.0,
+  "extracted_keywords": [
+    "human motion prediction",
+    "robot navigation",
+    "constrained spaces",
+    "user study",
+    "social robot"
+  ],
+  "one_line_summary": "这篇论文研究了人类运动预测质量对社交机器人在受限空间中导航性能的影响，通过用户实验发现平均位移误差不可靠、人类合作假设失效以及机器人效率与人类舒适度之间的权衡。",
+  "detailed_summary": "",
+  "qa_pairs": [],
+  "is_hidden": false,
+  "is_starred": false,
+  "flag": "",
+  "published_date": "2026-01-14T20:34:34Z",
+  "created_at": "2026-01-20T17:49:52.197868",
+  "updated_at": "2026-01-20T17:49:52.197877"
+}
