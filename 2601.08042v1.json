@@ -1,0 +1,33 @@
+{
+    "id": "2601.08042v1",
+    "title": "μDopplerTag: CNN-Based Drone Recognition via Cooperative Micro-Doppler Tagging",
+    "authors": [
+        "O. Yerushalimov",
+        "D. Vovchuk",
+        "A. Glam",
+        "P. Ginzburg"
+    ],
+    "abstract": "无人机的快速部署对空域管理、安全与监控提出了重大挑战。当前基于摄像头、激光雷达和传统雷达系统的探测与分类技术，往往难以在不同环境条件和远距离下可靠识别和区分无人机，尤其是相似型号的无人机。此外，较低的雷达散射截面和杂波干扰进一步增加了准确识别的难度。为突破这些限制，我们提出了一种基于人工微多普勒特征的新型无人机分类方法，该特征由附着在无人机旋翼上的谐振电磁标签编码产生。这些标签能生成独特的、与配置相关的雷达回波，从而实现鲁棒识别。我们开发了一种能够处理原始雷达信号的定制卷积神经网络，实现了高分类精度。研究在43种标签配置的微波暗室中，以及真实飞行轨迹和噪声条件下的户外环境中进行了大量实验。通过主成分分析和均匀流形逼近与投影等降维技术，深入探究了编码的可分离性和鲁棒性。实验结果表明，在信噪比低至7 dB时仍能实现可靠的无人机分类，这证明了利用先进监控雷达系统进行远距离探测的可行性。初步距离估算显示其潜在工作距离可达数公里，适用于机场空域监控等关键场景。电磁标签与机器学习的结合实现了可扩展的高效无人机识别，为日益拥挤的空域中提升空中交通管理和安全水平开辟了新路径。",
+    "url": "https://arxiv.org/abs/2601.08042v1",
+    "html_url": "https://arxiv.org/html/2601.08042v1",
+    "html_content": "",
+    "preview_text": "The rapid deployment of drones poses significant challenges for airspace management, security, and surveillance. Current detection and classification technologies, including cameras, LiDAR, and conventional radar systems, often struggle to reliably identify and differentiate drones, especially those of similar models, under diverse environmental conditions and at extended ranges. Moreover, low radar cross sections and clutter further complicate accurate drone identification. To address these limitations, we propose a novel drone classification method based on artificial micro-Doppler signatures encoded by resonant electromagnetic stickers attached to drone blades. These tags generate distinctive, configuration-specific radar returns, enabling robust identification. We develop a tailored convolutional neural network (CNN) capable of processing raw radar signals, achieving high classification accuracy. Extensive experiments were conducted both in anechoic chambers with 43 tag configurations and outdoors under realistic flight trajectories and noise conditions. Dimensionality reduction techniques, including Principal Component Analysis (PCA) and Uniform Manifold Approximation and Projection (UMAP), provided insight into code separability and robustness. Our results demonstrate reliable drone classification performance at signal-to-noise ratios as low as 7 dB, indicating the feasibility of long-range detection with advanced surveillance radar systems. Preliminary range estimations indicate potential operational distances of several kilometers, suitable for critical applications such as airport airspace monitoring. The integration of electromagnetic tagging with machine learning enables scalable and efficient drone identification, paving the way for enhanced aerial traffic management and security in increasingly congested airspaces.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "CNN",
+        "drone recognition",
+        "micro-Doppler",
+        "radar",
+        "classification"
+    ],
+    "one_line_summary": "这篇论文提出了一种基于CNN和微多普勒标签的无人机识别方法，用于增强空域管理和安全。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-01-12T22:23:57Z",
+    "created_at": "2026-01-21T12:09:13.896429",
+    "updated_at": "2026-01-21T12:09:13.896435"
+}

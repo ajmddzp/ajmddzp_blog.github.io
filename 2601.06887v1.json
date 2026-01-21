@@ -1,0 +1,32 @@
+{
+    "id": "2601.06887v1",
+    "title": "Observability-Enhanced Target Motion Estimation via Bearing-Box: Theory and MAV Applications",
+    "authors": [
+        "Yin Zhang",
+        "Zian Ning",
+        "Shiyu Zhao"
+    ],
+    "abstract": "基于单目视觉的目标运动估计是众多应用中的基础性挑战。本文提出了一种创新的方位-边界框方法，该方法充分利用了现代三维检测测量技术——这类技术虽已广泛应用，但在运动估计领域尚未得到深入探索。与现有依赖各向同性目标形状和横向运动等限制性假设的方法不同，我们的方位-边界框估计器能够通过挖掘三维边界框中蕴含的信息，在无需这些假设的前提下同时估计目标的运动状态和物理尺寸。当应用于多旋翼微型飞行器时，该估计器展现出独特优势：通过利用飞行器加速度与推力的特殊耦合关系，进一步消除了对高阶运动假设的依赖。这一点尤为重要，因为当前主流的基于方位的估计器普遍认为高阶运动假设不可或缺。我们通过严谨的可观测性分析和大量实验验证支撑了理论主张，证明了该估计器在真实场景中的卓越性能。",
+    "url": "https://arxiv.org/abs/2601.06887v1",
+    "html_url": "https://arxiv.org/html/2601.06887v1",
+    "html_content": "",
+    "preview_text": "Monocular vision-based target motion estimation is a fundamental challenge in numerous applications. This work introduces a novel bearing-box approach that fully leverages modern 3D detection measurements that are widely available nowadays but have not been well explored for motion estimation so far. Unlike existing methods that rely on restrictive assumptions such as isotropic target shape and lateral motion, our bearing-box estimator can estimate both the target's motion and its physical size without these assumptions by exploiting the information buried in a 3D bounding box. When applied to multi-rotor micro aerial vehicles (MAVs), the estimator yields an interesting advantage: it further removes the need for higher-order motion assumptions by exploiting the unique coupling between MAV's acceleration and thrust. This is particularly significant, as higher-order motion assumptions are widely believed to be necessary in state-of-the-art bearing-based estimators. We support our claims with rigorous observability analyses and extensive experimental validation, demonstrating the estimator's superior performance in real-world scenarios.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "motion estimation",
+        "bearing-box",
+        "MAV",
+        "observability",
+        "3D detection"
+    ],
+    "one_line_summary": "本文提出了一种基于单目视觉和3D边界框的目标运动估计方法，特别适用于多旋翼微型飞行器，通过可观测性分析和实验验证其性能。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-01-11T12:23:01Z",
+    "created_at": "2026-01-21T12:09:06.010109",
+    "updated_at": "2026-01-21T12:09:06.010115"
+}
