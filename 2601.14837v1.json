@@ -1,0 +1,35 @@
+{
+    "id": "2601.14837v1",
+    "title": "Moving Beyond Compliance in Soft-Robotic Catheters Through Modularity for Precision Therapies",
+    "authors": [
+        "B. Calmé",
+        "N. J. Greenidge",
+        "A. Metcalf",
+        "A. Bacchetti",
+        "G. Loza",
+        "D. Kpeglo",
+        "P. Lloyd",
+        "V. Pensabene",
+        "J. H. Chandler",
+        "P. Valdastri"
+    ],
+    "abstract": "与刚性工具相比，软体机器人器械能更安全地在脆弱曲折的解剖结构中穿行，但由于末端功能化不足及组织界面实时反馈的缺失，其临床应用仍受限。目前鲜有传感与治疗模块能同时具备紧凑性、鲁棒性与适应性，从而在管腔内操作中实现对细微生理信号的测量与响应。我们研发了一种直径1.47毫米的模块化软体机器人导管，集传感、驱动与治疗功能于一体，同时保持了安全腔内导航所需的柔顺性。通过在多种活体环境中验证，我们重点展示了其在经内镜逆行胰胆管造影术（ERCP）中的应用价值——ERCP作为一项高技术要求的操作，是进入胰腺的关键路径，而胰腺本身结构脆弱、器械操作困难，且是胰腺癌等疾病的核心病变器官。该架构支持最多四个独立控制的功能单元，可实现锚定、操控、传感与靶向给药的自定义组合。在活体猪模型中，我们演示了导管半自主进入胰管并在其内完成7.5厘米的内镜导航，该区域目前无法通过标准导管到达。结合学习模型、磁力驱动、内置形状传感与视觉标记跟踪的闭环自主/共享控制系统，进一步提高了插管精度。这些成果共同构建了一个可扩展的多功能软体机器人导管平台，为复杂腔内介入治疗提供了新范式，有望减少辐射暴露、缩短培训周期，并加速软体机器人技术的临床转化。",
+    "url": "https://arxiv.org/abs/2601.14837v1",
+    "html_url": "https://arxiv.org/html/2601.14837v1",
+    "html_content": "",
+    "preview_text": "Soft robotic instruments could navigate delicate, tortuous anatomy more safely than rigid tools, but clinical adoption is limited by insufficient tip functionalization and real-time feedback at the tissue interface. Few sensing and therapeutic modules are compact, robust, and adaptable enough to measure, and respond to, subtle physiological cues during intraluminal procedures. We present a 1.47 mm diameter modular soft robotic catheter that integrates sensing, actuation, and therapy while retaining the compliance needed for safe endoluminal navigation. Validated across multiple in vivo settings, we emphasize its utility in endoscopic retrograde cholangiopancreatography (ERCP), a highly technical procedure and a key access route to the pancreas, an organ that is fragile, difficult to instrument, and central to diseases such as pancreatic cancer. Our architecture supports up to four independently controlled functional units, allowing customizable combinations of anchoring, manipulation, sensing, and targeted drug delivery. In a live porcine model, we demonstrate semi-autonomous deployment into the pancreatic duct and 7.5 cm of endoscopic navigation within it, a region currently inaccessible with standard catheters. A closed-loop autonomous/shared-control system that combines a learned model, magnetic actuation, onboard shape sensing, and visual marker tracking further improves cannulation accuracy. Together, these results establish a scalable platform for multifunctional soft robotic catheters and a new paradigm for complex endoluminal interventions, with potential to reduce radiation exposure, shorten training, and accelerate clinical translation of soft robotic technologies.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "❌ clinical"
+    ],
+    "one_line_summary": "论文包含负面关键词「clinical」，自动标记为不相关",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-01-21T10:11:59Z",
+    "created_at": "2026-01-27T15:53:18.858688",
+    "updated_at": "2026-01-27T15:53:18.858693"
+}

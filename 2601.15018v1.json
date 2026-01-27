@@ -1,0 +1,34 @@
+{
+    "id": "2601.15018v1",
+    "title": "Risk Estimation for Automated Driving",
+    "authors": [
+        "Leon Tolksdorf",
+        "Arturo Tejada",
+        "Jonas Bauernfeind",
+        "Christian Birkner",
+        "Nathan van de Wouw"
+    ],
+    "abstract": "安全性是自动驾驶车辆的核心要求。因此，自动驾驶中的风险评估对于支持运动规划技术与安全评估至关重要。在自动驾驶领域，风险主要体现在两个方面：其一是自动驾驶车辆对其他道路参与者状态估计的不确定性；其二是与这些交通参与者发生碰撞事件的严重程度。其中，不确定性因素通常导致接近碰撞事件的风险值非零，这使得风险评估在自动驾驶车辆运动规划中尤为重要。具体而言，通过约束或最小化风险，自动驾驶车辆能够基于不确定程度和潜在碰撞严重性，在保持安全距离的前提下自然规避交通参与者。现有风险评估方法多依赖经验模型或过度简化，因而缺乏普适性与准确性。本文结合碰撞概率估计的最新进展与碰撞严重性概念，提出了一种通用的精确风险评估方法。该方法允许为不同碰撞场景（如正面碰撞或侧面碰撞）分配独立的严重性函数。此外，我们证明了所提方法具有计算高效性，这对实时运动规划等应用尤为有利。文中还提供了基于高斯不确定性模型的示例实现代码。",
+    "url": "https://arxiv.org/abs/2601.15018v1",
+    "html_url": "https://arxiv.org/html/2601.15018v1",
+    "html_content": "",
+    "preview_text": "Safety is a central requirement for automated vehicles. As such, the assessment of risk in automated driving is key in supporting both motion planning technologies and safety evaluation. In automated driving, risk is characterized by two aspects. The first aspect is the uncertainty on the state estimates of other road participants by an automated vehicle. The second aspect is the severity of a collision event with said traffic participants. Here, the uncertainty aspect typically causes the risk to be non-zero for near-collision events. This makes risk particularly useful for automated vehicle motion planning. Namely, constraining or minimizing risk naturally navigates the automated vehicle around traffic participants while keeping a safety distance based on the level of uncertainty and the potential severity of the impending collision. Existing approaches to calculate the risk either resort to empirical modeling or severe approximations, and, hence, lack generalizability and accuracy. In this paper, we combine recent advances in collision probability estimation with the concept of collision severity to develop a general method for accurate risk estimation. The proposed method allows us to assign individual severity functions for different collision constellations, such as, e.g., frontal or side collisions. Furthermore, we show that the proposed approach is computationally efficient, which is beneficial, e.g., in real-time motion planning applications. The programming code for an exemplary implementation of Gaussian uncertainties is also provided.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "automated driving",
+        "risk estimation",
+        "collision probability",
+        "motion planning",
+        "safety"
+    ],
+    "one_line_summary": "这篇论文提出了一种结合碰撞概率估计和碰撞严重性的通用方法，用于自动驾驶中的风险估计，以提高运动规划的安全性和准确性。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-01-21T14:14:50Z",
+    "created_at": "2026-01-27T15:53:21.516129",
+    "updated_at": "2026-01-27T15:53:21.516135"
+}

@@ -1,0 +1,29 @@
+{
+    "id": "2601.14587v1",
+    "title": "Explainable OOHRI: Communicating Robot Capabilities and Limitations as Augmented Reality Affordances",
+    "authors": [
+        "Lauren W. Wang",
+        "Mohamed Kari",
+        "Parastoo Abtahi"
+    ],
+    "abstract": "人机交互对于在可能发生故障时下达个性化指令和协助机器人至关重要。然而，机器人很大程度上仍是黑箱系统，用户难以了解其动态变化的能力与局限。为弥补这一不足，我们提出可解释的面向对象人机交互系统，这是一种通过视觉标识符、径向菜单、色彩编码和解释标签来传达机器人行动可能性与约束的增强现实界面。该系统利用视觉语言模型将物体属性与机器人限制编码为面向对象的结构，支持实时生成解释说明，并允许在模拟环境中对空间对齐的虚拟孪生体进行直接操控。我们将端到端流程与实体机器人集成，展示了从底层抓取放置到高层指令的多样化应用场景。最后通过用户研究评估系统性能，发现参与者能有效下达面向对象指令，准确建立机器人限制的心理模型，并参与混合主动式解决方案的制定。",
+    "url": "https://arxiv.org/abs/2601.14587v1",
+    "html_url": "https://arxiv.org/html/2601.14587v1",
+    "html_content": "",
+    "preview_text": "Human interaction is essential for issuing personalized instructions and assisting robots when failure is likely. However, robots remain largely black boxes, offering users little insight into their evolving capabilities and limitations. To address this gap, we present explainable object-oriented HRI (X-OOHRI), an augmented reality (AR) interface that conveys robot action possibilities and constraints through visual signifiers, radial menus, color coding, and explanation tags. Our system encodes object properties and robot limits into object-oriented structures using a vision-language model, allowing explanation generation on the fly and direct manipulation of virtual twins spatially aligned within a simulated environment. We integrate the end-to-end pipeline with a physical robot and showcase diverse use cases ranging from low-level pick-and-place to high-level instructions. Finally, we evaluate X-OOHRI through a user study and find that participants effectively issue object-oriented commands, develop accurate mental models of robot limitations, and engage in mixed-initiative resolution.",
+    "is_relevant": false,
+    "relevance_score": 2.0,
+    "extracted_keywords": [
+        "VLM",
+        "whole body control"
+    ],
+    "one_line_summary": "这篇论文提出了一种基于增强现实的可解释人机交互系统，用于传达机器人能力和限制，但与强化学习、扩散模型等关键词相关性较低。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-01-21T01:53:47Z",
+    "created_at": "2026-01-27T15:53:15.738848",
+    "updated_at": "2026-01-27T15:53:15.738854"
+}

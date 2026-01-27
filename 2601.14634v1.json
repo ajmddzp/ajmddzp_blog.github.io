@@ -1,0 +1,36 @@
+{
+    "id": "2601.14634v1",
+    "title": "Landing-Induced Viscoelastic Changes in an Anthropomimetic Foot Joint Structure are Modulated by Foot Structure and Posture",
+    "authors": [
+        "Satoru Hashimoto",
+        "Yinlai Jiang",
+        "Hiroshi Yokoi",
+        "Shunta Togo"
+    ],
+    "abstract": "尸体研究为人类足弓和足底筋膜的力学机制提供了重要见解。然而，在生物标本中反复探测着陆冲击后即刻发生的姿势依赖性粘弹性响应十分困难，导致骨骼结构对着陆动力学的贡献尚未被完全理解。本研究开发了一种拟人足部关节结构，旨在复现人类足部的骨骼几何形态。通过模拟着陆的垂直跌落装置和粘弹性系统辨识模型，我们探究了骨骼结构与姿势如何调节冲击后的表观粘弹性响应。结果表明，多关节拟人结构比简化的扁平足和刚性足表现出更高的阻尼比。此外，踝关节背屈和脚趾伸展会系统性改变辨识参数，在测试条件下降低阻尼比。综上所述，这些发现表明，类足弓的多关节骨骼结构能够增强拟人机械足的冲击衰减能力，且仅凭形态结构和被动姿势即可调节衰减与回弹之间的平衡。观察到的姿势依赖性趋势在定性上与已报道的人类着陆策略差异相一致，提示骨骼结构可能是调节机制的部分原因。此外，这些结果凸显了基于解剖学知识的骨骼复刻在工程上的优势——通过着陆过程中的姿势调整，可实现类人的表观粘弹性行为。",
+    "url": "https://arxiv.org/abs/2601.14634v1",
+    "html_url": "https://arxiv.org/html/2601.14634v1",
+    "html_content": "",
+    "preview_text": "Cadaveric studies have provided important insights into the mechanics of the human foot arch and plantar fascia. However, repeatedly probing posture-dependent viscoelastic responses immediately after landing impact is difficult in biological specimens, leaving the contribution of skeletal architecture to landing dynamics incompletely understood. In this study, we developed an anthropomimetic foot joint structure aimed at replicating the skeletal geometry of the human foot. Using a vertical drop apparatus that simulates landing and a viscoelastic system-identification model, we investigated how skeletal structure and posture modulate the apparent post-impact viscoelastic response. The results show that the multi-jointed anthropomimetic structure exhibited a higher damping ratio than simplified flat and rigid feet. Moreover, ankle dorsiflexion and toe extension systematically shifted the identified parameters, reducing the damping ratio under the tested conditions. Taken together, these findings indicate that an arch-like, multi-jointed skeletal architecture can enhance impact attenuation in an anthropomimetic mechanical foot, and that morphology and passive posture alone can tune the trade-off between attenuation and rebound. The observed posture-dependent trends are qualitatively consistent with reported differences in human landing strategies, suggesting that skeletal architecture may partly account for the modulation. Furthermore, these results highlight the engineering advantage of anatomically informed skeletal replication for achieving human-like apparent viscoelastic behavior through postural adjustment during landing.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [
+        "anthropomimetic",
+        "foot joint structure",
+        "viscoelastic response",
+        "landing impact",
+        "skeletal architecture",
+        "posture",
+        "damping ratio",
+        "impact attenuation"
+    ],
+    "one_line_summary": "该论文研究仿人足关节结构在着陆冲击下的粘弹性响应，探讨骨骼结构和姿势如何调节减震效果，与关键词中的强化学习、VLA、扩散模型等技术无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-01-21T04:16:54Z",
+    "created_at": "2026-01-27T15:53:16.953001",
+    "updated_at": "2026-01-27T15:53:16.953006"
+}

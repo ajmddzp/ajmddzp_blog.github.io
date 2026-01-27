@@ -1,0 +1,30 @@
+{
+    "id": "2601.15349v1",
+    "title": "Preparation and Motion Study of Magnetically Driven Micro Soft Robot Mimicking the Cownose Ray",
+    "authors": [
+        "Jiaqing Chang",
+        "Song Gao",
+        "Chaowei Dong",
+        "zhaobang Li",
+        "Yang Liu"
+    ],
+    "abstract": "在环境监测、微创医疗等狭窄、非结构化的水下环境中，微型软体机器人因其灵活的运动能力和小尺寸展现出独特优势。同时，将仿生技术应用于微型软体机器人的结构设计，能显著提升其游动性能。然而受限于微型化，这类机器人难以内置供能装置，通常采用无线供能方式。本研究基于牛鼻鲼的游动原理，设计并制作了一种磁响应牛鼻鲼仿生微型软体机器人。该机器人由一定比例的钕铁硼和PDMS制成。随后利用三维亥姆霍兹线圈产生振荡谐波磁场，对机器人进行游动实验，探究磁场参数对机器人游动性能的影响。实验结果表明，在B=5 mT、f=11 Hz时游动速度最快，达到5.25 mm/s，约为每秒0.5个体长。此外，通过调节线圈的电流方向与频率，机器人可实现直游、转弯游动、定向游动等不同游动模式。采用分步调节方式可有效减小响应误差对机器人运动轨迹的影响。本研究展示了一种磁驱动微型软体机器人的方法，为无线驱动机器人在水下狭窄空间的应用奠定了基础。",
+    "url": "https://arxiv.org/abs/2601.15349v1",
+    "html_url": "https://arxiv.org/html/2601.15349v1",
+    "html_content": "",
+    "preview_text": "In narrow, unstructured underwater environments such as environmental monitoring and minimally invasive medical procedures, micro soft robots exhibit unique advantages due to their flexible movement capabilities and small size. At the same time, applying bionic technology to the structural design of micro soft robots can significantly improve their swimming performance. However, limited by their miniaturization, these robots are difficult to power internally and usually adopt a wireless power supply method. This study designs and fabricates a magnetically responsive, cownose ray-inspired micro soft robot based on the swimming principle of the cownose ray. The robot is made of a certain proportion of NdFeB and PDMS. Then, a three-dimensional Helmholtz coil is used to generate an oscillating harmonic magnetic field to conduct swimming experiments on the robot, exploring the influence of magnetic field parameters on the robot's swimming performance. The experimental results show that the swimming speed is the fastest at B = 5 mT and f = 11 Hz, reaching 5.25 mm/s, which is about 0.5 body lengths per second. In addition, by adjusting the current direction and frequency of the coil, the robot can perform different swimming modes such as straight swimming, turning swimming, and directional swimming. By employing a stepwise adjustment method, the impact of response errors on the robot's trajectory can be effectively reduced. This study demonstrates a method for magnetically driven micro soft robots, laying a foundation for the application of wireless-driven robots in underwater narrow spaces.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "❌ medical"
+    ],
+    "one_line_summary": "论文包含负面关键词「medical」，自动标记为不相关",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-01-21T03:45:40Z",
+    "created_at": "2026-01-27T15:53:16.597002",
+    "updated_at": "2026-01-27T15:53:16.597008"
+}

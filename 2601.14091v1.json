@@ -1,0 +1,31 @@
+{
+    "id": "2601.14091v1",
+    "title": "Zero-shot adaptable task planning for autonomous construction robots: a comparative study of lightweight single and multi-AI agent systems",
+    "authors": [
+        "Hossein Naderi",
+        "Alireza Shojaei",
+        "Lifu Huang",
+        "Philip Agee",
+        "Kereshmeh Afsari",
+        "Abiola Akanmu"
+    ],
+    "abstract": "机器人有望在未来建筑业中发挥重要作用，但面临成本高昂、难以适应动态任务等挑战。本研究探索基础模型在提升建筑机器人任务规划适应性与泛化能力方面的潜力。基于轻量级开源大语言模型和视觉语言模型，我们提出并实现了四种模型架构，包括一个单智能体模型和三个通过协作生成机器人行动方案的多智能体团队。这些模型在油漆工、安全巡检员和地砖铺设工三种建筑场景中进行评估。结果显示，四智能体团队在多数指标上优于当前最先进的GPT-4o模型，同时成本效益提升十倍。三智能体和四智能体团队还展现出更强的泛化能力。通过分析智能体行为对输出的影响，本研究深化了对人工智能团队协作机制的理解，为未来在建筑及其他非结构化环境中的研究提供了支持。",
+    "url": "https://arxiv.org/abs/2601.14091v1",
+    "html_url": "https://arxiv.org/html/2601.14091v1",
+    "html_content": "",
+    "preview_text": "Robots are expected to play a major role in the future construction industry but face challenges due to high costs and difficulty adapting to dynamic tasks. This study explores the potential of foundation models to enhance the adaptability and generalizability of task planning in construction robots. Four models are proposed and implemented using lightweight, open-source large language models (LLMs) and vision language models (VLMs). These models include one single agent and three multi-agent teams that collaborate to create robot action plans. The models are evaluated across three construction roles: Painter, Safety Inspector, and Floor Tiling. Results show that the four-agent team outperforms the state-of-the-art GPT-4o in most metrics while being ten times more cost-effective. Additionally, teams with three and four agents demonstrate the improved generalizability. By discussing how agent behaviors influence outputs, this study enhances the understanding of AI teams and supports future research in diverse unstructured environments beyond construction.",
+    "is_relevant": true,
+    "relevance_score": 4.0,
+    "extracted_keywords": [
+        "VLM"
+    ],
+    "one_line_summary": "本研究探讨了基于轻量级LLM和VLM的单智能体与多智能体系统在建筑机器人任务规划中的适应性和泛化能力，并展示了多智能体团队在成本效益和性能上的优势。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-01-20T15:54:33Z",
+    "created_at": "2026-01-27T15:53:12.471915",
+    "updated_at": "2026-01-27T15:53:12.471925"
+}

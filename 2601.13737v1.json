@@ -1,0 +1,38 @@
+{
+    "id": "2601.13737v1",
+    "title": "RIM Hand : A Robotic Hand with an Accurate Carpometacarpal Joint and Nitinol-Supported Skeletal Structure",
+    "authors": [
+        "Joon Lee",
+        "Jeongyoon Han",
+        "Doyoung Kim",
+        "Seokhwan Jeong"
+    ],
+    "abstract": "本文介绍了柔性RIM手，这是一种仿生机器人手，精确复制了腕掌关节，并在其骨骼框架中全面采用了超弹性镍钛合金丝。通过模拟完整的腕骨至掌骨解剖结构，该设计实现了肌腱驱动手指带来的逼真手掌形变，同时增强了关节复位功能，并利用镍钛合金背侧伸肌支撑骨骼结构。柔性硅胶皮肤进一步增加了接触摩擦力和接触面积，使其能够稳定抓取各类物体。实验表明，该手掌形变率可达28%，与人类手掌的柔韧性相当，同时相较于刚性手掌设计，其负载能力提升两倍以上，接触面积增加三倍。因此，RIM手在灵巧性、顺应性和拟人化方面表现优异，在假肢和服务机器人领域具有广阔应用前景。",
+    "url": "https://arxiv.org/abs/2601.13737v1",
+    "html_url": "https://arxiv.org/html/2601.13737v1",
+    "html_content": "",
+    "preview_text": "This paper presents the flexible RIM Hand, a biomimetic robotic hand that precisely replicates the carpometacarpal (CMC) joints and employs superelastic Nitinol wires throughout its skeletal framework. By modeling the full carpal-to-metacarpal anatomy, the design enables realistic palm deformation through tendon-driven fingers while enhancing joint restoration and supports skeletal structure with Nitinol-based dorsal extensors. A flexible silicone skin further increases contact friction and contact area, enabling stable grasps for diverse objects. Experiments show that the palm can deform up to 28%, matching human hand flexibility, while achieving more than twice the payload capacity and three times the contact area compared to a rigid palm design. The RIM Hand thus offers improved dexterity, compliance, and anthropomorphism, making it promising for prosthetic and service-robot applications.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "robotic hand",
+        "biomimetic",
+        "carpometacarpal joint",
+        "Nitinol",
+        "skeletal structure",
+        "palm deformation",
+        "tendon-driven",
+        "flexible skin",
+        "prosthetic",
+        "service-robot"
+    ],
+    "one_line_summary": "这篇论文介绍了一种仿生机器人手RIM Hand，它精确复制了腕掌关节并使用超弹性镍钛诺线支撑骨骼结构，以提高灵活性、负载能力和接触面积，适用于假肢和服务机器人应用。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-01-20T08:48:04Z",
+    "created_at": "2026-01-27T15:53:09.585533",
+    "updated_at": "2026-01-27T15:53:09.585539"
+}
