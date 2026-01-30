@@ -1,17 +1,13 @@
 // ==========================================
-// 0. Supabase 初始化
+// 0. Supabase 初始化配置
 // ==========================================
-// �� 请替换为你 Supabase 控制台 "Project Settings -> API" 中的真实值
-const SUPABASE_URL = 'https://hycwhikohozmeovgalfb.supabase.co';
+// �� 必填：请替换为你 Supabase 控制台 "Project Settings -> API" 中的真实值
+const SUPABASE_URL = 'https://hycwhikohozmeovgalfb.supabase.co'; 
 const SUPABASE_KEY = 'sb_publishable_79NgWYqq0wMHpv3y5mFEKQ_13f3BHLU';
 
 let supabase = null;
 
-if (typeof supabase !== 'undefined') {
-    // 这里的 supabase 是 window 对象下的全局变量 (由 script 标签引入)
-    // 但因为 UMD 模块加载机制，通常类名是 createClient
-    // 或者是 window.supabase.createClient，取决于 CDN 版本
-    // 稳妥写法：
+if (typeof window.supabase !== 'undefined') {
     const { createClient } = window.supabase;
     supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
     console.log("Supabase SDK 初始化成功");
@@ -94,17 +90,17 @@ function processData(papers) {
         });
     });
 
-    // �� 核心：去 Supabase 拉取点赞数
+    // �� 核心：异步拉取云端点赞数据
     fetchLikesFromSupabase();
 }
 
 // ==========================================
-// �� 新增：从 Supabase 拉取点赞数据
+// �� Supabase: 拉取所有点赞数据
 // ==========================================
 async function fetchLikesFromSupabase() {
     if (!supabase) return;
 
-    // SQL: SELECT title, likes FROM paper_stats;
+    // 查询所有记录
     const { data, error } = await supabase
         .from('paper_stats')
         .select('title, likes');
@@ -125,11 +121,12 @@ async function fetchLikesFromSupabase() {
             }
         });
         console.log(`从 Supabase 同步了 ${data.length} 条点赞数据`);
+        // 仅刷新页面上的数字
         updateLikesOnPage();
     }
 }
 
-// 辅助：只更新页面上的数字
+// 辅助：只更新数字，不重绘
 function updateLikesOnPage() {
     document.querySelectorAll('.paper-card').forEach(card => {
         const titleEl = card.querySelector('.paper-title');
@@ -144,15 +141,15 @@ function updateLikesOnPage() {
 }
 
 // ==========================================
-// �� 修改：处理点赞 (写入 Supabase)
+// �� Supabase: 处理点赞交互
 // ==========================================
 async function handleLike(btnElement, paperTitle) {
     if (!supabase) {
-        alert("Supabase SDK 未加载");
+        alert("Supabase 配置未生效");
         return;
     }
 
-    // 1. 乐观 UI 更新
+    // 1. 乐观更新 (前端先变数字)
     const countSpan = btnElement.querySelector('.like-count');
     let currentCount = parseInt(countSpan.innerText) || 0;
     let newCount = currentCount + 1;
@@ -166,9 +163,7 @@ async function handleLike(btnElement, paperTitle) {
     if (paper) paper.recommend = newCount;
     globalData.likesMap[paperTitle] = newCount;
 
-    // 2. 提交到 Supabase
-    // 使用 upsert (Update if Insert)：如果 title 存在则更新，不存在则插入
-    // 注意：前提是我们在后台把 title 列设置为了 "Unique" (唯一)
+    // 2. 提交到后端 (Upsert: 更新或插入)
     const { error } = await supabase
         .from('paper_stats')
         .upsert(
@@ -178,7 +173,7 @@ async function handleLike(btnElement, paperTitle) {
 
     if (error) {
         console.error("点赞失败:", error);
-        // 回滚
+        // 如果失败，回滚数字
         countSpan.innerText = currentCount; 
         alert("网络错误，点赞失败");
     } else {
@@ -306,6 +301,7 @@ function renderPapers(papers) {
             <h3 class="paper-title">${paper.title}</h3>
             <div class="paper-abstract">${paper.abstract || '暂无摘要'}</div>
             <div class="paper-keywords">${keywords}</div>
+            
             <div class="paper-actions">
                 <button class="like-btn" onclick="handleLike(this, '${paper.title}')">
                     &#128077; <span class="like-count">${recommendCount}</span>
@@ -356,7 +352,7 @@ function openModal(paper) {
     }
 }
 
-// 7. 关闭 Modal / 搜索 / 动画
+// 7. 辅助函数
 const modal = document.getElementById('paperModal');
 document.querySelector('.close').onclick = () => { modal.classList.remove('active'); document.body.style.overflow = 'auto'; };
 window.onclick = (e) => { if (e.target == modal) { modal.classList.remove('active'); document.body.style.overflow = 'auto'; }};
