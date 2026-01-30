@@ -1,10 +1,22 @@
+// Supabase 配置
+const SUPABASE_URL = 'https://hycwhikohozmeovgalfb.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_79NgWYqq0wMHpv3y5mFEKQ_13f3BHLU';
+let supabaseClient = null;
+
+if (typeof supabase !== 'undefined') {
+    supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+} else {
+    console.error('Supabase client not loaded');
+}
+
 // 全局数据存储
 let globalData = {
     allPapers: [],      // 存储所有论文的完整数据
     indexByDate: {},    // 归档索引： {'2025年12月': [paper1, paper2...]}
     indexByKeyword: {}, // 关键词索引： {'AI': [paper1...], 'CV': [paper2...]}
     currentDisplayedPapers: [], // 当前视图中需要显示的论文（用于切换排序时重绘）
-    sortMode: 'date'            // 默认排序模式: 'date' 或 'keyword'
+    sortMode: 'date',           // 默认排序模式: 'date', 'keyword', 'likes'
+    likesMap: {}        // 存储从后端获取的点赞数据 {'Title': count}
 };
 
 // 初始化
@@ -25,10 +37,12 @@ async function initApp() {
 
         console.log(`找到 ${filenames.length} 个文件，开始加载...`);
 
-        // 第二步：并行加载所有 JSON 文件
-        // 既然是静态博客，浏览器并发请求几百个小 JSON 文件通常非常快
+        // 并行加载所有 JSON 文件
         const promises = filenames.map(name => fetch(name).then(r => r.json()));
         const papers = await Promise.all(promises);
+
+        // 新增：并行加载点赞数据
+        await fetchLikes();
 
         // 第三步：处理数据
         processData(papers);
@@ -53,6 +67,27 @@ async function initApp() {
     }
 }
 
+// 新增：从 Supabase 获取点赞数据
+async function fetchLikes() {
+    if (!supabaseClient) return;
+    try {
+        const { data, error } = await supabaseClient
+            .from('likes')
+            .select('title, likes');
+        
+        if (error) throw error;
+        
+        // 构建映射表
+        if (data) {
+            data.forEach(row => {
+                globalData.likesMap[row.title] = row.likes;
+            });
+        }
+    } catch (err) {
+        console.error("获取点赞数据失败:", err);
+    }
+}
+
 // 2. 数据预处理：构建索引
 function processData(papers) {
     // 默认按发布日期降序排序 (最新的在前面)
@@ -63,6 +98,12 @@ function processData(papers) {
     globalData.indexByKeyword = {};
 
     papers.forEach(paper => {
+        // 合并点赞数据 (如果 title 匹配)
+        // 注意：这里假设 title 是唯一的，如果有重复 title 可能会共享点赞数
+        paper.likes = globalData.likesMap[paper.title] || 0;
+        // 标记是否在数据库中已存在行 (用于判断 insert 还是 update)
+        paper.hasLikeRecord = globalData.likesMap.hasOwnProperty(paper.title);
+
         // --- 日期归档索引 ---
         let dateKey = '其他日期';
         if (paper.published_date) {
@@ -76,31 +117,25 @@ function processData(papers) {
         globalData.indexByDate[dateKey].push(paper);
 
         // --- 关键词索引 ---
-        // 尝试合并 extracted_keywords 和 keywords 字段
         const keywords = [
             ...(paper.extracted_keywords || []),
             ...(paper.keywords || [])
         ];
-
-        // 去重并清洗
         const uniqueKeywords = [...new Set(keywords.map(k => k.trim().toLowerCase()))];
 
         uniqueKeywords.forEach(kw => {
-            if (kw.length < 2) return; // 忽略太短的词
+            if (kw.length < 2) return; 
             if (!globalData.indexByKeyword[kw]) globalData.indexByKeyword[kw] = [];
             globalData.indexByKeyword[kw].push(paper);
         });
     });
 }
 
-// 3. 渲染侧边栏 (日期列表 + 热门关键词)
+// 3. 渲染侧边栏 (保持不变)
 function renderSidebar() {
-    // --- 渲染日期 ---
     const dateListEl = document.getElementById('dateIndexList');
-    // 对日期 key 进行降序排序
     const sortedDates = Object.keys(globalData.indexByDate).sort((a, b) => b.localeCompare(a));
 
-    // "全部" 按钮
     dateListEl.innerHTML = `
         <li class="nav-item active" onclick="resetFilter(this)">
             <span>&#128218; 全部论文</span>
@@ -118,17 +153,14 @@ function renderSidebar() {
         `;
     });
 
-    // --- 渲染关键词 (取 Top 15) ---
     const kwListEl = document.getElementById('keywordIndexList');
-    // 将关键词按包含论文数量排序
     const sortedKeywords = Object.keys(globalData.indexByKeyword)
         .map(key => ({ key: key, count: globalData.indexByKeyword[key].length }))
         .sort((a, b) => b.count - a.count)
-        .slice(0, 15); // 只取前15个热门词
+        .slice(0, 15); 
 
     kwListEl.innerHTML = '';
     sortedKeywords.forEach(item => {
-        // 首字母大写优化显示
         const displayKey = item.key.charAt(0).toUpperCase() + item.key.slice(1);
         kwListEl.innerHTML += `
             <li class="nav-item" onclick="filterBy('keyword', '${item.key}', this)">
@@ -139,13 +171,11 @@ function renderSidebar() {
     });
 }
 
-// 4. 核心筛选逻辑
+// 4. 核心筛选逻辑 (保持不变)
 function filterBy(type, value, element) {
-    // 切换激活状态样式
     document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
     if (element) element.classList.add('active');
 
-    // 显示筛选提示条
     const statusEl = document.getElementById('filterStatus');
     const labelEl = document.getElementById('currentFilterLabel');
     statusEl.style.display = 'flex';
@@ -158,7 +188,6 @@ function filterBy(type, value, element) {
         labelText = `${value}`;
     } else if (type === 'keyword') {
         filteredPapers = globalData.indexByKeyword[value] || [];
-        // 首字母大写显示
         const displayVal = value.charAt(0).toUpperCase() + value.slice(1);
         labelText = `关键词: #${displayVal}`;
     }
@@ -166,13 +195,11 @@ function filterBy(type, value, element) {
     labelEl.innerText = labelText;
     renderPapers(filteredPapers);
 
-    // 移动端体验优化：点击后自动滚动到内容区顶部
     if (window.innerWidth < 850) {
         document.querySelector('.content-area').scrollIntoView({ behavior: 'smooth' });
     }
 }
 
-// 重置筛选
 function resetFilter(element) {
     if (element) {
         document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
@@ -184,36 +211,27 @@ function resetFilter(element) {
     renderPapers(globalData.allPapers);
 }
 
-// 新增：切换排序模式
+// 切换排序模式 (修改)
 function changeSort(mode, btnElement) {
-    if (globalData.sortMode === mode) return; // 模式未变则不处理
+    if (globalData.sortMode === mode) return;
 
-    // 1. 更新状态
     globalData.sortMode = mode;
 
-    // 2. 更新按钮样式
+    // 更新按钮样式
     document.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove('active'));
     if (btnElement) {
         btnElement.classList.add('active');
-    } else {
-        // 如果是通过代码调用（非点击），手动更新类名
-        const id = mode === 'date' ? 'sortByDateBtn' : 'sortByKeywordBtn';
-        document.getElementById(id)?.classList.add('active');
     }
 
-    // 3. 重新渲染当前列表（renderPapers 会自动读取 sortMode 并排序）
     renderPapers(globalData.currentDisplayedPapers);
 }
 
-
-// 5. 渲染论文卡片列表 (已修改为支持排序)
+// 5. 渲染论文卡片列表 (修改：添加点赞和Likes排序)
 function renderPapers(papers) {
-    // 1. 保存当前上下文，以便切换排序时使用
     globalData.currentDisplayedPapers = papers;
 
     const timeline = document.getElementById('timeline');
-    timeline.innerHTML = ''; // 清空列表
-    // window.scrollTo(0, 0);   // 回到顶部
+    timeline.innerHTML = ''; 
 
     if (!papers || papers.length === 0) {
         timeline.innerHTML = `
@@ -223,81 +241,128 @@ function renderPapers(papers) {
         return;
     }
 
-    // 2. 创建副本并进行排序（不修改原始传入的数组）
     let displayList = [...papers];
 
+    // 排序逻辑
     if (globalData.sortMode === 'date') {
-        // 按日期降序（最新的在前）
         displayList.sort((a, b) => new Date(b.published_date || 0) - new Date(a.published_date || 0));
     } else if (globalData.sortMode === 'keyword') {
-        // 按第一个关键词的首字母 A-Z 排序，若相同则按日期
         displayList.sort((a, b) => {
-            // 获取第一个关键词，如果没有则为空字符串
             const keyA = (a.extracted_keywords && a.extracted_keywords.length > 0)
                 ? a.extracted_keywords[0].trim().toLowerCase() : '';
             const keyB = (b.extracted_keywords && b.extracted_keywords.length > 0)
                 ? b.extracted_keywords[0].trim().toLowerCase() : '';
-
-            // 字符串比较
-            const compareResult = keyA.localeCompare(keyB, 'zh-CN'); // 支持中文拼音排序
-
-            // 如果关键词相同，则按日期降序
+            const compareResult = keyA.localeCompare(keyB, 'zh-CN');
             if (compareResult === 0) {
                 return new Date(b.published_date || 0) - new Date(a.published_date || 0);
             }
             return compareResult;
         });
+    } else if (globalData.sortMode === 'likes') {
+        // 新增：按点赞数排序
+        displayList.sort((a, b) => (b.likes || 0) - (a.likes || 0));
     }
 
-    // 3. 渲染列表
     displayList.forEach(paper => {
         const card = document.createElement('div');
         card.className = 'paper-card';
 
-        // 日期处理
         const dateStr = paper.published_date ? paper.published_date.split('T')[0] : '未知日期';
-
-        // 关键词处理 (最多显示4个)
         const keywords = paper.extracted_keywords || [];
         const tagsHtml = keywords.slice(0, 4).map(k =>
             `<span class="tag">#${k}</span>`
         ).join('');
 
-        // 作者处理
         const authors = Array.isArray(paper.authors) ? paper.authors.slice(0, 2).join(', ') + (paper.authors.length > 2 ? ' 等' : '') : (paper.authors || '未知作者');
 
+        // 构建卡片 HTML
         card.innerHTML = `
             <div class="paper-date">&#127911; ${dateStr} · ${authors}</div>
             <h3 class="paper-title">${paper.title}</h3>
             <div class="paper-abstract">
                 ${paper.abstract || '暂无摘要内容...'}
             </div>
-            <div class="paper-keywords">
-                ${tagsHtml}
+            
+            <div class="card-footer">
+                <div class="paper-keywords">
+                    ${tagsHtml}
+                </div>
+                <button class="like-btn" title="点赞">
+                    <span class="heart-icon">&#10084;</span> 
+                    <span class="like-count">${paper.likes || 0}</span>
+                </button>
             </div>
         `;
 
-        // 点击打开详情
         card.onclick = () => openModal(paper);
+
+        // 绑定点赞事件
+        const likeBtn = card.querySelector('.like-btn');
+        likeBtn.onclick = (e) => {
+            e.stopPropagation(); // 阻止冒泡，不触发卡片打开
+            handleLike(paper, likeBtn);
+        };
 
         timeline.appendChild(card);
     });
 }
 
-// 6. 模态框逻辑
+// 新增：处理点赞逻辑
+async function handleLike(paper, btnElement) {
+    if (!supabaseClient) {
+        alert("Supabase 未初始化，无法点赞");
+        return;
+    }
+
+    // 1. 乐观更新 UI (立即+1)
+    paper.likes = (paper.likes || 0) + 1;
+    const countSpan = btnElement.querySelector('.like-count');
+    countSpan.innerText = paper.likes;
+    
+    // 添加动画效果
+    btnElement.classList.add('liked-anim');
+    setTimeout(() => btnElement.classList.remove('liked-anim'), 300);
+
+    try {
+        if (paper.hasLikeRecord) {
+            // 已存在行：更新
+            const { error } = await supabaseClient
+                .from('likes')
+                .update({ likes: paper.likes })
+                .eq('title', paper.title);
+            
+            if (error) throw error;
+        } else {
+            // 不存在行 (0 -> 1)：插入
+            // 这里我们使用 title 作为标识。ID 由 Supabase 自动生成
+            const { error } = await supabaseClient
+                .from('likes')
+                .insert([{ title: paper.title, likes: paper.likes }]);
+            
+            if (error) throw error;
+            paper.hasLikeRecord = true; // 标记为已存在
+        }
+    } catch (err) {
+        console.error("点赞同步失败:", err);
+        // 如果失败，回滚 UI (可选，这里为了简单暂不回滚，只是打日志)
+        // paper.likes--;
+        // countSpan.innerText = paper.likes;
+    }
+}
+
+// 6. 模态框逻辑 (保持不变)
 function openModal(paper) {
     const modal = document.getElementById('paperModal');
     document.getElementById('paperTitle').innerText = paper.title;
 
-    // 渲染 Markdown 摘要 (支持 LaTeX)
     const summaryHtml = renderMarkdown(paper.detailed_summary || paper.abstract);
-
     const authorsFull = Array.isArray(paper.authors) ? paper.authors.join(', ') : paper.authors;
 
     document.getElementById('paperDetails').innerHTML = `
         <div class="detail-meta">
             <p><strong>&#128221; 作者:</strong> ${authorsFull}</p>
             <p><strong>&#128197; 发布时间:</strong> ${paper.published_date || '未知'}</p>
+            <p><strong>&#10084; 获赞:</strong> ${paper.likes || 0}</p>
             <a href="${paper.url}" target="_blank" class="btn-link">&#127911; 阅读全文 (PDF/ArXiv)</a>
         </div>
         
@@ -307,7 +372,6 @@ function openModal(paper) {
         </div>
     `;
 
-    // 渲染问答部分
     const qaList = document.getElementById('qaList');
     if (paper.qa_pairs && paper.qa_pairs.length) {
         qaList.innerHTML = `<h3 style="margin-top:30px; border-top:1px solid #e2e8f0; padding-top:20px;">&#128218; AI 问答解析</h3>` +
@@ -322,9 +386,8 @@ function openModal(paper) {
     }
 
     modal.classList.add('active');
-    document.body.style.overflow = 'hidden'; // 禁止背景滚动
+    document.body.style.overflow = 'hidden'; 
 
-    // 重新渲染 LaTeX
     if (typeof renderMathInElement !== 'undefined') {
         renderMathInElement(modal, {
             delimiters: [
@@ -335,7 +398,6 @@ function openModal(paper) {
     }
 }
 
-// 关闭模态框
 const modal = document.getElementById('paperModal');
 const closeBtn = document.querySelector('.close');
 
@@ -352,17 +414,16 @@ document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && modal.classList.contains('active')) closeModal();
 });
 
-// 7. 全局搜索逻辑
+// 7. 全局搜索逻辑 (保持不变)
 const searchInput = document.getElementById('searchInput');
 searchInput.addEventListener('input', (e) => {
     const val = e.target.value.toLowerCase().trim();
 
     if (!val) {
-        resetFilter(document.querySelector('.nav-item')); // 恢复到"全部"
+        resetFilter(document.querySelector('.nav-item')); 
         return;
     }
 
-    // 执行搜索 (标题、摘要、关键词)
     const results = globalData.allPapers.filter(p => {
         const title = (p.title || '').toLowerCase();
         const abstract = (p.abstract || '').toLowerCase();
@@ -370,7 +431,6 @@ searchInput.addEventListener('input', (e) => {
         return title.includes(val) || abstract.includes(val) || kws.includes(val);
     });
 
-    // 更新 UI 状态
     document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
     document.getElementById('filterStatus').style.display = 'flex';
     document.getElementById('currentFilterLabel').innerText = `搜索: "${val}"`;
@@ -378,13 +438,11 @@ searchInput.addEventListener('input', (e) => {
     renderPapers(results);
 });
 
-// 工具函数：Markdown 渲染
 function renderMarkdown(text) {
     if (!text) return '';
     return typeof marked !== 'undefined' ? marked.parse(text) : text;
 }
 
-// 工具函数：数字滚动动画
 function animateCount(id, start, end, duration) {
     const obj = document.getElementById(id);
     let startTimestamp = null;
@@ -399,7 +457,9 @@ function animateCount(id, start, end, duration) {
     window.requestAnimationFrame(step);
 }
 
-// 事件监听器配置
 function setupEventListeners() {
-    // 这里可以添加其他全局事件
+    // 监听排序按钮
+    document.getElementById('sortByDateBtn').addEventListener('click', (e) => changeSort('date', e.target));
+    document.getElementById('sortByKeywordBtn').addEventListener('click', (e) => changeSort('keyword', e.target));
+    document.getElementById('sortByLikesBtn').addEventListener('click', (e) => changeSort('likes', e.target));
 }

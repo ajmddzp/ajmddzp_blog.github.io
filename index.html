@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>arXiv 澡盆妙妙屋</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
@@ -79,6 +80,9 @@
                     </button>
                     <button class="sort-btn" onclick="changeSort('keyword', this)" id="sortByKeywordBtn">
                         &#128209; 关键词 A-Z
+                    </button>
+                    <button class="sort-btn" onclick="changeSort('likes', this)" id="sortByLikesBtn">
+                        &#128293; 按点赞数
                     </button>
                 </div>
             </div>
