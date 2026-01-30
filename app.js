@@ -103,7 +103,7 @@ function renderSidebar() {
     // "全部" 按钮
     dateListEl.innerHTML = `
         <li class="nav-item active" onclick="resetFilter(this)">
-            <span>📚 全部论文</span>
+            <span>�� 全部论文</span>
             <span class="count">${globalData.allPapers.length}</span>
         </li>
     `;
@@ -112,7 +112,7 @@ function renderSidebar() {
         const count = globalData.indexByDate[date].length;
         dateListEl.innerHTML += `
             <li class="nav-item" onclick="filterBy('date', '${date}', this)">
-                <span>📅 ${date}</span>
+                <span>�� ${date}</span>
                 <span class="count">${count}</span>
             </li>
         `;
@@ -218,7 +218,7 @@ function renderPapers(papers) {
     if (!papers || papers.length === 0) {
         timeline.innerHTML = `
             <div style="grid-column: 1/-1; text-align:center; padding:40px; color:#94a3b8;">
-                <p>📭 没有找到匹配的论文</p>
+                <p>�� 没有找到匹配的论文</p>
             </div>`;
         return;
     }
@@ -267,7 +267,7 @@ function renderPapers(papers) {
         const authors = Array.isArray(paper.authors) ? paper.authors.slice(0, 2).join(', ') + (paper.authors.length > 2 ? ' 等' : '') : (paper.authors || '未知作者');
 
         card.innerHTML = `
-            <div class="paper-date">📅 ${dateStr} · ${authors}</div>
+            <div class="paper-date">�� ${dateStr} · ${authors}</div>
             <h3 class="paper-title">${paper.title}</h3>
             <div class="paper-abstract">
                 ${paper.abstract || '暂无摘要内容...'}
@@ -296,12 +296,12 @@ function openModal(paper) {
 
     document.getElementById('paperDetails').innerHTML = `
         <div class="detail-meta">
-            <p><strong>👥 作者:</strong> ${authorsFull}</p>
-            <p><strong>📅 发布时间:</strong> ${paper.published_date || '未知'}</p>
-            <a href="${paper.url}" target="_blank" class="btn-link">📄 阅读全文 (PDF/ArXiv)</a>
+            <p><strong>�� 作者:</strong> ${authorsFull}</p>
+            <p><strong>�� 发布时间:</strong> ${paper.published_date || '未知'}</p>
+            <a href="${paper.url}" target="_blank" class="btn-link">�� 阅读全文 (PDF/ArXiv)</a>
         </div>
         
-        <h3>📝 摘要 / 核心总结</h3>
+        <h3>�� 摘要 / 核心总结</h3>
         <div class="markdown-body" style="line-height:1.8; color:#334155;">
             ${summaryHtml}
         </div>
@@ -310,7 +310,7 @@ function openModal(paper) {
     // 渲染问答部分
     const qaList = document.getElementById('qaList');
     if (paper.qa_pairs && paper.qa_pairs.length) {
-        qaList.innerHTML = `<h3 style="margin-top:30px; border-top:1px solid #e2e8f0; padding-top:20px;">🤖 AI 问答解析</h3>` +
+        qaList.innerHTML = `<h3 style="margin-top:30px; border-top:1px solid #e2e8f0; padding-top:20px;">�� AI 问答解析</h3>` +
             paper.qa_pairs.map(qa => `
             <div style="background:#f8fafc; padding:20px; border-radius:12px; margin-bottom:15px; border:1px solid #e2e8f0;">
                 <div style="font-weight:700; color:#2563eb; margin-bottom:10px; font-size:1.05rem;">Q: ${qa.question}</div>

@@ -31,8 +31,7 @@ body {
 }
 
 .container {
-    max-width: 1400px;
-    /* 保持原宽，现在容纳3列会更宽裕 */
+    max-width: 1400px; /* 保持原宽，现在容纳3列会更宽裕 */
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -286,8 +285,7 @@ body {
 /* 核心修改：Grid 布局 */
 .timeline {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    /* 默认单列 */
+    grid-template-columns: repeat(1, 1fr); /* 默认单列 */
     gap: 20px;
 }
 
@@ -472,7 +470,7 @@ body {
         gap: 15px;
         align-items: flex-start;
     }
-
+    
     .header-right {
         width: 100%;
         flex-direction: column;
@@ -486,7 +484,7 @@ body {
     .header-search input:focus {
         width: 100%;
     }
-
+    
     .header-blog-btn {
         justify-content: center;
     }
@@ -584,4 +582,3 @@ body {
     color: var(--primary);
     box-shadow: 0 1px 2px rgba(37, 99, 235, 0.1);
 }
-
