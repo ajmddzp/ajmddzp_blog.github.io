@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>arXiv 澡盆妙妙屋</title>
     <link rel="stylesheet" href="style.css">
+    
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 </head>
 
 <body>
@@ -76,6 +80,9 @@
                     <span class="sort-label">排序方式:</span>
                     <button class="sort-btn active" onclick="changeSort('date', this)" id="sortByDateBtn">
                         &#128197; 最新发布
+                    </button>
+                    <button class="sort-btn" onclick="changeSort('recommend', this)" id="sortByRecommendBtn">
+                        &#128293; 热门推荐
                     </button>
                     <button class="sort-btn" onclick="changeSort('keyword', this)" id="sortByKeywordBtn">
                         &#128209; 关键词 A-Z
