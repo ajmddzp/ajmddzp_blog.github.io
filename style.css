@@ -584,3 +584,43 @@ body {
     color: var(--primary);
     box-shadow: 0 1px 2px rgba(37, 99, 235, 0.1);
 }
+
+/* --- 在原样式表末尾添加 --- */
+.paper-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-top: 12px;
+    border-top: 1px dashed var(--border);
+}
+
+.like-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #fff1f2;
+    color: #e11d48;
+    border: 1px solid #fecdd3;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.like-btn:hover {
+    background: #e11d48;
+    color: white;
+    transform: translateY(-1px);
+}
+
+.like-btn.loading {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.like-btn svg {
+    fill: currentColor;
+}
