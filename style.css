@@ -582,3 +582,54 @@ body {
     color: var(--primary);
     box-shadow: 0 1px 2px rgba(37, 99, 235, 0.1);
 }
+/* --- 保留原有内容，在末尾添加 --- */
+
+.paper-card {
+    position: relative; /* 确保点赞按钮定位参考 */
+}
+
+.like-container {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    padding: 4px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 5;
+    user-select: none;
+}
+
+.like-container:hover {
+    transform: scale(1.05);
+    background: #fff1f2;
+    border-color: #fecaca;
+    color: #e11d48;
+}
+
+.like-container.liked {
+    background: #fff1f2;
+    border-color: #fecaca;
+    color: #e11d48;
+    animation: heartBeat 0.3s ease-in-out;
+}
+
+.like-icon {
+    font-size: 0.9rem;
+}
+
+.like-count {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+@keyframes heartBeat {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.3); }
+    100% { transform: scale(1.05); }
+}
