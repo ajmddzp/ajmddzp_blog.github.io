@@ -1,0 +1,27 @@
+{
+    "id": "2601.22982v1",
+    "title": "About an Automating Annotation Method for Robot Markers",
+    "authors": [
+        "Wataru Uemura",
+        "Takeru Nagashima"
+    ],
+    "abstract": "由于劳动力短缺，工厂自动化的重要性日益凸显，自主移动机器人因此被引入用于物料搬运等任务。标记物通常用于机器人自定位与物体识别。在RoboCup物流联赛中，ArUco标记既用于机器人定位，也用于识别加工模块。传统识别方法依赖基于OpenCV的图像处理技术检测黑白标记图案，但这些方法在噪声、运动模糊、失焦或光照变化条件下常出现识别失败。基于深度学习的识别方法在此类条件下具有更强的鲁棒性，但需要大量标注数据。由于物体类型和位置无法自动检测，标注通常需人工完成，这使得数据集准备成为主要瓶颈。相比之下，ArUco标记内置识别模块，可同时提供ID与位置信息，从而实现自动标注。本文提出一种针对ArUco标记图像的深度学习模型自动标注方法。通过利用ArUco模块获取的标记检测结果，该方法无需人工标注。使用自动标注数据集训练基于YOLO的模型，并在多种条件下评估其性能。实验结果表明，与传统图像处理技术相比，该方法显著提升了识别性能，特别是在模糊或失焦图像中。自动标注不仅减少了人工工作量，还保证了标注质量的一致性。未来工作将研究置信度阈值与识别性能之间的关系。",
+    "url": "https://arxiv.org/abs/2601.22982v1",
+    "html_url": "https://arxiv.org/html/2601.22982v1",
+    "html_content": "",
+    "preview_text": "Factory automation has become increasingly important due to labor shortages, leading to the introduction of autonomous mobile robots for tasks such as material transportation. Markers are commonly used for robot self-localization and object identification. In the RoboCup Logistics League (RCLL), ArUco markers are employed both for robot localization and for identifying processing modules. Conventional recognition relies on OpenCV-based image processing, which detects black-and-white marker patterns. However, these methods often fail under noise, motion blur, defocus, or varying illumination conditions. Deep-learning-based recognition offers improved robustness under such conditions, but requires large amounts of annotated data. Annotation must typically be done manually, as the type and position of objects cannot be detected automatically, making dataset preparation a major bottleneck. In contrast, ArUco markers include built-in recognition modules that provide both ID and positional information, enabling automatic annotation. This paper proposes an automated annotation method for training deep-learning models on ArUco marker images. By leveraging marker detection results obtained from the ArUco module, the proposed approach eliminates the need for manual labeling. A YOLO-based model is trained using the automatically annotated dataset, and its performance is evaluated under various conditions. Experimental results demonstrate that the proposed method improves recognition performance compared with conventional image-processing techniques, particularly for images affected by blur or defocus. Automatic annotation also reduces human effort and ensures consistent labeling quality. Future work will investigate the relationship between confidence thresholds and recognition performance.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "fine tune"
+    ],
+    "one_line_summary": "本文提出了一种基于ArUco标记的自动化标注方法，用于训练深度学习模型以提升机器人标记识别的鲁棒性，与强化学习、VLA等关键词基本无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-01-30T13:44:56Z",
+    "created_at": "2026-02-03T15:53:08.729806",
+    "updated_at": "2026-02-03T15:53:08.729816"
+}

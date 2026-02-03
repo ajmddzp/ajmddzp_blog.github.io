@@ -1,0 +1,35 @@
+{
+    "id": "2602.00325v1",
+    "title": "Motion Planning with Metric Temporal Logic Using Reachability Analysis and Hybrid Zonotopes",
+    "authors": [
+        "Andrew F. Thompson",
+        "Joshua A. Robbins",
+        "Jonah J. Glunt",
+        "Sean B. Brennan",
+        "Herschel C. Pangborn"
+    ],
+    "abstract": "度量时序逻辑（MTL）为定义自主车辆的时间依赖性任务需求提供了一个形式化框架。然而，在这些约束条件下优化控制决策通常计算成本高昂。本文提出一种方法，利用可达性分析隐式表达满足MTL规范的状态集合，进而通过优化寻找运动规划方案。该方法采用混合仿射子集表示法，将MTL规范高效便捷地编码为可达集。数值基准测试突显了所提方法相较于现有文献方法在计算效率上的优势。进一步的数值算例与实验应用验证了该方法处理时变环境、区域相关扰动及多智能体协同任务的能力。",
+    "url": "https://arxiv.org/abs/2602.00325v1",
+    "html_url": "https://arxiv.org/html/2602.00325v1",
+    "html_content": "",
+    "preview_text": "Metric temporal logic (MTL) provides a formal framework for defining time-dependent mission requirements on autonomous vehicles. However, optimizing control decisions subject to these constraints is often computationally expensive. This article presents a method that uses reachability analysis to implicitly express the set of states satisfying an MTL specification and then optimizes to find a motion plan. The hybrid zonotope set representation is used to efficiently and conveniently encode MTL specifications into reachable sets. A numerical benchmark highlights the proposed method's computational advantages as compared to existing methods in the literature. Further numerical examples and an experimental application demonstrate the ability to address time-varying environments, region-dependent disturbances, and multi-agent coordination.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "Motion Planning",
+        "Reachability Analysis",
+        "Metric Temporal Logic",
+        "Hybrid Zonotopes",
+        "Autonomous Vehicles",
+        "Multi-agent Coordination"
+    ],
+    "one_line_summary": "该论文提出了一种基于可达性分析和混合Zonotopes的度量时序逻辑运动规划方法，用于优化自主车辆在时间约束下的控制决策，与强化学习、VLA等关键词无直接关联。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-01-30T21:25:26Z",
+    "created_at": "2026-02-03T15:53:20.162044",
+    "updated_at": "2026-02-03T15:53:20.162050"
+}

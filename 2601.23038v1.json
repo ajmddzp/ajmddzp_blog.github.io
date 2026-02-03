@@ -1,0 +1,43 @@
+{
+    "id": "2601.23038v1",
+    "title": "MOSAIC: Modular Scalable Autonomy for Intelligent Coordination of Heterogeneous Robotic Teams",
+    "authors": [
+        "David Oberacker",
+        "Julia Richer",
+        "Philip Arm",
+        "Marvin Grosse Besselmann",
+        "Lennart Puck",
+        "William Talbot",
+        "Maximilian Schik",
+        "Sabine Bellmann",
+        "Tristan Schnell",
+        "Hendrik Kolvenbach",
+        "Rüdiger Dillmann",
+        "Marco Hutter",
+        "Arne Roennau"
+    ],
+    "abstract": "移动机器人在探索恶劣环境（如太空或救灾场景）中已不可或缺，但通常仍局限于由人类操作员远程操控。这限制了部署规模，并要求操作员与机器人之间保持近乎连续的低延迟通信。我们提出MOSAIC：一个基于兴趣点统一任务抽象与多层自主性的可扩展多机器人科学探索框架，支持单操作员监督。该框架根据各机器人能力动态分配探索与测量任务，利用团队级冗余与专业化实现连续作业。我们在模拟月球勘探场景的空间类比野外实验中验证了该框架，实验涉及由五台异构机器人组成的团队及单操作员。尽管任务期间一台机器人完全失效，团队仍以86%的自主率完成了82.3%的分配任务，且操作员工作负荷仅维持在78.2%。这些结果表明，所提框架能够在有限人工干预下实现鲁棒、可扩展的多机器人科学探索。我们进一步总结了在机器人互操作性、网络架构、团队构成及操作员负荷管理方面的实践经验，为未来多机器人探索任务提供参考。",
+    "url": "https://arxiv.org/abs/2601.23038v1",
+    "html_url": "https://arxiv.org/html/2601.23038v1",
+    "html_content": "",
+    "preview_text": "Mobile robots have become indispensable for exploring hostile environments, such as in space or disaster relief scenarios, but often remain limited to teleoperation by a human operator. This restricts the deployment scale and requires near-continuous low-latency communication between the operator and the robot. We present MOSAIC: a scalable autonomy framework for multi-robot scientific exploration using a unified mission abstraction based on Points of Interest (POIs) and multiple layers of autonomy, enabling supervision by a single operator. The framework dynamically allocates exploration and measurement tasks based on each robot's capabilities, leveraging team-level redundancy and specialization to enable continuous operation. We validated the framework in a space-analog field experiment emulating a lunar prospecting scenario, involving a heterogeneous team of five robots and a single operator. Despite the complete failure of one robot during the mission, the team completed 82.3% of assigned tasks at an Autonomy Ratio of 86%, while the operator workload remained at only 78.2%. These results demonstrate that the proposed framework enables robust, scalable multi-robot scientific exploration with limited operator intervention. We further derive practical lessons learned in robot interoperability, networking architecture, team composition, and operator workload management to inform future multi-robot exploration missions.",
+    "is_relevant": false,
+    "relevance_score": 2.0,
+    "extracted_keywords": [
+        "multi-robot",
+        "autonomy",
+        "scalable",
+        "heterogeneous",
+        "operator workload",
+        "field experiment"
+    ],
+    "one_line_summary": "MOSAIC是一个用于异构机器人团队科学探索的可扩展自主框架，通过基于兴趣点的任务分配和分层自主性，减少操作员干预，并在模拟月球勘探实验中验证了其鲁棒性。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-01-30T14:46:15Z",
+    "created_at": "2026-02-03T15:53:09.916392",
+    "updated_at": "2026-02-03T15:53:09.916397"
+}
