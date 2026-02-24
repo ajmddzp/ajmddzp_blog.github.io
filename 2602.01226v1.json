@@ -1,0 +1,36 @@
+{
+    "id": "2602.01226v1",
+    "title": "SkySim: A ROS2-based Simulation Environment for Natural Language Control of Drone Swarms using Large Language Models",
+    "authors": [
+        "Aditya Shibu",
+        "Marah Saleh",
+        "Mohamed Al-Musleh",
+        "Nidhal Abdulaziz"
+    ],
+    "abstract": "无人机集群在物流、农业和监控领域具有广泛应用前景，但其控制需要专业知识以确保安全性和可行性。传统静态方法适应性有限，而大型语言模型虽能实现自然语言控制，却因缺乏物理基础而生成不安全轨迹。本文提出SkySim——一个基于ROS2的Gazebo仿真框架，该框架将大型语言模型的高层规划与底层安全执行解耦。利用Gemini 3.5 Pro模型，SkySim根据实时无人机状态将用户指令（如\"形成圆形队列\"）转化为空间航点。通过人工势场安全过滤器施加最小调整量，实现碰撞规避、运动学限制和地理围栏控制，确保以20赫兹频率执行可行轨迹。使用3架、10架及30架Crazyflie无人机集群进行的实验验证了空间推理准确性（测试几何基元达成率100%）、实时防撞能力及系统可扩展性。SkySim使非专业用户能够迭代优化集群行为，在动态环境中搭建起人工智能认知与机器人安全之间的桥梁。未来工作将聚焦于硬件系统集成。",
+    "url": "https://arxiv.org/abs/2602.01226v1",
+    "html_url": "https://arxiv.org/html/2602.01226v1",
+    "html_content": "",
+    "preview_text": "Unmanned Aerial Vehicle (UAV) swarms offer versatile applications in logistics, agriculture, and surveillance, yet controlling them requires expert knowledge for safety and feasibility. Traditional static methods limit adaptability, while Large Language Models (LLMs) enable natural language control but generate unsafe trajectories due to lacking physical grounding. This paper introduces SkySim, a ROS2-based simulation framework in Gazebo that decouples LLM high-level planning from low-level safety enforcement. Using Gemini 3.5 Pro, SkySim translates user commands (e.g., \"Form a circle\") into spatial waypoints, informed by real-time drone states. An Artificial Potential Field (APF) safety filter applies minimal adjustments for collision avoidance, kinematic limits, and geo-fencing, ensuring feasible execution at 20 Hz. Experiments with swarms of 3, 10, and 30 Crazyflie drones validate spatial reasoning accuracy (100% across tested geometric primitives), real-time collision prevention, and scalability. SkySim empowers non-experts to iteratively refine behaviors, bridging AI cognition with robotic safety for dynamic environments. Future work targets hardware integration.",
+    "is_relevant": true,
+    "relevance_score": 4.0,
+    "extracted_keywords": [
+        "VLA",
+        "locomotion",
+        "VLM",
+        "whole body control",
+        "Vision-Language-Action Model",
+        "VLA for Robotics",
+        "fine tune",
+        "goal conditioned reinforcement learning"
+    ],
+    "one_line_summary": "SkySim是一个基于ROS2的无人机集群仿真环境，利用大语言模型实现自然语言控制，通过高层规划与低层安全执行解耦来确保安全性和可行性。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-02-01T13:34:34Z",
+    "created_at": "2026-02-24T15:53:24.418253",
+    "updated_at": "2026-02-24T15:53:24.418258"
+}
