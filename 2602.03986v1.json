@@ -1,0 +1,32 @@
+{
+  "id": "2602.03986v1",
+  "title": "eCP: Informative uncertainty quantification via Equivariantized Conformal Prediction with pre-trained models",
+  "authors": [
+    "Nikolaos Bousias",
+    "Lars Lindemann",
+    "George Pappas"
+  ],
+  "abstract": "We study the effect of group symmetrization of pre-trained models on conformal prediction (CP), a post-hoc, distribution-free, finite-sample method of uncertainty quantification that offers formal coverage guarantees under the assumption of data exchangeability. Unfortunately, CP uncertainty regions can grow significantly in long horizon missions, rendering the statistical guarantees uninformative. To that end, we propose infusing CP with geometric information via group-averaging of the pretrained predictor to distribute the non-conformity mass across the orbits. Each sample now is treated as a representative of an orbit, thus uncertainty can be mitigated by other samples entangled to it via the orbit inducing elements of the symmetry group. Our approach provably yields contracted non-conformity scores in increasing convex order, implying improved exponential-tail bounds and sharper conformal prediction sets in expectation, especially at high confidence levels. We then propose an experimental design to test these theoretical claims in pedestrian trajectory prediction.",
+  "url": "https://arxiv.org/abs/2602.03986v1",
+  "html_url": "https://arxiv.org/html/2602.03986v1",
+  "html_content": "",
+  "preview_text": "We study the effect of group symmetrization of pre-trained models on conformal prediction (CP), a post-hoc, distribution-free, finite-sample method of uncertainty quantification that offers formal coverage guarantees under the assumption of data exchangeability. Unfortunately, CP uncertainty regions can grow significantly in long horizon missions, rendering the statistical guarantees uninformative. To that end, we propose infusing CP with geometric information via group-averaging of the pretrained predictor to distribute the non-conformity mass across the orbits. Each sample now is treated as a representative of an orbit, thus uncertainty can be mitigated by other samples entangled to it via the orbit inducing elements of the symmetry group. Our approach provably yields contracted non-conformity scores in increasing convex order, implying improved exponential-tail bounds and sharper conformal prediction sets in expectation, especially at high confidence levels. We then propose an experimental design to test these theoretical claims in pedestrian trajectory prediction.",
+  "is_relevant": false,
+  "relevance_score": 0.0,
+  "extracted_keywords": [
+    "conformal prediction",
+    "uncertainty quantification",
+    "pre-trained models",
+    "group symmetrization",
+    "pedestrian trajectory prediction"
+  ],
+  "one_line_summary": "该论文提出了一种通过群对称化预训练模型来改进共形预测的方法，以在行人轨迹预测中提供更精确的不确定性量化。",
+  "detailed_summary": "",
+  "qa_pairs": [],
+  "is_hidden": false,
+  "is_starred": false,
+  "flag": "",
+  "published_date": "2026-02-03T20:18:59Z",
+  "created_at": "2026-03-03T15:53:33.258484",
+  "updated_at": "2026-03-03T15:53:33.258494"
+}

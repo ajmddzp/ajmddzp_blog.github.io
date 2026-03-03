@@ -1,0 +1,32 @@
+{
+  "id": "2602.04251v1",
+  "title": "Towards Next-Generation SLAM: A Survey on 3DGS-SLAM Focusing on Performance, Robustness, and Future Directions",
+  "authors": [
+    "Li Wang",
+    "Ruixuan Gong",
+    "Yumo Han",
+    "Lei Yang",
+    "Lu Yang",
+    "Ying Li",
+    "Bin Xu",
+    "Huaping Liu",
+    "Rong Fu"
+  ],
+  "abstract": "Traditional Simultaneous Localization and Mapping (SLAM) systems often face limitations including coarse rendering quality, insufficient recovery of scene details, and poor robustness in dynamic environments. 3D Gaussian Splatting (3DGS), with its efficient explicit representation and high-quality rendering capabilities, offers a new reconstruction paradigm for SLAM. This survey comprehensively reviews key technical approaches for integrating 3DGS with SLAM. We analyze performance optimization of representative methods across four critical dimensions: rendering quality, tracking accuracy, reconstruction speed, and memory consumption, delving into their design principles and breakthroughs. Furthermore, we examine methods for enhancing the robustness of 3DGS-SLAM in complex environments such as motion blur and dynamic environments. Finally, we discuss future challenges and development trends in this area. This survey aims to provide a technical reference for researchers and foster the development of next-generation SLAM systems characterized by high fidelity, efficiency, and robustness.",
+  "url": "https://arxiv.org/abs/2602.04251v1",
+  "html_url": "https://arxiv.org/html/2602.04251v1",
+  "html_content": "",
+  "preview_text": "Traditional Simultaneous Localization and Mapping (SLAM) systems often face limitations including coarse rendering quality, insufficient recovery of scene details, and poor robustness in dynamic environments. 3D Gaussian Splatting (3DGS), with its efficient explicit representation and high-quality rendering capabilities, offers a new reconstruction paradigm for SLAM. This survey comprehensively reviews key technical approaches for integrating 3DGS with SLAM. We analyze performance optimization of representative methods across four critical dimensions: rendering quality, tracking accuracy, reconstruction speed, and memory consumption, delving into their design principles and breakthroughs. Furthermore, we examine methods for enhancing the robustness of 3DGS-SLAM in complex environments such as motion blur and dynamic environments. Finally, we discuss future challenges and development trends in this area. This survey aims to provide a technical reference for researchers and foster the development of next-generation SLAM systems characterized by high fidelity, efficiency, and robustness.",
+  "is_relevant": false,
+  "relevance_score": 1.0,
+  "extracted_keywords": [],
+  "one_line_summary": "这篇论文综述了3D高斯泼溅（3DGS）在SLAM中的应用，专注于渲染质量、跟踪精度、重建速度和内存消耗的性能优化，以及动态环境中的鲁棒性增强，与强化学习、VLA、机器人控制等关键词无直接关联。",
+  "detailed_summary": "",
+  "qa_pairs": [],
+  "is_hidden": false,
+  "is_starred": false,
+  "flag": "",
+  "published_date": "2026-02-04T06:20:22Z",
+  "created_at": "2026-03-03T15:54:11.580569",
+  "updated_at": "2026-03-03T15:54:11.580577"
+}
