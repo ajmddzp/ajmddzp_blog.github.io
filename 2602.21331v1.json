@@ -1,0 +1,30 @@
+{
+    "id": "2602.21331v1",
+    "title": "CableRobotGraphSim: A Graph Neural Network for Modeling Partially Observable Cable-Driven Robot Dynamics",
+    "authors": [
+        "Nelson Chen",
+        "William R. Johnson",
+        "Rebecca Kramer-Bottiglio",
+        "Kostas Bekris",
+        "Mridul Aanjaneya"
+    ],
+    "abstract": "通用型模拟器已显著加速了机器人技术的发展。然而，基于第一性原理的传统模拟器通常需要完全状态可观测性，或依赖参数搜索进行系统辨识。本研究提出了一种用于缆驱机器人的新型图神经网络模型——\\texttt{CableRobotGraphSim}，旨在解决现有模拟方案的不足。该模型将缆驱机器人表示为图结构，其中刚体作为节点，缆绳与接触关系作为边，仅需输入部分可观测数据即可快速精确地匹配其他仿真模型及真实机器人的特性。配合该图神经网络模型，我们开发了仿真与真实数据协同训练流程，以增强模型对噪声真实数据的泛化能力与鲁棒性。该模型进一步与模型预测路径积分控制器集成，实现了闭环导航控制，充分展示了其在速度与精度方面的优越性能。",
+    "url": "https://arxiv.org/abs/2602.21331v1",
+    "html_url": "https://arxiv.org/html/2602.21331v1",
+    "html_content": "",
+    "preview_text": "General-purpose simulators have accelerated the development of robots. Traditional simulators based on first-principles, however, typically require full-state observability or depend on parameter search for system identification. This work presents \\texttt{CableRobotGraphSim}, a novel Graph Neural Network (GNN) model for cable-driven robots that aims to address shortcomings of prior simulation solutions. By representing cable-driven robots as graphs, with the rigid-bodies as nodes and the cables and contacts as edges, this model can quickly and accurately match the properties of other simulation models and real robots, while ingesting only partially observable inputs. Accompanying the GNN model is a sim-and-real co-training procedure that promotes generalization and robustness to noisy real data. This model is further integrated with a Model Predictive Path Integral (MPPI) controller for closed-loop navigation, which showcases the model's speed and accuracy.",
+    "is_relevant": true,
+    "relevance_score": 3.0,
+    "extracted_keywords": [
+        "world model"
+    ],
+    "one_line_summary": "这篇论文提出了一种基于图神经网络的模型，用于模拟部分可观测的电缆驱动机器人动力学，并集成到模型预测控制中，以提高仿真速度和准确性。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-02-24T20:01:29Z",
+    "created_at": "2026-03-09T09:51:01.935484",
+    "updated_at": "2026-03-09T09:51:01.935490"
+}

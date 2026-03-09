@@ -1,0 +1,29 @@
+{
+    "id": "2602.22714v1",
+    "title": "Robust Helicopter Ship Deck Landing With Guaranteed Timing Using Shrinking-Horizon Model Predictive Control",
+    "authors": [
+        "Philipp Schitz",
+        "Paolo Mercorelli",
+        "Johann C. Dauer"
+    ],
+    "abstract": "本文提出一种基于收缩时域模型预测控制（SHMPC）的自主直升机移动舰面着陆实时高效算法。首先，推导出能够准确描述直升机全非线性动力学特性的规划模型。随后，结合触地控制阶段运用SHMPC方法，确保在存在干扰的情况下实现预设的机动时间与对应的着陆时间窗口。通过设计具有干扰反馈的辅助控制器，系统实现了优异的抗干扰性能。因此，在给定目标位置与时间的前提下，只要初始优化问题可行，即可保证在满足终端条件的情况下实现安全着陆。仿真结果表明：在强风条件下所有机动均能实现高精度着陆，同时满足时间与操作约束，且最大计算时间保持在毫秒量级。",
+    "url": "https://arxiv.org/abs/2602.22714v1",
+    "html_url": "https://arxiv.org/html/2602.22714v1",
+    "html_content": "",
+    "preview_text": "We present a runtime efficient algorithm for autonomous helicopter landings on moving ship decks based on Shrinking-Horizon Model Predictive Control (SHMPC). First, a suitable planning model capturing the relevant aspects of the full nonlinear helicopter dynamics is derived. Next, we use the SHMPC together with a touchdown controller stage to ensure a pre-specified maneuver time and an associated landing time window despite the presence of disturbances. A high disturbance rejection performance is achieved by designing an ancillary controller with disturbance feedback. Thus, given a target position and time, a safe landing with suitable terminal conditions is be guaranteed if the initial optimization problem is feasible. The efficacy of our approach is shown in simulation where all maneuvers achieve a high landing precision in strong winds while satisfying timing and operational constraints with maximum computation times in the millisecond range.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "constrained reinforcement learning",
+        "safe reinforcement learning"
+    ],
+    "one_line_summary": "该论文提出了一种基于收缩时域模型预测控制的直升机舰船甲板着陆算法，确保在扰动下的定时和安全着陆，与强化学习、VLA等关键词相关性较低。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-02-26T07:40:57Z",
+    "created_at": "2026-03-09T09:51:17.953017",
+    "updated_at": "2026-03-09T09:51:17.953022"
+}

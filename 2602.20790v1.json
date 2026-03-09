@@ -1,0 +1,35 @@
+{
+    "id": "2602.20790v1",
+    "title": "Real-time Motion Segmentation with Event-based Normal Flow",
+    "authors": [
+        "Sheng Zhong",
+        "Zhongyang Ren",
+        "Xiya Zhu",
+        "Dehao Yuan",
+        "Cornelia Fermuller",
+        "Yi Zhou"
+    ],
+    "abstract": "事件相机是一种受生物启发的传感器，其像素能够以微秒级分辨率独立、异步地响应亮度变化，为在复杂场景中处理视觉任务提供了可能。然而，由于单个事件包含的信息稀疏，直接处理原始事件数据以解决视觉任务效率极低，这严重限制了现有先进方法在实时任务中的适用性，例如作为动态场景理解基础任务之一的运动分割。引入法向流作为中间表示，通过压缩局部区域内事件簇的运动信息，提供了更有效的解决方案。本研究提出了一种基于法向流的事件视觉运动分割框架。利用从事件邻域直接学习得到的密集法向流作为输入，我们将运动分割任务构建为通过图割求解的能量最小化问题，并借助法向流聚类与运动模型拟合进行迭代优化。通过采用基于法向流的运动模型初始化与拟合方法，所提系统能够仅用有限数量的候选模型高效估计独立运动物体的运动模型，这显著降低了计算复杂度并确保实时性能，相比开源先进方法实现了近800倍的加速。在多个公开数据集上的广泛评估充分证明了本框架的准确性与高效性。",
+    "url": "https://arxiv.org/abs/2602.20790v1",
+    "html_url": "https://arxiv.org/html/2602.20790v1",
+    "html_content": "",
+    "preview_text": "Event-based cameras are bio-inspired sensors with pixels that independently and asynchronously respond to brightness changes at microsecond resolution, offering the potential to handle visual tasks in challenging scenarios. However, due to the sparse information content in individual events, directly processing the raw event data to solve vision tasks is highly inefficient, which severely limits the applicability of state-of-the-art methods in real-time tasks, such as motion segmentation, a fundamental task for dynamic scene understanding. Incorporating normal flow as an intermediate representation to compress motion information from event clusters within a localized region provides a more effective solution. In this work, we propose a normal flow-based motion segmentation framework for event-based vision. Leveraging the dense normal flow directly learned from event neighborhoods as input, we formulate the motion segmentation task as an energy minimization problem solved via graph cuts, and optimize it iteratively with normal flow clustering and motion model fitting. By using a normal flow-based motion model initialization and fitting method, the proposed system is able to efficiently estimate the motion models of independently moving objects with only a limited number of candidate models, which significantly reduces the computational complexity and ensures real-time performance, achieving nearly a 800x speedup in comparison to the open-source state-of-the-art method. Extensive evaluations on multiple public datasets fully demonstrate the accuracy and efficiency of our framework.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "motion segmentation",
+        "event-based cameras",
+        "normal flow",
+        "graph cuts",
+        "real-time performance"
+    ],
+    "one_line_summary": "该论文提出了一种基于事件相机的实时运动分割框架，利用法向流作为中间表示，通过图割和运动模型拟合实现高效处理，但与强化学习、VLA等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-02-24T11:29:07Z",
+    "created_at": "2026-03-09T09:50:52.817086",
+    "updated_at": "2026-03-09T09:50:52.817092"
+}
