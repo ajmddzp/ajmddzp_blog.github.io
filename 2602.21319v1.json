@@ -1,30 +1,30 @@
 {
-  "id": "2602.21319v1",
-  "title": "Uncertainty-Aware Diffusion Model for Multimodal Highway Trajectory Prediction via DDIM Sampling",
-  "authors": [
-    "Marion Neumeier",
-    "Niklas Roßberg",
-    "Michael Botsch",
-    "Wolfgang Utschick"
-  ],
-  "abstract": "Accurate and uncertainty-aware trajectory prediction remains a core challenge for autonomous driving, driven by complex multi-agent interactions, diverse scene contexts and the inherently stochastic nature of future motion. Diffusion-based generative models have recently shown strong potential for capturing multimodal futures, yet existing approaches such as cVMD suffer from slow sampling, limited exploitation of generative diversity and brittle scenario encodings.\n  This work introduces cVMDx, an enhanced diffusion-based trajectory prediction framework that improves efficiency, robustness and multimodal predictive capability. Through DDIM sampling, cVMDx achieves up to a 100x reduction in inference time, enabling practical multi-sample generation for uncertainty estimation. A fitted Gaussian Mixture Model further provides tractable multimodal predictions from the generated trajectories. In addition, a CVQ-VAE variant is evaluated for scenario encoding. Experiments on the publicly available highD dataset show that cVMDx achieves higher accuracy and significantly improved efficiency over cVMD, enabling fully stochastic, multimodal trajectory prediction.",
-  "url": "https://arxiv.org/abs/2602.21319v1",
-  "html_url": "https://arxiv.org/html/2602.21319v1",
-  "html_content": "",
-  "preview_text": "Accurate and uncertainty-aware trajectory prediction remains a core challenge for autonomous driving, driven by complex multi-agent interactions, diverse scene contexts and the inherently stochastic nature of future motion. Diffusion-based generative models have recently shown strong potential for capturing multimodal futures, yet existing approaches such as cVMD suffer from slow sampling, limited exploitation of generative diversity and brittle scenario encodings.\n  This work introduces cVMDx, an enhanced diffusion-based trajectory prediction framework that improves efficiency, robustness and multimodal predictive capability. Through DDIM sampling, cVMDx achieves up to a 100x reduction in inference time, enabling practical multi-sample generation for uncertainty estimation. A fitted Gaussian Mixture Model further provides tractable multimodal predictions from the generated trajectories. In addition, a CVQ-VAE variant is evaluated for scenario encoding. Experiments on the publicly available highD dataset show that cVMDx achieves higher accuracy and significantly improved efficiency over cVMD, enabling fully stochastic, multimodal trajectory prediction.",
-  "is_relevant": true,
-  "relevance_score": 4.0,
-  "extracted_keywords": [
-    "Diffusion",
-    "Inference Acceleration"
-  ],
-  "one_line_summary": "这篇论文提出了一种基于扩散模型和DDIM采样的高速公路轨迹预测方法，通过加速推理和不确定性建模来提升多模态预测能力。",
-  "detailed_summary": "",
-  "qa_pairs": [],
-  "is_hidden": false,
-  "is_starred": false,
-  "flag": "",
-  "published_date": "2026-02-24T19:40:37Z",
-  "created_at": "2026-03-09T09:51:01.598639",
-  "updated_at": "2026-03-09T09:51:01.598644"
+    "id": "2602.21319v1",
+    "title": "Uncertainty-Aware Diffusion Model for Multimodal Highway Trajectory Prediction via DDIM Sampling",
+    "authors": [
+        "Marion Neumeier",
+        "Niklas Roßberg",
+        "Michael Botsch",
+        "Wolfgang Utschick"
+    ],
+    "abstract": "准确且具有不确定性感知的轨迹预测仍然是自动驾驶的核心挑战，这源于复杂的多智能体交互、多样化的场景环境以及未来运动固有的随机性。基于扩散的生成模型近期在捕捉多模态未来轨迹方面展现出巨大潜力，但现有方法如cVMD存在采样速度慢、生成多样性利用有限以及场景编码脆弱等问题。\n\n本研究提出cVMDx——一种增强型基于扩散的轨迹预测框架，该框架在效率、鲁棒性和多模态预测能力方面均有提升。通过DDIM采样技术，cVMDx实现了高达100倍的推理时间缩减，使实际多样本生成以进行不确定性估计成为可能。拟合的高斯混合模型进一步从生成轨迹中提供可处理的多模态预测。此外，本研究还评估了CVQ-VAE变体在场景编码中的应用。在公开可用的highD数据集上的实验表明，cVMDx相比cVMD实现了更高的预测精度和显著提升的效率，能够完成完全随机化的多模态轨迹预测。",
+    "url": "https://arxiv.org/abs/2602.21319v1",
+    "html_url": "https://arxiv.org/html/2602.21319v1",
+    "html_content": "",
+    "preview_text": "Accurate and uncertainty-aware trajectory prediction remains a core challenge for autonomous driving, driven by complex multi-agent interactions, diverse scene contexts and the inherently stochastic nature of future motion. Diffusion-based generative models have recently shown strong potential for capturing multimodal futures, yet existing approaches such as cVMD suffer from slow sampling, limited exploitation of generative diversity and brittle scenario encodings.\n  This work introduces cVMDx, an enhanced diffusion-based trajectory prediction framework that improves efficiency, robustness and multimodal predictive capability. Through DDIM sampling, cVMDx achieves up to a 100x reduction in inference time, enabling practical multi-sample generation for uncertainty estimation. A fitted Gaussian Mixture Model further provides tractable multimodal predictions from the generated trajectories. In addition, a CVQ-VAE variant is evaluated for scenario encoding. Experiments on the publicly available highD dataset show that cVMDx achieves higher accuracy and significantly improved efficiency over cVMD, enabling fully stochastic, multimodal trajectory prediction.",
+    "is_relevant": true,
+    "relevance_score": 4.0,
+    "extracted_keywords": [
+        "Diffusion",
+        "Inference Acceleration"
+    ],
+    "one_line_summary": "这篇论文提出了一种基于扩散模型和DDIM采样的高速公路轨迹预测方法，通过加速推理和不确定性建模来提升多模态预测能力。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-02-24T19:40:37Z",
+    "created_at": "2026-03-09T09:51:01.598639",
+    "updated_at": "2026-03-09T09:51:01.598644"
 }

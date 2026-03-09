@@ -1,35 +1,35 @@
 {
-  "id": "2602.03920v1",
-  "title": "How Users Understand Robot Foundation Model Performance through Task Success Rates and Beyond",
-  "authors": [
-    "Isaac Sheidlower",
-    "Jindan Huang",
-    "James Staley",
-    "Bingyu Wu",
-    "Qicong Chen",
-    "Reuben Aronson",
-    "Elaine Short"
-  ],
-  "abstract": "Robot Foundation Models (RFMs) represent a promising approach to developing general-purpose home robots. Given the broad capabilities of RFMs, users will inevitably ask an RFM-based robot to perform tasks that the RFM was not trained or evaluated on. In these cases, it is crucial that users understand the risks associated with attempting novel tasks due to the relatively high cost of failure. Furthermore, an informed user who understands an RFM's capabilities will know what situations and tasks the robot can handle. In this paper, we study how non-roboticists interpret performance information from RFM evaluations. These evaluations typically report task success rate (TSR) as the primary performance metric. While TSR is intuitive to experts, it is necessary to validate whether novices also use this information as intended. Toward this end, we conducted a study in which users saw real evaluation data, including TSR, failure case descriptions, and videos from multiple published RFM research projects. The results highlight that non-experts not only use TSR in a manner consistent with expert expectations but also highly value other information types, such as failure cases that are not often reported in RFM evaluations. Furthermore, we find that users want access to both real data from previous evaluations of the RFM and estimates from the robot about how well it will do on a novel task.",
-  "url": "https://arxiv.org/abs/2602.03920v1",
-  "html_url": "https://arxiv.org/html/2602.03920v1",
-  "html_content": "",
-  "preview_text": "Robot Foundation Models (RFMs) represent a promising approach to developing general-purpose home robots. Given the broad capabilities of RFMs, users will inevitably ask an RFM-based robot to perform tasks that the RFM was not trained or evaluated on. In these cases, it is crucial that users understand the risks associated with attempting novel tasks due to the relatively high cost of failure. Furthermore, an informed user who understands an RFM's capabilities will know what situations and tasks the robot can handle. In this paper, we study how non-roboticists interpret performance information from RFM evaluations. These evaluations typically report task success rate (TSR) as the primary performance metric. While TSR is intuitive to experts, it is necessary to validate whether novices also use this information as intended. Toward this end, we conducted a study in which users saw real evaluation data, including TSR, failure case descriptions, and videos from multiple published RFM research projects. The results highlight that non-experts not only use TSR in a manner consistent with expert expectations but also highly value other information types, such as failure cases that are not often reported in RFM evaluations. Furthermore, we find that users want access to both real data from previous evaluations of the RFM and estimates from the robot about how well it will do on a novel task.",
-  "is_relevant": false,
-  "relevance_score": 1.0,
-  "extracted_keywords": [
-    "Robot Foundation Models",
-    "task success rate",
-    "user understanding",
-    "evaluation"
-  ],
-  "one_line_summary": "该论文研究非专家用户如何通过任务成功率等评估信息理解机器人基础模型的性能，而非直接涉及强化学习或视觉语言动作模型等技术细节。",
-  "detailed_summary": "",
-  "qa_pairs": [],
-  "is_hidden": false,
-  "is_starred": false,
-  "flag": "",
-  "published_date": "2026-02-03T18:36:45Z",
-  "created_at": "2026-03-03T15:53:29.814324",
-  "updated_at": "2026-03-03T15:53:29.814333"
+    "id": "2602.03920v1",
+    "title": "How Users Understand Robot Foundation Model Performance through Task Success Rates and Beyond",
+    "authors": [
+        "Isaac Sheidlower",
+        "Jindan Huang",
+        "James Staley",
+        "Bingyu Wu",
+        "Qicong Chen",
+        "Reuben Aronson",
+        "Elaine Short"
+    ],
+    "abstract": "机器人基础模型（RFMs）是开发通用家用机器人的一种前景广阔的方法。鉴于RFMs具备广泛的能力，用户不可避免地会要求基于RFM的机器人执行模型未经过训练或评估的任务。在这种情况下，由于失败成本相对较高，用户必须理解尝试新任务所伴随的风险。此外，了解RFM能力的用户能够清楚机器人在何种情境下可以胜任哪些任务。本文研究了非机器人领域专业人士如何解读RFM评估中的性能信息。这类评估通常以任务成功率（TSR）作为主要性能指标。虽然TSR对专家而言直观易懂，但有必要验证新手是否能按预期使用这些信息。为此，我们开展了一项研究，让用户查看来自多个已发表RFM研究项目的真实评估数据，包括TSR、失败案例描述及视频。研究结果表明，非专业人士不仅能够以符合专家预期的方式理解TSR，还高度重视其他类型的信息（例如RFM评估中较少报告的失败案例）。此外，我们发现用户既希望获取RFM过往评估的真实数据，也期待机器人能对其在新任务中的表现提供预估。",
+    "url": "https://arxiv.org/abs/2602.03920v1",
+    "html_url": "https://arxiv.org/html/2602.03920v1",
+    "html_content": "",
+    "preview_text": "Robot Foundation Models (RFMs) represent a promising approach to developing general-purpose home robots. Given the broad capabilities of RFMs, users will inevitably ask an RFM-based robot to perform tasks that the RFM was not trained or evaluated on. In these cases, it is crucial that users understand the risks associated with attempting novel tasks due to the relatively high cost of failure. Furthermore, an informed user who understands an RFM's capabilities will know what situations and tasks the robot can handle. In this paper, we study how non-roboticists interpret performance information from RFM evaluations. These evaluations typically report task success rate (TSR) as the primary performance metric. While TSR is intuitive to experts, it is necessary to validate whether novices also use this information as intended. Toward this end, we conducted a study in which users saw real evaluation data, including TSR, failure case descriptions, and videos from multiple published RFM research projects. The results highlight that non-experts not only use TSR in a manner consistent with expert expectations but also highly value other information types, such as failure cases that are not often reported in RFM evaluations. Furthermore, we find that users want access to both real data from previous evaluations of the RFM and estimates from the robot about how well it will do on a novel task.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "Robot Foundation Models",
+        "task success rate",
+        "user understanding",
+        "evaluation"
+    ],
+    "one_line_summary": "该论文研究非专家用户如何通过任务成功率等评估信息理解机器人基础模型的性能，而非直接涉及强化学习或视觉语言动作模型等技术细节。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-02-03T18:36:45Z",
+    "created_at": "2026-03-03T15:53:29.814324",
+    "updated_at": "2026-03-03T15:53:29.814333"
 }

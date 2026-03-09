@@ -1,25 +1,25 @@
 {
-  "id": "2602.22671v1",
-  "title": "Does the testing environment matter? Carsickness across on-road, test-track, and driving simulator conditions",
-  "authors": [
-    "Georgios Papaioannou",
-    "Barys Shyrokau"
-  ],
-  "abstract": "Carsickness has gained significant attention with the rise of automated vehicles, prompting extensive research across on-road, test-track, and driving simulator environments to understand its occurrence and develop mitigation strategies. However, the lack of carsickness standardization complicates comparisons across studies and environments. Previous works demonstrate measurement validity between two setups at most (e.g., on-road vs. driving simulator), leaving gaps in multi-environment comparisons. This study investigates the recreation of an on-road motion sickness exposure - previously replicated on a test track - using a motion-based driving simulator. Twenty-eight participants performed an eyes-off-road non-driving task while reporting motion sickness using the Misery Scale during the experiment and the Motion Sickness Assessment Questionnaire afterward. Psychological factors known to influence motion sickness were also assessed. The results present subjective and objective measurements for motion sickness across the considered environments. In this paper, acceleration measurements, objective metrics and subjective motion sickness ratings across environments are compared, highlighting key differences in sickness occurrence for simulator-based research validity. Significantly lower motion sickness scores are reported in the simulator compared to on-road and test-track conditions, due to its limited working envelope to reproduce low-frequency (<0.5 Hz) motions, which are the most provocative for motion sickness.",
-  "url": "https://arxiv.org/abs/2602.22671v1",
-  "html_url": "https://arxiv.org/html/2602.22671v1",
-  "html_content": "",
-  "preview_text": "Carsickness has gained significant attention with the rise of automated vehicles, prompting extensive research across on-road, test-track, and driving simulator environments to understand its occurrence and develop mitigation strategies. However, the lack of carsickness standardization complicates comparisons across studies and environments. Previous works demonstrate measurement validity between two setups at most (e.g., on-road vs. driving simulator), leaving gaps in multi-environment comparisons. This study investigates the recreation of an on-road motion sickness exposure - previously replicated on a test track - using a motion-based driving simulator. Twenty-eight participants performed an eyes-off-road non-driving task while reporting motion sickness using the Misery Scale during the experiment and the Motion Sickness Assessment Questionnaire afterward. Psychological factors known to influence motion sickness were also assessed. The results present subjective and objective measurements for motion sickness across the considered environments. In this paper, acceleration measurements, objective metrics and subjective motion sickness ratings across environments are compared, highlighting key differences in sickness occurrence for simulator-based research validity. Significantly lower motion sickness scores are reported in the simulator compared to on-road and test-track conditions, due to its limited working envelope to reproduce low-frequency (<0.5 Hz) motions, which are the most provocative for motion sickness.",
-  "is_relevant": false,
-  "relevance_score": 0.0,
-  "extracted_keywords": [],
-  "one_line_summary": "这篇论文研究晕车在不同测试环境（如道路、测试轨道和驾驶模拟器）中的差异，与强化学习、机器人控制或视觉语言动作模型等技术领域无关。",
-  "detailed_summary": "",
-  "qa_pairs": [],
-  "is_hidden": false,
-  "is_starred": false,
-  "flag": "",
-  "published_date": "2026-02-26T06:42:25Z",
-  "created_at": "2026-03-09T09:51:17.477034",
-  "updated_at": "2026-03-09T09:51:17.477039"
+    "id": "2602.22671v1",
+    "title": "Does the testing environment matter? Carsickness across on-road, test-track, and driving simulator conditions",
+    "authors": [
+        "Georgios Papaioannou",
+        "Barys Shyrokau"
+    ],
+    "abstract": "随着自动驾驶汽车的兴起，晕车问题受到广泛关注，促使研究者在道路、试验场和驾驶模拟器等多种环境中开展大量研究，以理解晕车现象并制定缓解策略。然而，由于缺乏统一的晕车评估标准，不同研究与环境间的比较变得复杂。先前研究最多仅验证了两种实验设置（如道路环境与驾驶模拟器）间的测量有效性，在多环境比较方面仍存在空白。本研究利用基于运动的驾驶模拟器，复现了先前在试验场上模拟的道路晕车诱发场景。28名参与者在实验过程中执行非驾驶任务（视线离开道路），并使用不适量表实时报告晕车感受，实验后填写运动病评估问卷。研究同时评估了已知影响晕车的心理因素。结果呈现了不同环境下晕车的主观与客观测量数据。本文通过对比加速度测量值、客观指标及主观晕车评分，揭示了模拟器研究中晕车发生的关键差异。由于模拟器工作范围有限，难以复现诱发晕车最有效的低频运动（<0.5 Hz），其记录的晕车评分显著低于道路和试验场环境。",
+    "url": "https://arxiv.org/abs/2602.22671v1",
+    "html_url": "https://arxiv.org/html/2602.22671v1",
+    "html_content": "",
+    "preview_text": "Carsickness has gained significant attention with the rise of automated vehicles, prompting extensive research across on-road, test-track, and driving simulator environments to understand its occurrence and develop mitigation strategies. However, the lack of carsickness standardization complicates comparisons across studies and environments. Previous works demonstrate measurement validity between two setups at most (e.g., on-road vs. driving simulator), leaving gaps in multi-environment comparisons. This study investigates the recreation of an on-road motion sickness exposure - previously replicated on a test track - using a motion-based driving simulator. Twenty-eight participants performed an eyes-off-road non-driving task while reporting motion sickness using the Misery Scale during the experiment and the Motion Sickness Assessment Questionnaire afterward. Psychological factors known to influence motion sickness were also assessed. The results present subjective and objective measurements for motion sickness across the considered environments. In this paper, acceleration measurements, objective metrics and subjective motion sickness ratings across environments are compared, highlighting key differences in sickness occurrence for simulator-based research validity. Significantly lower motion sickness scores are reported in the simulator compared to on-road and test-track conditions, due to its limited working envelope to reproduce low-frequency (<0.5 Hz) motions, which are the most provocative for motion sickness.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "这篇论文研究晕车在不同测试环境（如道路、测试轨道和驾驶模拟器）中的差异，与强化学习、机器人控制或视觉语言动作模型等技术领域无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-02-26T06:42:25Z",
+    "created_at": "2026-03-09T09:51:17.477034",
+    "updated_at": "2026-03-09T09:51:17.477039"
 }

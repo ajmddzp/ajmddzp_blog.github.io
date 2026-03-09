@@ -1,26 +1,26 @@
 {
-  "id": "2602.04631v1",
-  "title": "Radar-Inertial Odometry For Computationally Constrained Aerial Navigation",
-  "authors": [
-    "Jan Michalczyk"
-  ],
-  "abstract": "Recently, the progress in the radar sensing technology consisting in the miniaturization of the packages and increase in measuring precision has drawn the interest of the robotics research community. Indeed, a crucial task enabling autonomy in robotics is to precisely determine the pose of the robot in space. To fulfill this task sensor fusion algorithms are often used, in which data from one or several exteroceptive sensors like, for example, LiDAR, camera, laser ranging sensor or GNSS are fused together with the Inertial Measurement Unit (IMU) measurements to obtain an estimate of the navigation states of the robot. Nonetheless, owing to their particular sensing principles, some exteroceptive sensors are often incapacitated in extreme environmental conditions, like extreme illumination or presence of fine particles in the environment like smoke or fog. Radars are largely immune to aforementioned factors thanks to the characteristics of electromagnetic waves they use. In this thesis, we present Radar-Inertial Odometry (RIO) algorithms to fuse the information from IMU and radar in order to estimate the navigation states of a (Uncrewed Aerial Vehicle) UAV capable of running on a portable resource-constrained embedded computer in real-time and making use of inexpensive, consumer-grade sensors. We present novel RIO approaches relying on the multi-state tightly-coupled Extended Kalman Filter (EKF) and Factor Graphs (FG) fusing instantaneous velocities of and distances to 3D points delivered by a lightweight, low-cost, off-the-shelf Frequency Modulated Continuous Wave (FMCW) radar with IMU readings. We also show a novel way to exploit advances in deep learning to retrieve 3D point correspondences in sparse and noisy radar point clouds.",
-  "url": "https://arxiv.org/abs/2602.04631v1",
-  "html_url": "https://arxiv.org/html/2602.04631v1",
-  "html_content": "",
-  "preview_text": "Recently, the progress in the radar sensing technology consisting in the miniaturization of the packages and increase in measuring precision has drawn the interest of the robotics research community. Indeed, a crucial task enabling autonomy in robotics is to precisely determine the pose of the robot in space. To fulfill this task sensor fusion algorithms are often used, in which data from one or several exteroceptive sensors like, for example, LiDAR, camera, laser ranging sensor or GNSS are fused together with the Inertial Measurement Unit (IMU) measurements to obtain an estimate of the navigation states of the robot. Nonetheless, owing to their particular sensing principles, some exteroceptive sensors are often incapacitated in extreme environmental conditions, like extreme illumination or presence of fine particles in the environment like smoke or fog. Radars are largely immune to aforementioned factors thanks to the characteristics of electromagnetic waves they use. In this thesis, we present Radar-Inertial Odometry (RIO) algorithms to fuse the information from IMU and radar in order to estimate the navigation states of a (Uncrewed Aerial Vehicle) UAV capable of running on a portable resource-constrained embedded computer in real-time and making use of inexpensive, consumer-grade sensors. We present novel RIO approaches relying on the multi-state tightly-coupled Extended Kalman Filter (EKF) and Factor Graphs (FG) fusing instantaneous velocities of and distances to 3D points delivered by a lightweight, low-cost, off-the-shelf Frequency Modulated Continuous Wave (FMCW) radar with IMU readings. We also show a novel way to exploit advances in deep learning to retrieve 3D point correspondences in sparse and noisy radar point clouds.",
-  "is_relevant": false,
-  "relevance_score": 1.0,
-  "extracted_keywords": [
-    "Edge Deployment"
-  ],
-  "one_line_summary": "该论文提出了一种用于无人机导航的雷达-惯性里程计算法，专注于传感器融合和嵌入式实时计算，与强化学习、VLA等关键词基本无关。",
-  "detailed_summary": "",
-  "qa_pairs": [],
-  "is_hidden": false,
-  "is_starred": false,
-  "flag": "",
-  "published_date": "2026-02-04T15:03:26Z",
-  "created_at": "2026-03-03T15:54:40.370108",
-  "updated_at": "2026-03-03T15:54:40.370120"
+    "id": "2602.04631v1",
+    "title": "Radar-Inertial Odometry For Computationally Constrained Aerial Navigation",
+    "authors": [
+        "Jan Michalczyk"
+    ],
+    "abstract": "近年来，雷达传感技术在封装小型化和测量精度提升方面的进展，引起了机器人研究领域的广泛关注。实现机器人自主性的关键任务之一，是精确确定其在空间中的位姿。为完成这一任务，常采用传感器融合算法，将来自一个或多个外部感知传感器（如激光雷达、相机、激光测距传感器或全球导航卫星系统）的数据与惯性测量单元（IMU）的测量值融合，以估计机器人的导航状态。然而，由于某些外部感知传感器特定的感知原理，它们在极端环境条件下（如极端光照或环境中存在烟雾、雾气等细颗粒物）往往无法正常工作。而雷达因其使用的电磁波特性，对上述因素具有较强的抗干扰能力。\n\n本论文提出了雷达-惯性里程计（RIO）算法，通过融合IMU与雷达数据来估计无人机的导航状态。该算法能够在资源受限的便携式嵌入式计算机上实时运行，并利用低成本、消费级的传感器实现。我们提出了基于多状态紧耦合扩展卡尔曼滤波器（EKF）和因子图（FG）的新型RIO方法，将轻量、低成本、现成的调频连续波（FMCW）雷达提供的三维点瞬时速度与距离信息，与IMU读数进行融合。此外，我们还展示了一种创新方法，利用深度学习技术从稀疏且含噪声的雷达点云中提取三维点对应关系。",
+    "url": "https://arxiv.org/abs/2602.04631v1",
+    "html_url": "https://arxiv.org/html/2602.04631v1",
+    "html_content": "",
+    "preview_text": "Recently, the progress in the radar sensing technology consisting in the miniaturization of the packages and increase in measuring precision has drawn the interest of the robotics research community. Indeed, a crucial task enabling autonomy in robotics is to precisely determine the pose of the robot in space. To fulfill this task sensor fusion algorithms are often used, in which data from one or several exteroceptive sensors like, for example, LiDAR, camera, laser ranging sensor or GNSS are fused together with the Inertial Measurement Unit (IMU) measurements to obtain an estimate of the navigation states of the robot. Nonetheless, owing to their particular sensing principles, some exteroceptive sensors are often incapacitated in extreme environmental conditions, like extreme illumination or presence of fine particles in the environment like smoke or fog. Radars are largely immune to aforementioned factors thanks to the characteristics of electromagnetic waves they use. In this thesis, we present Radar-Inertial Odometry (RIO) algorithms to fuse the information from IMU and radar in order to estimate the navigation states of a (Uncrewed Aerial Vehicle) UAV capable of running on a portable resource-constrained embedded computer in real-time and making use of inexpensive, consumer-grade sensors. We present novel RIO approaches relying on the multi-state tightly-coupled Extended Kalman Filter (EKF) and Factor Graphs (FG) fusing instantaneous velocities of and distances to 3D points delivered by a lightweight, low-cost, off-the-shelf Frequency Modulated Continuous Wave (FMCW) radar with IMU readings. We also show a novel way to exploit advances in deep learning to retrieve 3D point correspondences in sparse and noisy radar point clouds.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "Edge Deployment"
+    ],
+    "one_line_summary": "该论文提出了一种用于无人机导航的雷达-惯性里程计算法，专注于传感器融合和嵌入式实时计算，与强化学习、VLA等关键词基本无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-02-04T15:03:26Z",
+    "created_at": "2026-03-03T15:54:40.370108",
+    "updated_at": "2026-03-03T15:54:40.370120"
 }
