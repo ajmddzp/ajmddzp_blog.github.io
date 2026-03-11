@@ -1,0 +1,28 @@
+{
+    "id": "2603.03390v1",
+    "title": "Multi-Agent-Based Simulation of Archaeological Mobility in Uneven Landscapes",
+    "authors": [
+        "Chairi Kiourt",
+        "Vassilis Evangelidis",
+        "Dimitris Grigoropoulos"
+    ],
+    "abstract": "理解考古景观中的流动性、移动与互动对于解读古人类行为、运输策略及空间组织至关重要，但仅凭静态考古证据难以重建这些动态过程。本文提出一种基于多智能体的建模框架，用于模拟非均匀地形中的考古流动性，该框架融合了真实地形重建、异质智能体建模与自适应导航策略。通过强化学习将全局路径规划与局部动态适应相结合，使智能体能够高效响应动态障碍与交互，无需进行高成本的全局重规划。研究将真实数字高程数据处理为高保真三维环境，保留直接影响智能体移动的坡度与地形约束。框架明确建模了多种智能体类型，包括人类群体与动物运输系统，每种类型均通过负载量、坡度耐受度、物理尺寸等基于实证的移动特征进行参数化。两个受考古启发的应用案例展示了该方法的适用性：一是地形感知下的追逐与躲避场景，二是涉及驮畜与轮式运输工具的对比运输分析。结果凸显了地形形态、可见度及智能体异质性对移动结果的影响，同时提出的混合导航策略为大规模动态考古模拟提供了计算高效且可解释的解决方案。",
+    "url": "https://arxiv.org/abs/2603.03390v1",
+    "html_url": "https://arxiv.org/html/2603.03390v1",
+    "html_content": "",
+    "preview_text": "Understanding mobility, movement, and interaction in archaeological landscapes is essential for interpreting past human behavior, transport strategies, and spatial organization, yet such processes are difficult to reconstruct from static archaeological evidence alone. This paper presents a multi-agent-based modeling framework for simulating archaeological mobility in uneven landscapes, integrating realistic terrain reconstruction, heterogeneous agent modeling, and adaptive navigation strategies. The proposed approach combines global path planning with local dynamic adaptation, through reinforcment learning, enabling agents to respond efficiently to dynamic obstacles and interactions without costly global replanning. Real-world digital elevation data are processed into high-fidelity three-dimensional environments, preserving slope and terrain constraints that directly influence agent movement. The framework explicitly models diverse agent types, including human groups and animal-based transport systems, each parameterized by empirically grounded mobility characteristics such as load, slope tolerance, and physical dimensions. Two archaeological-inspired use cases demonstrate the applicability of the approach: a terrain-aware pursuit and evasion scenario and a comparative transport analysis involving pack animals and wheeled carts. The results highlight the impact of terrain morphology, visibility, and agent heterogeneity on movement outcomes, while the proposed hybrid navigation strategy provides a computationally efficient and interpretable solution for large-scale, dynamic archaeological simulations.",
+    "is_relevant": true,
+    "relevance_score": 3.0,
+    "extracted_keywords": [
+        "Reinforcement Learning"
+    ],
+    "one_line_summary": "本文提出一个基于多智能体的建模框架，通过强化学习模拟考古学中不平坦地形下的移动行为，结合全局路径规划和局部动态适应。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-03T09:02:31Z",
+    "created_at": "2026-03-09T11:16:16.262978",
+    "updated_at": "2026-03-09T11:16:16.262986"
+}

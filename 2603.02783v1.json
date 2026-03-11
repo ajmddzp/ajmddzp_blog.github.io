@@ -1,0 +1,32 @@
+{
+    "id": "2603.02783v1",
+    "title": "Generative adversarial imitation learning for robot swarms: Learning from human demonstrations and trained policies",
+    "authors": [
+        "Mattes Kraus",
+        "Jonas Kuckling"
+    ],
+    "abstract": "在模仿学习中，机器人需要通过观察期望行为的示范进行学习。当前群体机器人模仿学习领域的研究大多采用已有策略的轨迹作为示范样本。本研究提出了一种基于生成对抗模仿学习的框架，旨在通过人类示范学习集体行为。我们在六种不同任务场景中对该框架进行评估，分别使用人工示范和基于PPO训练策略生成的示范进行学习。实验结果表明，该模仿学习过程能够习得具有定性意义的行为模式，其表现与所提供示范的水平相当。此外，我们将习得的策略部署于TurtleBot 4机器人集群进行实体实验。结果表明，习得行为在真实环境中保持了视觉可识别的特征，其性能表现与仿真环境中的结果具有可比性。",
+    "url": "https://arxiv.org/abs/2603.02783v1",
+    "html_url": "https://arxiv.org/html/2603.02783v1",
+    "html_content": "",
+    "preview_text": "In imitation learning, robots are supposed to learn from demonstrations of the desired behavior. Most of the work in imitation learning for swarm robotics provides the demonstrations as rollouts of an existing policy. In this work, we provide a framework based on generative adversarial imitation learning that aims to learn collective behaviors from human demonstrations. Our framework is evaluated across six different missions, learning both from manual demonstrations and demonstrations derived from a PPO-trained policy. Results show that the imitation learning process is able to learn qualitatively meaningful behaviors that perform similarly well as the provided demonstrations. Additionally, we deploy the learned policies on a swarm of TurtleBot 4 robots in real-robot experiments. The exhibited behaviors preserved their visually recognizable character and their performance is comparable to the one achieved in simulation.",
+    "is_relevant": false,
+    "relevance_score": 2.0,
+    "extracted_keywords": [
+        "imitation learning",
+        "robot swarms",
+        "human demonstrations",
+        "generative adversarial imitation learning",
+        "PPO",
+        "TurtleBot 4"
+    ],
+    "one_line_summary": "该论文提出了一种基于生成对抗模仿学习的框架，用于从人类演示中学习机器人集群的集体行为，并在模拟和真实机器人实验中验证了其有效性。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-03T09:23:30Z",
+    "created_at": "2026-03-09T11:16:17.287270",
+    "updated_at": "2026-03-09T11:16:17.287279"
+}

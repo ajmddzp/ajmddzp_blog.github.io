@@ -1,0 +1,32 @@
+{
+    "id": "2603.02845v2",
+    "title": "SPARC: Spatial-Aware Path Planning via Attentive Robot Communication",
+    "authors": [
+        "Sayang Mu",
+        "Xiangyu Wu",
+        "Bo An"
+    ],
+    "abstract": "高效通信对于去中心化多机器人路径规划至关重要，然而现有学习方法对所有邻近机器人采用均等处理策略，忽略了空间邻近性的差异，导致在协调需求最迫切的拥堵区域出现注意力稀释问题。本研究提出关系增强多头注意力机制，该通信机制将曼哈顿距离对显式嵌入注意力权重计算，使每个机器人能够动态优先处理空间相关邻域的信息。结合距离约束注意力掩码与门控循环单元消息融合技术，该机制可与多智能体近端策略优化算法无缝集成，实现稳定的端到端训练。在40×40网格环境中，从8个训练机器人到128个测试机器人的零样本泛化实验中，该机制在30%障碍物密度下达到约75%的成功率，较最佳基线方法提升超过25个百分点。消融实验证实，距离关系编码是高密度环境下成功率提升的关键因素。索引术语——多机器人路径规划，图注意力机制，多头注意力，通信优化，协同决策",
+    "url": "https://arxiv.org/abs/2603.02845v2",
+    "html_url": "https://arxiv.org/html/2603.02845v2",
+    "html_content": "",
+    "preview_text": "Efficient communication is critical for decentralized Multi-Robot Path Planning (MRPP), yet existing learned communication methods treat all neighboring robots equally regardless of their spatial proximity, leading to diluted attention in congested regions where coordination matters most. We propose Relation enhanced Multi Head Attention (RMHA), a communication mechanism that explicitly embeds pairwise Manhattan distances into the attention weight computation, enabling each robot to dynamically prioritize messages from spatially relevant neighbors. Combined with a distance-constrained attention mask and GRU gated message fusion, RMHA integrates seamlessly with MAPPO for stable end-to-end training. In zero-shot generalization from 8 training robots to 128 test robots on 40x40 grids, RMHA achieves approximately 75 percent success rate at 30 percent obstacle density outperforming the best baseline by over 25 percentage points. Ablation studies confirm that distance-relation encoding is the key contributor to success rate improvement in high-density environments. Index Terms-Multi-robot path planning, graph attention mechanism, multi-head attention, communication optimization, cooperative decision-making",
+    "is_relevant": true,
+    "relevance_score": 3.0,
+    "extracted_keywords": [
+        "Multi-robot path planning",
+        "graph attention mechanism",
+        "multi-head attention",
+        "communication optimization",
+        "cooperative decision-making"
+    ],
+    "one_line_summary": "该论文提出了一种基于空间关系增强的多头注意力通信机制，用于提升去中心化多机器人路径规划在拥堵环境中的协调效率。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-03T10:40:20Z",
+    "created_at": "2026-03-11T09:18:17.877222",
+    "updated_at": "2026-03-11T09:18:17.877231"
+}

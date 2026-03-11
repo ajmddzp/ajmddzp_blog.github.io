@@ -1,0 +1,35 @@
+{
+    "id": "2603.02500v1",
+    "title": "Instant and Reversible Adhesive-free Bonding Between Silicones and Glossy Papers for Soft Robotics",
+    "authors": [
+        "Takumi Shibuya",
+        "Kazuya Murakami",
+        "Akitsu Shigetou",
+        "Jun Shintake"
+    ],
+    "abstract": "将硅胶与不可延展材料结合是流体驱动软体致动器制造中的常用策略，但传统方法通常依赖不可逆粘合剂或嵌入工艺，这些方法不仅劳动强度大且难以修改。本研究提出硅胶-光面纸粘合技术，这是一种快速、无粘合剂且溶剂可逆的粘合方法，仅通过接触即可形成稳固的硅胶-纸张界面。该界面可承受高机械载荷（剪切强度>61千帕），并可通过乙醇浸泡实现完全分离与重组，且性能无损，支持组件重复使用与快速重新设计。表征研究表明，表面官能团主导光面纸的粘附性与硅胶模量，而耐久性与环境响应特性揭示了可逆脱粘的条件。结果进一步表明氢键与低聚物扩散的协同作用产生了强韧且可重构的粘附力。采用该技术制造的软体致动器在性能上与传统嵌入层设计相当或更优，并能实现可编程驱动模式，包括收缩、弯曲与扭转。通过简化制造流程并支持重复使用与快速迭代，该技术为软体机器人快速原型开发提供了可扩展且可持续的平台。",
+    "url": "https://arxiv.org/abs/2603.02500v1",
+    "html_url": "https://arxiv.org/html/2603.02500v1",
+    "html_content": "",
+    "preview_text": "Integrating silicone with non-extensible materials is a common strategy used in the fabrication of fluidically-driven soft actuators, yet conventional approaches often rely on irreversible adhesives or embedding processes that are labor-intensive and difficult to modify. This work presents silicone-glossy paper bonding (SGB), a rapid, adhesive-free, and solvent-reversible bonding approach that forms robust silicone-paper interfaces simply through contact. The SGB interface withstands high mechanical loads (shear strength > 61 kPa) and can be fully detached and reassembled via ethanol immersion without loss of performance, enabling component reuse and rapid redesign. Characterization studies indicate that surface functional groups primarily govern adhesion on the glossy paper and the modulus of the silicone, while durability and environmental response clarify the conditions for reversible debonding. The results further suggest a synergistic interaction of hydrogen bonding and oligomer diffusion, yielding strong yet reconfigurable adhesion. Soft actuators fabricated using SGB design exhibit equal or greater performance compared to conventional embedded-layer design and enable programmable actuation modes, including contraction, bending, and twisting. By simplifying fabrication while supporting reuse and rapid iteration, SGB offers a scalable and sustainable platform for rapid prototyping in soft robotics.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [
+        "soft robotics",
+        "silicone",
+        "adhesive-free bonding",
+        "reversible bonding",
+        "rapid prototyping",
+        "fabrication",
+        "actuators"
+    ],
+    "one_line_summary": "这篇论文提出了一种无粘合剂、可逆的硅胶与光面纸粘合方法，用于软体机器人的快速原型制作，但与强化学习、VLA、视觉语言模型等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-03T01:13:22Z",
+    "created_at": "2026-03-09T11:16:05.310910",
+    "updated_at": "2026-03-09T11:16:05.310918"
+}

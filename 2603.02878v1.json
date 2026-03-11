@@ -1,0 +1,29 @@
+{
+    "id": "2603.02878v1",
+    "title": "Emerging trends in Cislunar Space for Lunar Science Exploration and Space Robotics aiding Human Spaceflight Safety",
+    "authors": [
+        "Arsalan Muhammad",
+        "Yue Wang",
+        "Hai Huang",
+        "Hao Wang"
+    ],
+    "abstract": "近年来，月球已成为推进前沿科技与科学研究的重要地外试验场，这些研究对于实现人类在月表的持续驻留及支持未来星际探索至关重要。本研究聚焦两个具有重大变革潜力的关键领域，旨在加速人类星际探索进程。其一是\"人工智能与空间机器人驱动的月球科学探索\"，该领域通过人工智能与空间机器人技术重新定义太空探索的边界。其二是\"空间机器人辅助载人登月任务\"，这类机器人作为关键装备，在预先部署基础设施开发、原位资源利用、月表作业支持及航天员安全保障等方面发挥核心作用。通过融合自主系统、机器学习与实时传感器数据，空间机器人不仅能够扩展人类能力，更能成为实现可持续月球探索的效能倍增器，为未来载人火星任务及更远深空探索铺平道路。",
+    "url": "https://arxiv.org/abs/2603.02878v1",
+    "html_url": "https://arxiv.org/html/2603.02878v1",
+    "html_content": "",
+    "preview_text": "In recent years, the Moon has emerged as an unparalleled extraterrestrial testbed for advancing cuttingedge technological and scientific research critical to enabling sustained human presence on its surface and supporting future interplanetary exploration. This study identifies and investigates two pivotal research domains with substantial transformative potential for accelerating humanity interplanetary aspirations. First is Lunar Science Exploration with Artificial Intelligence and Space Robotics which focusses on AI and Space Robotics redefining the frontiers of space exploration. Second being Space Robotics aid in manned spaceflight to the Moon serving as critical assets for pre-deployment infrastructure development, In-Situ Resource Utilization, surface operations support, and astronaut safety assurance. By integrating autonomy, machine learning, and realtime sensor fusion, space robotics not only augment human capabilities but also serve as force multipliers in achieving sustainable lunar exploration, paving the way for future crewed missions to Mars and beyond.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "Space Robotics"
+    ],
+    "one_line_summary": "该论文探讨了月球科学探索和空间机器人如何通过人工智能和自主技术提升人类太空飞行的安全性，但未涉及强化学习、VLA模型或相关具体技术。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-03T11:32:33Z",
+    "created_at": "2026-03-09T11:16:19.746822",
+    "updated_at": "2026-03-09T11:16:19.746831"
+}
