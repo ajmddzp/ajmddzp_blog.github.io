@@ -60,6 +60,13 @@ body {
     color: #0f172a;
 }
 
+.header-logo {
+    height: 36px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
 .github-link {
     color: var(--text-main);
     opacity: 0.6;
@@ -510,6 +517,10 @@ body {
         width: 100%;
         flex-direction: column;
         align-items: stretch;
+    }
+
+    .header-logo {
+        height: 30px;
     }
 
     .header-search input {
