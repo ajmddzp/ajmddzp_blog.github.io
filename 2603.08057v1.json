@@ -1,0 +1,33 @@
+{
+    "id": "2603.08057v1",
+    "title": "See and Switch: Vision-Based Branching for Interactive Robot-Skill Programming",
+    "authors": [
+        "Petr Vanc",
+        "Jan Kristof Behrens",
+        "Václav Hlaváč",
+        "Karla Stepanova"
+    ],
+    "abstract": "示教编程（PbD）是一种直观的概念，但将其扩展至应对现实世界的多样性仍是当前大多数教学框架面临的挑战。条件任务图具有极强的表达能力，且支持增量式定义，这与PbD理念高度契合。然而，基于条件任务图执行动作需要依赖可靠的感知驱动在线分支选择。本文提出\"视觉切换\"（See & Switch）交互式教学与执行框架，该框架将任务表示为可通过决策状态（DS）连接技能组件的用户可扩展图结构，支持回放过程中的条件分支选择。与以往依赖手动分支或低维信号（如本体感知）的方法不同，我们基于视觉的切换器利用手眼图像（高维信息）在竞争性后续技能组件中进行选择，并检测需要新演示的分布外情境。我们通过输入模态抽象层整合了动觉示教、摇杆控制与手势交互，证明所提方法具有教学模态无关性，能够实现高效的现场纠偏演示。该系统在三个具有挑战性的灵巧操作任务实验中进行了验证。我们在多样化条件下评估了该方法，并进一步开展了包含8名参与者的用户研究。结果表明，所提方法能为新手用户可靠执行分支选择与异常检测，在576次真实机器人测试中分别达到90.7%和87.9%的准确率。实验复现所需的全部代码与数据已发布于http://imitrob.ciirc.cvut.cz/publications/seeandswitch。",
+    "url": "https://arxiv.org/abs/2603.08057v1",
+    "html_url": "https://arxiv.org/html/2603.08057v1",
+    "html_content": "",
+    "preview_text": "Programming robots by demonstration (PbD) is an intuitive concept, but scaling it to real-world variability remains a challenge for most current teaching frameworks. Conditional task graphs are very expressive and can be defined incrementally, which fits very well with the PbD idea. However, acting using conditional task graphs requires reliable perception-grounded online branch selection. In this paper, we present See & Switch, an interactive teaching-and-execution framework that represents tasks as user-extendable graphs of skill parts connected via decision states (DS), enabling conditional branching during replay. Unlike prior approaches that rely on manual branching or low-dimensional signals (e.g., proprioception), our vision-based Switcher uses eye-in-hand images (high-dimensional) to select among competing successor skill parts and to detect out-of-distribution contexts that require new demonstrations. We integrate kinesthetic teaching, joystick control, and hand gestures via an input-modality-abstraction layer and demonstrate that our proposed method is teaching modality-independent, enabling efficient in-situ recovery demonstrations. The system is validated in experiments on three challenging dexterous manipulation tasks. We evaluate our method under diverse conditions and furthermore conduct user studies with 8 participants. We show that the proposed method reliably performs branch selection and anomaly detection for novice users, achieving 90.7 % and 87.9 % accuracy, respectively, across 576 real-robot rollouts. We provide all code and data required to reproduce our experiments at http://imitrob.ciirc.cvut.cz/publications/seeandswitch.",
+    "is_relevant": true,
+    "relevance_score": 3.0,
+    "extracted_keywords": [
+        "VLA",
+        "Vision-Language-Action Model",
+        "VLA for Robotics",
+        "fine tune",
+        "world model"
+    ],
+    "one_line_summary": "该论文提出了一种基于视觉的交互式机器人技能编程框架，通过视觉分支选择实现条件任务图的重放，但未直接涉及强化学习或VLA模型的核心技术。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-09T07:47:47Z",
+    "created_at": "2026-03-17T15:53:26.882381",
+    "updated_at": "2026-03-17T15:53:26.882389"
+}
