@@ -1,0 +1,29 @@
+{
+    "id": "2603.10847v1",
+    "title": "Semantic Landmark Particle Filter for Robot Localisation in Vineyards",
+    "authors": [
+        "Rajitha de Silva",
+        "Jonathan Cox",
+        "James R. Heselden",
+        "Marija Popović",
+        "Cesar Cadena",
+        "Riccardo Polvara"
+    ],
+    "abstract": "葡萄园中的可靠定位受限于行级感知混淆：平行的作物行产生近乎相同的激光雷达观测，导致仅依赖几何特征和基于视觉的SLAM系统倾向于收敛至错误通道，尤其在田头转弯区域。本文提出一种语义地标粒子滤波器（SLPF），在概率定位框架中融合树干与立柱地标检测与二维激光雷达数据。检测到的树干被转化为语义墙体，构成嵌入测量模型的结构化行边界，以增强相邻行间的区分能力。系统引入GNSS作为轻量级先验信息，在语义观测稀疏时稳定定位。\n\n在10行葡萄园进行的实地实验表明，该方法相较于仅依赖几何特征（AMCL）、基于视觉（RTAB-Map）以及GNSS基线方法均取得持续改进。与AMCL相比，SLPF在两个行进方向上的绝对位姿误差分别降低22%和65%；相较于含噪声GNSS基线，绝对位姿误差下降65%和61%。行识别正确率从0.67提升至0.73，平均横向跟踪误差从1.40米减少至1.26米。这些结果表明，在测量模型中嵌入行级结构语义信息，能够为高度重复的户外农业环境实现鲁棒的定位。",
+    "url": "https://arxiv.org/abs/2603.10847v1",
+    "html_url": "https://arxiv.org/html/2603.10847v1",
+    "html_content": "",
+    "preview_text": "Reliable localisation in vineyards is hindered by row-level perceptual aliasing: parallel crop rows produce nearly identical LiDAR observations, causing geometry-only and vision-based SLAM systems to converge towards incorrect corridors, particularly during headland transitions. We present a Semantic Landmark Particle Filter (SLPF) that integrates trunk and pole landmark detections with 2D LiDAR within a probabilistic localisation framework. Detected trunks are converted into semantic walls, forming structural row boundaries embedded in the measurement model to improve discrimination between adjacent rows. GNSS is incorporated as a lightweight prior that stabilises localisation when semantic observations are sparse.\n  Field experiments in a 10-row vineyard demonstrate consistent improvements over geometry-only (AMCL), vision-based (RTAB-Map), and GNSS baselines. Compared to AMCL, SLPF reduces Absolute Pose Error by 22% and 65% across two traversal directions; relative to a NoisyGNSS baseline, APE decreases by 65% and 61%. Row correctness improves from 0.67 to 0.73, while mean cross-track error decreases from 1.40 m to 1.26 m. These results show that embedding row-level structural semantics within the measurement model enables robust localisation in highly repetitive outdoor agricultural environments.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [],
+    "one_line_summary": "该论文提出了一种基于语义地标粒子滤波的机器人定位方法，用于解决葡萄园中行级感知混淆问题，与强化学习、VLA、扩散模型等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-11T14:57:14Z",
+    "created_at": "2026-03-24T15:53:33.616492",
+    "updated_at": "2026-03-24T15:53:33.616499"
+}

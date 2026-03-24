@@ -1,0 +1,32 @@
+{
+    "id": "2603.12020v1",
+    "title": "Sim-to-reality adaptation for Deep Reinforcement Learning applied to an underwater docking application",
+    "authors": [
+        "Alaaeddine Chaarani",
+        "Narcis Palomeras",
+        "Pere Ridao"
+    ],
+    "abstract": "深度强化学习（DRL）为自主水下对接提供了一种超越传统控制方法的稳健替代方案，尤其在适应不可预测环境条件方面表现出色。然而，\"仿真到现实\"的迁移鸿沟与高训练延迟问题仍是实际部署中的主要瓶颈。本文通过利用高保真数字孪生环境，提出了一种基于吉罗纳自主水下航行器（AUV）的系统化自主对接方法。我们将Stonefish仿真器改造为多进程强化学习框架，在融入真实AUV动力学模型、碰撞模型和传感器噪声的同时，显著加速了学习过程。采用近端策略优化（PPO）算法，我们在无头环境中开发了六自由度控制策略，通过随机化起始位置训练以确保泛化性能。设计的奖励函数综合考虑距离、姿态、动作平滑度及自适应碰撞惩罚，以实现柔性对接。实验结果表明，智能体在仿真环境中成功率超过90%。此外，在物理测试水池中的成功验证证实了仿真到现实迁移的有效性——DRL控制器展现出涌现行为，如基于俯仰的制动与偏航振荡，以辅助机械对准。",
+    "url": "https://arxiv.org/abs/2603.12020v1",
+    "html_url": "https://arxiv.org/html/2603.12020v1",
+    "html_content": "",
+    "preview_text": "Deep Reinforcement Learning (DRL) offers a robust alternative to traditional control methods for autonomous underwater docking, particularly in adapting to unpredictable environmental conditions. However, bridging the \"sim-to-real\" gap and managing high training latencies remain significant bottlenecks for practical deployment. This paper presents a systematic approach for autonomous docking using the Girona Autonomous Underwater Vehicle (AUV) by leveraging a high-fidelity digital twin environment. We adapted the Stonefish simulator into a multiprocessing RL framework to significantly accelerate the learning process while incorporating realistic AUV dynamics, collision models, and sensor noise. Using the Proximal Policy Optimization (PPO) algorithm, we developed a 6-DoF control policy trained in a headless environment with randomized starting positions to ensure generalized performance. Our reward structure accounts for distance, orientation, action smoothness, and adaptive collision penalties to facilitate soft docking. Experimental results demonstrate that the agent achieved a success rate of over 90% in simulation. Furthermore, successful validation in a physical test tank confirmed the efficacy of the sim-to-reality adaptation, with the DRL controller exhibiting emergent behaviors such as pitch-based braking and yaw oscillations to assist in mechanical alignment.",
+    "is_relevant": true,
+    "relevance_score": 4.0,
+    "extracted_keywords": [
+        "Reinforcement Learning",
+        "locomotion",
+        "whole body control",
+        "fine tune",
+        "world model"
+    ],
+    "one_line_summary": "该论文提出了一种基于深度强化学习的自主水下对接方法，通过高保真数字孪生环境加速训练，并成功验证了从仿真到现实的适应性。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-12T15:01:25Z",
+    "created_at": "2026-03-24T15:54:09.969599",
+    "updated_at": "2026-03-24T15:54:09.969605"
+}
