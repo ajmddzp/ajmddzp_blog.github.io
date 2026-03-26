@@ -1,0 +1,29 @@
+{
+    "id": "2603.16228v2",
+    "title": "PA-LVIO: Real-Time LiDAR-Visual-Inertial Odometry and Mapping with Pose-Only Bundle Adjustment",
+    "authors": [
+        "Hailiang Tang",
+        "Tisheng Zhang",
+        "Liqiang Wang",
+        "Xin Ding",
+        "Man Yuan",
+        "Xiaoji Niu"
+    ],
+    "abstract": "实时激光雷达-视觉-惯性里程计与建图对于智能交通系统中的导航与规划任务至关重要。本研究提出一种仅姿态优化的光束法平差激光雷达-视觉-惯性里程计系统（PA-LVIO），以满足实时导航与建图的迫切需求。所提出的激光雷达与视觉测量PA框架兼具高精度与高效率，能够在多帧间建立可靠的帧间约束。通过将无边缘化的帧到地图激光雷达测量模型集成至状态估计器，有效消除了里程计漂移。同时采用以IMU为核心的在线时空标定方法，实现了像素级激光雷达-相机对齐。借助精确估计的里程计与外参，可构建高质量RGB渲染点云地图。本研究在轮式机器人、无人机及手持设备采集的公开与私有数据集上进行了全面实验，涵盖28个序列超过50公里轨迹。充分实验结果表明，所提出的PA-LVIO在里程计精度与建图质量方面均优于或媲美当前最先进的LVIO方法。此外，PA-LVIO可在桌面PC与嵌入式ARM计算机上实现实时运行。相关代码与数据集已在GitHub平台开源（https://github.com/i2Nav-WHU/PA-LVIO），以促进领域发展。",
+    "url": "https://arxiv.org/abs/2603.16228v2",
+    "html_url": "https://arxiv.org/html/2603.16228v2",
+    "html_content": "",
+    "preview_text": "Real-time LiDAR-visual-inertial odometry and mapping is crucial for navigation and planning tasks in intelligent transportation systems. This study presents a pose-only bundle adjustment (PA) LiDAR-visual-inertial odometry (LVIO), named PA-LVIO, to meet the urgent need for real-time navigation and mapping. The proposed PA framework for LiDAR and visual measurements is highly accurate and efficient, and it can derive reliable frame-to-frame constraints within multiple frames. A marginalization-free and frame-to-map (F2M) LiDAR measurement model is integrated into the state estimator to eliminate odometry drifts. Meanwhile, an IMU-centric online spatial-temporal calibration is employed to obtain a pixel-wise LiDAR-camera alignment. With accurate estimated odometry and extrinsics, a high-quality and RGB-rendered point-cloud map can be built. Comprehensive experiments are conducted on both public and private datasets collected by wheeled robot, unmanned aerial vehicle (UAV), and handheld devices with 28 sequences and more than 50 km trajectories. Sufficient results demonstrate that the proposed PA-LVIO yields superior or comparable performance to state-of-the-art LVIO methods, in terms of the odometry accuracy and mapping quality. Besides, PA-LVIO can run in real-time on both the desktop PC and the onboard ARM computer. The codes and datasets are open sourced on GitHub (https://github.com/i2Nav-WHU/PA-LVIO) to benefit the community.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "该论文提出了一种基于姿态优化的实时激光雷达-视觉-惯性里程计与建图方法，专注于传感器融合和导航技术，与强化学习、VLA等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-17T08:07:52Z",
+    "created_at": "2026-03-26T18:06:04.106389",
+    "updated_at": "2026-03-26T18:06:04.106395"
+}

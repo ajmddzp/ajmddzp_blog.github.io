@@ -1,0 +1,26 @@
+{
+    "id": "2603.16626v1",
+    "title": "Routing and Control for Marine Oil-Spill Cleanup with a Boom-Towing Vessel Fleet",
+    "authors": [
+        "Snir Carmeli",
+        "Adir Morgan",
+        "Kiril Solovey"
+    ],
+    "abstract": "海上溢油事故破坏生态系统、污染海岸线、扰乱食物网，同时给渔业和沿海社区造成重大经济损失。先前研究已证明，利用配备拖曳式围油栏和撇油器的双体自主水面航行器（ASV）组合能够实现单次溢油事故的围控与清理。然而，现有算法主要针对孤立油膜和单个ASV组合，缺乏能够协调大规模机器人集群应对多起溢油事故（符合真实溢油事件特征）的可扩展方法。本研究提出一种集成化多机器人框架，利用自主ASV组合实现协调式溢油围控与清理。我们将多源溢油响应问题构建为风险加权最小延迟优化模型，其中特定溢油风险因子与服务时间共同决定累积环境损害。为解决该问题，我们开发了一种混合优化方法，结合混合整数线性规划与定制化热启动启发式算法，可在商用硬件上数分钟内为包含数十个溢油点的场景生成近似最优的路径规划方案。在物理执行层面，我们设计并分析了两种用于拖曳围油栏的ASV组合跟踪控制器：一种具有严格渐近稳定性的反馈线性化控制器，以及一种基准PID控制器。在船体-围油栏耦合动力学条件下的仿真结果表明，两种控制器均能实现精确路径跟踪。这些组件共同构成了一个可扩展、系统化的整体框架，能够实现面向大规模溢油灾害的快速、风险感知型多机器人协同响应。",
+    "url": "https://arxiv.org/abs/2603.16626v1",
+    "html_url": "https://arxiv.org/html/2603.16626v1",
+    "html_content": "",
+    "preview_text": "Marine oil spills damage ecosystems, contaminate coastlines, and disrupt food webs, while imposing substantial economic losses on fisheries and coastal communities. Prior work has demonstrated the feasibility of containing and cleaning individual spills using a duo of autonomous surface vehicles (ASVs) equipped with a towed boom and skimmers. However, existing algorithmic approaches primarily address isolated slicks and individual ASV duos, lacking scalable methods for coordinating large robotic fleets across multiple spills representative of realistic oil-spill incidents. In this work, we propose an integrated multi-robot framework for coordinated oil-spill confinement and cleanup using autonomous ASV duos. We formulate multi-spill response as a risk-weighted minimum-latency problem, where spill-specific risk factors and service times jointly determine cumulative environmental damage. To solve this problem, we develop a hybrid optimization approach combining mixed-integer linear programming, and a tailored warm-start heuristic, enabling near-optimal routing plans for scenarios with tens of spills within minutes on commodity hardware. For physical execution, we design and analyze two tracking controllers for boom-towing ASV duos: a feedback-linearization controller with proven asymptotic stability, and a baseline PID controller. Simulation results under coupled vessel-boom dynamics demonstrate accurate path tracking for both controllers. Together, these components provide a scalable, holistic framework for rapid, risk-aware multi-robot response to large-scale oil spill disasters.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [],
+    "one_line_summary": "这篇论文提出了一种用于海洋溢油清理的多机器人协调框架，侧重于混合优化算法和路径跟踪控制器，与关键词中的强化学习、VLA、机器人控制等主题无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-17T14:59:13Z",
+    "created_at": "2026-03-26T18:06:12.729882",
+    "updated_at": "2026-03-26T18:06:12.729889"
+}

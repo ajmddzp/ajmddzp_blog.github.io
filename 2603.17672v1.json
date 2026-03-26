@@ -1,0 +1,30 @@
+{
+    "id": "2603.17672v1",
+    "title": "Consistency-Driven Dual LSTM Models for Kinematic Control of a Wearable Soft Robotic Arm",
+    "authors": [
+        "Xingyu Chen",
+        "Yi Xiong",
+        "Li Wen"
+    ],
+    "abstract": "本文提出了一种基于一致性驱动的双长短期记忆网络框架，用于精确学习集成于可穿戴设备的气动软体机械臂正向与逆向运动学。该方法有效捕捉了软体气动执行器的非线性与迟滞特性，同时解决了驱动输入与末端执行器位置之间一对多映射的难题。通过引入循环一致性损失函数，我们增强了模型的物理真实性并提升了逆向预测的稳定性。大量实验——包括轨迹跟踪、消融研究与可穿戴场景演示——验证了本方法的有效性。结果表明，相较于传统方法，一致性损失的引入显著提高了预测精度并强化了物理一致性。此外，该可穿戴软体机械臂在物体传递、障碍物感知抓放、抽屉操作等日常任务中展现出优异的人机协作能力与环境适应性。本研究揭示了基于学习的运动学模型在以人为中心的可穿戴机器人系统中的广阔应用前景。",
+    "url": "https://arxiv.org/abs/2603.17672v1",
+    "html_url": "https://arxiv.org/html/2603.17672v1",
+    "html_content": "",
+    "preview_text": "In this paper, we introduce a consistency-driven dual LSTM framework for accurately learning both the forward and inverse kinematics of a pneumatically actuated soft robotic arm integrated into a wearable device. This approach effectively captures the nonlinear and hysteretic behaviors of soft pneumatic actuators while addressing the one-to-many mapping challenge between actuation inputs and end-effector positions. By incorporating a cycle consistency loss, we enhance physical realism and improve the stability of inverse predictions. Extensive experiments-including trajectory tracking, ablation studies, and wearable demonstrations-confirm the effectiveness of our method. Results indicate that the inclusion of the consistency loss significantly boosts prediction accuracy and promotes physical consistency over conventional approaches. Moreover, the wearable soft robotic arm demonstrates strong human-robot collaboration capabilities and adaptability in everyday tasks such as object handover, obstacle-aware pick-and-place, and drawer operation. This work underscores the promising potential of learning-based kinematic models for human-centric, wearable robotic systems.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "locomotion",
+        "whole body control",
+        "fine tune"
+    ],
+    "one_line_summary": "本文提出了一种基于一致性驱动的双LSTM框架，用于学习可穿戴软体机械臂的正向和逆向运动学，以解决非线性、迟滞行为和一对多映射问题，并展示了其在人机协作任务中的应用潜力。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-18T12:51:12Z",
+    "created_at": "2026-03-26T18:06:27.344354",
+    "updated_at": "2026-03-26T18:06:27.344360"
+}

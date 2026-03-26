@@ -1,0 +1,35 @@
+{
+    "id": "2603.16809v1",
+    "title": "CABTO: Context-Aware Behavior Tree Grounding for Robot Manipulation",
+    "authors": [
+        "Yishuai Cai",
+        "Xinglin Chen",
+        "Yunxin Mao",
+        "Kun Hu",
+        "Minglong Li",
+        "Yaodong Yang",
+        "Yuanpei Chen"
+    ],
+    "abstract": "行为树为设计模块化和反应式机器人控制器提供了强大范式。行为树规划这一新兴领域为自动化生成可靠行为树提供了理论保证。然而，行为树规划通常假设已存在精心设计的基础行为树系统——包含高层动作模型和底层控制策略——这往往需要大量专家知识和人工投入。本文正式提出行为树基础化问题：即自动化构建完整且一致的行为树系统。我们分析了该问题的复杂性，并首次提出CABTO（上下文感知行为树基础化）框架来高效解决这一挑战。CABTO利用预训练大模型，在行为树规划器和环境观测的上下文反馈引导下，启发式搜索动作模型与控制策略的空间。通过在三种不同机器人操作场景下的七组任务实验，证明了CABTO在生成完整一致行为树系统方面的有效性和高效性。",
+    "url": "https://arxiv.org/abs/2603.16809v1",
+    "html_url": "https://arxiv.org/html/2603.16809v1",
+    "html_content": "",
+    "preview_text": "Behavior Trees (BTs) offer a powerful paradigm for designing modular and reactive robot controllers. BT planning, an emerging field, provides theoretical guarantees for the automated generation of reliable BTs. However, BT planning typically assumes that a well-designed BT system is already grounded -- comprising high-level action models and low-level control policies -- which often requires extensive expert knowledge and manual effort. In this paper, we formalize the BT Grounding problem: the automated construction of a complete and consistent BT system. We analyze its complexity and introduce CABTO (Context-Aware Behavior Tree grOunding), the first framework to efficiently solve this challenge. CABTO leverages pre-trained Large Models (LMs) to heuristically search the space of action models and control policies, guided by contextual feedback from BT planners and environmental observations. Experiments spanning seven task sets across three distinct robotic manipulation scenarios demonstrate CABTO's effectiveness and efficiency in generating complete and consistent behavior tree systems.",
+    "is_relevant": true,
+    "relevance_score": 3.0,
+    "extracted_keywords": [
+        "VLA",
+        "VLM",
+        "fine tune",
+        "world model"
+    ],
+    "one_line_summary": "CABTO 是一个利用预训练大模型自动构建完整行为树系统的框架，用于机器人操作任务。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-17T17:12:46Z",
+    "created_at": "2026-03-26T18:06:15.082208",
+    "updated_at": "2026-03-26T18:06:15.082217"
+}
