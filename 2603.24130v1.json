@@ -1,0 +1,42 @@
+{
+    "id": "2603.24130v1",
+    "title": "Equivariant Filter Transformations for Consistent and Efficient Visual--Inertial Navigation",
+    "authors": [
+        "Chungeng Tian",
+        "Fenghua He",
+        "Ning Hao"
+    ],
+    "abstract": "本文提出了一种用于视觉-惯性导航的等变滤波器变换方法。通过建立具有不同对称性的等变滤波器之间的解析联系，该方法实现了系统化的可观测性设计及高效实现。首先，我们形式化了从全局系统状态到局部误差状态的映射，并证明该映射可在任意两个等变滤波器的误差状态之间诱导非奇异线性变换。其次，我们推导了相关线性化误差状态系统及不可观子空间的变换规律。这些结果形成了通用的可观测性设计原则：对于任意不可观测系统，可通过变换局部坐标图来合成具有状态无关不可观子空间的一致性等变滤波器，从而避免临时的对称性分析。第三，为减轻一致性要求所需的非块对角雅可比矩阵带来的计算负担，我们提出了两种高效实现策略。这些策略利用具有块对角结构的简化等变滤波器雅可比矩阵来加速协方差运算，同时保持一致性。大量蒙特卡洛仿真和真实世界实验验证了所提方法在精度和运行时间方面的优越性。",
+    "url": "https://arxiv.org/abs/2603.24130v1",
+    "html_url": "https://arxiv.org/html/2603.24130v1",
+    "html_content": "",
+    "preview_text": "This paper presents an equivariant filter (EqF) transformation approach for visual--inertial navigation. By establishing analytical links between EqFs with different symmetries, the proposed approach enables systematic consistency design and efficient implementation. First, we formalize the mapping from the global system state to the local error-state and prove that it induces a nonsingular linear transformation between the error-states of any two EqFs. Second, we derive transformation laws for the associated linearized error-state systems and unobservable subspaces. These results yield a general consistency design principle: for any unobservable system, a consistent EqF with a state-independent unobservable subspace can be synthesized by transforming the local coordinate chart, thereby avoiding ad hoc symmetry analysis. Third, to mitigate the computational burden arising from the non-block-diagonal Jacobians required for consistency, we propose two efficient implementation strategies. These strategies exploit the Jacobians of a simpler EqF with block-diagonal structure to accelerate covariance operations while preserving consistency. Extensive Monte Carlo simulations and real-world experiments validate the proposed approach in terms of both accuracy and runtime.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "VLA",
+        "locomotion",
+        "whole body control",
+        "Vision-Language-Action Model",
+        "VLA for Robotics",
+        "Flow Matching",
+        "Diffusion",
+        "Inference Acceleration",
+        "Edge Deployment",
+        "fine tune",
+        "offline Reinforcement Learning",
+        "constrained reinforcement learning",
+        "safe reinforcement learning",
+        "goal conditioned reinforcement learning",
+        "world model"
+    ],
+    "one_line_summary": "该论文提出了一种等变滤波器变换方法，用于视觉-惯性导航中的一致性设计和高效实现，与强化学习、VLA模型等关键词无直接关联。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-25T09:48:11Z",
+    "created_at": "2026-03-31T15:54:11.490880",
+    "updated_at": "2026-03-31T15:54:11.490887"
+}

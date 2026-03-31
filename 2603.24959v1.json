@@ -1,0 +1,25 @@
+{
+    "id": "2603.24959v1",
+    "title": "Wireless bioelectronics for untethered biohybrid robots",
+    "authors": [
+        "Hiroyuki Tetsuka",
+        "Minoru Hirano"
+    ],
+    "abstract": "生物混合机器人将活体组织与工程化人工结构相结合，以实现仿生驱动与行为控制。当前持续存在的挑战在于如何摆脱对浸没于细胞培养基中的有线连接或笨重硬件的依赖，实现刺激与控制信号的传递。无线生物电子技术通过射频磁场等方式远程传输控制信号，在组织-电极界面实现局部肌肉组织刺激，从而突破这一局限。与此同时，无线光电子技术通过嵌入光发射器件激活光控离子通道，实现对光遗传学改造的肌肉机器人的远程调控。最新进展进一步引入神经肌肉接头，利用生物信号转导机制，通过无线频分与时分复用技术实现多驱动器的选择性控制。本文综述了生物混合机器人控制策略的最新进展，包括无线电刺激、无线光刺激及神经肌肉整合技术，进而阐述跨领域设计原则，并展望神经类器官与生物电子协同集成这一未来发展方向，以推动自主闭环生物混合机器人系统的实现。",
+    "url": "https://arxiv.org/abs/2603.24959v1",
+    "html_url": "https://arxiv.org/html/2603.24959v1",
+    "html_content": "",
+    "preview_text": "Biohybrid robots integrate living tissues with engineered artificial structures to achieve organism-inspired actuation and behavior. A persistent challenge is delivering stimulation and control signals without relying on tethered wiring or bulky hardware immersed in cell-culture media. Wireless bioelectronics addresses this limitation by enabling the remote transfer of control signals, typically via radio-frequency magnetic fields, to locally stimulate muscle tissues at tissue-electrode interfaces. In parallel, wireless optoelectronics enables remote control of optogenetically modified, muscle-based robots by embedding light emitters that initiate muscle actuation through light-gated ion channels. Further advances incorporate neuromuscular junctions, leveraging biological signal transduction to enable selective control of multiple actuators through wireless frequency- and time-division multiplexing. This perspective article summarizes recent advances in control strategies for biohybrid robots, namely, wireless electrical stimulation, wireless optical stimulation, and neuromuscular integration. Then this describes cross-cutting design principles and highlights a future direction, namely, co-integration of neural organoid-bioelectronics toward autonomous, closed-loop biohybrid robots.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "这篇论文探讨了无线生物电子学在生物混合机器人控制中的应用，包括无线电刺激、光刺激和神经肌肉整合，与强化学习、VLA、扩散模型等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-26T02:53:27Z",
+    "created_at": "2026-03-31T15:54:46.582135",
+    "updated_at": "2026-03-31T15:54:46.582143"
+}

@@ -1,0 +1,26 @@
+{
+    "id": "2603.25139v1",
+    "title": "Dissimilarity-Based Persistent Coverage Control of Multi-Robot Systems for Improving Solar Irradiance Prediction Accuracy in Solar Thermal Power Plants",
+    "authors": [
+        "Haruki Kawase",
+        "Taiga Sugawara",
+        "A. Daniel Carnerero"
+    ],
+    "abstract": "精确预测未来太阳辐照度对于太阳能热电站的有效控制至关重要。尽管已有多种基于克里金法的预测方法被提出，但这些方法通常未能提供动态部署移动传感器的优化采样策略，而实时优化预测精度对于以最少传感器数量实现精准预测具有关键意义。本文基于克里金模型构建差异度分布图，提出一种持续性覆盖控制算法，该算法能有效引导移动智能体前往需要补充观测以提升预测性能的区域。通过移动机器人实验验证，该方法在多种模拟辐照场中均能获得比现有基准方法更精确的预测结果。",
+    "url": "https://arxiv.org/abs/2603.25139v1",
+    "html_url": "https://arxiv.org/html/2603.25139v1",
+    "html_content": "Dissimilarity-Based Persistent Coverage Control of Multi-Robot Systems for Improving Solar Irradiance Prediction Accuracy\nin Solar Thermal Power Plants\nHaruki Kawase\n1\n,\nTaiga Sugawara\n1\n,\nand A. Daniel Carnerero\n1\n1\nGraduate School of Engineering Science, The University of Osaka, Osaka, Japan.\nkawase.haruki.5or@ecs.osaka-u.ac.jp, sugawara.taiga.xxe@ecs.osaka-u.ac.jp, carnerero.daniel.es@osaka-u.ac.jp\nAbstract\nAccurate forecasting of future solar irradiance is essential for the effective control of solar thermal power plants. Although various kriging-based methods have been proposed to address the prediction problem, these methods typically do not provide an appropriate sampling strategy to dynamically position mobile sensors for optimizing prediction accuracy in real time, which is critical for achieving accurate forecasts with a minimal number of sensors. This paper introduces a dissimilarity map derived from a kriging model and proposes a persistent coverage control algorithm that effectively guides agents toward regions where additional observations are required to improve prediction performance. By means of experiments using mobile robots, the proposed approach was shown to obtain more accurate predictions than the considered baselines under various emulated irradiance fields.",
+    "preview_text": "Accurate forecasting of future solar irradiance is essential for the effective control of solar thermal power plants. Although various kriging-based methods have been proposed to address the prediction problem, these methods typically do not provide an appropriate sampling strategy to dynamically position mobile sensors for optimizing prediction accuracy in real time, which is critical for achieving accurate forecasts with a minimal number of sensors. This paper introduces a dissimilarity map derived from a kriging model and proposes a persistent coverage control algorithm that effectively guides agents toward regions where additional observations are required to improve prediction performance. By means of experiments using mobile robots, the proposed approach was shown to obtain more accurate predictions than the considered baselines under various emulated irradiance fields.\n\nDissimilarity-Based Persistent Coverage Control of Multi-Robot Systems for Improving Solar Irradiance Prediction Accuracy\nin Solar Thermal Power Plants\nHaruki Kawase\n1\n,\nTaiga Sugawara\n1\n,\nand A. Daniel Carnerero\n1\n1\nGraduate School of Engineering Science, The University of Osaka, Osaka, Japan.\nkawase.haruki.5or@ecs.osaka-u.ac.jp, sugawara.taiga.xxe@ecs.osaka-u.ac.jp, carnerero.daniel.es@osaka-u.ac.jp\nAbstract\nAccurate forecasting of future solar irradiance is essential for the effective control of solar thermal power plants. Although various kriging-based methods have been proposed to address the prediction problem, these methods typically do not provide an appropriate sampling strategy to dynamically position mobile sensors for optimizing prediction accuracy in real time, which is critical for achieving accurate forecasts with a minimal number of sensors. This paper introduces a dissimilarity map derived from a kriging model and proposes a persistent coverage control algorithm that effectively guides agents toward regions where additional observations are required to improve prediction perfo",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [],
+    "one_line_summary": "这篇论文提出了一种基于差异地图和多机器人系统的持续覆盖控制算法，用于优化太阳能热电站的太阳辐照度预测精度，但与给定的关键词（如强化学习、VLA、机器人控制等）无直接关联。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-26T07:59:25Z",
+    "created_at": "2026-03-31T15:54:52.634141",
+    "updated_at": "2026-03-31T15:54:52.634147"
+}

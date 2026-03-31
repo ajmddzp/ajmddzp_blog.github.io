@@ -1,0 +1,28 @@
+{
+    "id": "2603.24813v1",
+    "title": "Characterization of Constraints in Flexible Unknown Environments",
+    "authors": [
+        "Samrat Bhattacharyya",
+        "Nabil Simaan"
+    ],
+    "abstract": "本文提出了一种在线路径规划算法，用于在未知环境中安全自主操控柔性约束物体。研究提出了实时识别与表征感知柔性约束及全局刚度的方法。这些方法协同使用，使机器人能够同时安全地探索、表征并操控弹性系统。通过基于局部力与位置信息的约束探索，实现了无需系统先验知识的导航。在物体（系统）轨迹的多个位姿上考虑感知约束刚度，利用刚度特征向量信息，通过简单机械约束（如铰链和平面约束）的图谱来表征和识别全局刚度行为。通过仿真与实验验证了这些算法的有效性，实时识别多种常见简单机械约束（如柔性铰链）并确定相关螺旋参数的能力得到验证。这些结果表明同时进行全局约束/刚度探索与柔性约束物体安全操控具有可行性。我们相信该方法最终将能实现安全协同操控，例如在外科手术中的器官牵拉与操作等应用场景。",
+    "url": "https://arxiv.org/abs/2603.24813v1",
+    "html_url": "https://arxiv.org/html/2603.24813v1",
+    "html_content": "",
+    "preview_text": "This paper presents an online path planning algorithm for safe autonomous manipulation of a flexibly constrained object in an unknown environment. Methods for real time identification and characterization of perceived flexible constraints and global stiffness are presented. Used in tandem, these methods allow a robot to simultaneously explore, characterize, and manipulate an elastic system safely. Navigation without a-priori knowledge of the system is achieved using constraint exploration based on local force and position information. The perceived constraint stiffness is considered at multiple poses along an object's (system) trajectory. Using stiffness eigenvector information, global stiffness behavior is characterized and identified using an atlas of simple mechanical constraints, such as hinges and planar constraints. Validation of these algorithms is carried out by simulation and experimentally. The ability to recognize several common simple mechanical constraints (such as a flexible hinge) in real time, and to subsequently identify relevant screw parameters is demonstrated. These results suggest the feasibility of simultaneous global constrain/stiffness exploration and safe manipulation of flexibly constrained objects. We believe that this approach will eventually enable safe cooperative manipulation in applications such as organ retraction and manipulation during surgery",
+    "is_relevant": false,
+    "relevance_score": 2.0,
+    "extracted_keywords": [
+        "constrained reinforcement learning",
+        "safe reinforcement learning"
+    ],
+    "one_line_summary": "这篇论文提出了一种在线路径规划算法，用于在未知环境中安全地自主操纵柔性约束物体，主要关注约束识别和刚度表征，与强化学习、VLA等关键词相关性较低。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-25T20:48:25Z",
+    "created_at": "2026-03-31T15:54:41.541848",
+    "updated_at": "2026-03-31T15:54:41.541854"
+}

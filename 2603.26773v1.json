@@ -1,0 +1,30 @@
+{
+    "id": "2603.26773v1",
+    "title": "Robot Arm Control via Cognitive Map Learners",
+    "authors": [
+        "Nathan McDonald",
+        "Colyn Seeley",
+        "Christian Brazeau"
+    ],
+    "abstract": "认知地图学习器已被证明能够实现层次化、组合式的机器学习。具体而言，经过独立训练的认知地图学习器模块可以任意组合，无需针对特定任务进行重新训练，即可解决更复杂的问题。本研究将这一方法应用于多关节机械臂的运动控制，其中每个臂段的角度位置由一个独立训练的认知地图学习器模块控制。在二维笛卡尔平面中，目标点通过分数幂编码被编码为相量超向量。随后，通过谐振网络或现代霍普菲尔德网络，将该相量超向量分解为一组臂段角度。这些臂段角度随后被输入到各自对应的臂段认知地图学习器模块中，从而在不使用逆运动学方程的情况下，将机械臂重新定位到目标点。本研究不仅提出了适用于任意数量臂段的二维机械臂的通用解决方案，还针对具有单个旋转基座的三维机械臂提出了特定解决方案。",
+    "url": "https://arxiv.org/abs/2603.26773v1",
+    "html_url": "https://arxiv.org/html/2603.26773v1",
+    "html_content": "",
+    "preview_text": "Cognitive map learners (CML) have been shown to enable hierarchical, compositional machine learning. That is, interpedently trained CML modules can be arbitrarily composed together to solve more complex problems without task-specific retraining. This work applies this approach to control the movement of a multi-jointed robot arm, whereby each arm segment's angular position is governed by an independently trained CML. Operating in a 2D Cartesian plane, target points are encoded as phasor hypervectors according to fractional power encoding (FPE). This phasor hypervector is then factorized into a set of arm segment angles either via a resonator network or a modern Hopfield network. These arm segment angles are subsequently fed to their respective arm segment CMLs, which reposition the robot arm to the target point without the use of inverse kinematic equations. This work presents both a general solution for both a 2D robot arm with an arbitrary number of arm segments and a particular solution for a 3D arm with a single rotating base.",
+    "is_relevant": true,
+    "relevance_score": 4.0,
+    "extracted_keywords": [
+        "whole body control",
+        "fine tune",
+        "world model"
+    ],
+    "one_line_summary": "该论文提出了一种基于认知地图学习器的机器人手臂控制方法，通过独立训练的模块实现分层组合学习，无需特定任务重训练，适用于2D和3D场景。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-24T16:39:07Z",
+    "created_at": "2026-03-31T15:53:39.903086",
+    "updated_at": "2026-03-31T15:53:39.903093"
+}

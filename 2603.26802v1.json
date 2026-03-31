@@ -1,0 +1,42 @@
+{
+    "id": "2603.26802v1",
+    "title": "Deep Learning Aided Vision System for Planetary Rovers",
+    "authors": [
+        "Lomash Relia",
+        "Jai G Singla",
+        "Amitabh",
+        "Nitant Dube"
+    ],
+    "abstract": "本研究提出了一种用于行星探测车的视觉系统，该系统结合了实时感知与离线地形重建功能。实时模块集成CLAHE增强的立体图像、基于YOLOv11n的目标检测以及用于估计目标距离的神经网络。离线模块采用Depth Anything V2度量单目深度估计模型，从采集图像生成深度图，并利用Open3D融合为稠密点云。实时流程提供的真实世界距离估计，为定性重建结果提供了可靠的度量依据。在月船三号导航相机立体图像上的评估显示，以CAHV标定工具为基准，神经网络在1至10米范围内的深度估计中位误差为2.26厘米。目标检测模型在灰度月球场景中保持了精度与召回率的平衡。该架构为自主行星探测提供了一种可扩展、计算高效的视觉解决方案。",
+    "url": "https://arxiv.org/abs/2603.26802v1",
+    "html_url": "https://arxiv.org/html/2603.26802v1",
+    "html_content": "",
+    "preview_text": "This study presents a vision system for planetary rovers, combining real-time perception with offline terrain reconstruction. The real-time module integrates CLAHE enhanced stereo imagery, YOLOv11n based object detection, and a neural network to estimate object distances. The offline module uses the Depth Anything V2 metric monocular depth estimation model to generate depth maps from captured images, which are fused into dense point clouds using Open3D. Real world distance estimates from the real time pipeline provide reliable metric context alongside the qualitative reconstructions. Evaluation on Chandrayaan 3 NavCam stereo imagery, benchmarked against a CAHV based utility, shows that the neural network achieves a median depth error of 2.26 cm within a 1 to 10 meter range. The object detection model maintains a balanced precision recall tradeoff on grayscale lunar scenes. This architecture offers a scalable, compute-efficient vision solution for autonomous planetary exploration.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "Vision-Language-Action Model",
+        "VLM",
+        "VLA",
+        "VLA for Robotics",
+        "Flow Matching",
+        "Diffusion",
+        "Inference Acceleration",
+        "Edge Deployment",
+        "fine tune",
+        "offline Reinforcement Learning",
+        "constrained reinforcement learning",
+        "safe reinforcement learning",
+        "goal conditioned reinforcement learning",
+        "world model"
+    ],
+    "one_line_summary": "该论文提出了一种用于行星探测车的视觉系统，结合实时感知和离线地形重建，但未涉及强化学习、VLA模型或相关高级技术。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-26T07:34:14Z",
+    "created_at": "2026-03-31T15:54:51.624616",
+    "updated_at": "2026-03-31T15:54:51.624622"
+}
