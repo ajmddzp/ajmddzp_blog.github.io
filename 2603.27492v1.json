@@ -1,0 +1,35 @@
+{
+    "id": "2603.27492v1",
+    "title": "Copilot-Assisted Second-Thought Framework for Brain-to-Robot Hand Motion Decoding",
+    "authors": [
+        "Yizhe Li",
+        "Shixiao Wang",
+        "Jian K. Liu"
+    ],
+    "abstract": "基于脑电图（EEG）的运动学预测是开发运动相关脑机接口（BCI）的重要研究领域。传统方法通常依赖卷积神经网络（CNN）或循环神经网络（RNN），而基于Transformer的模型在建模长序列EEG数据方面展现出强大能力。本研究提出一种CNN-注意力混合模型，用于在抓握任务中从EEG解码手部运动学，在受试者内实验中取得优异表现。我们进一步将该方法扩展至EEG-EMG多模态解码，结果获得显著提升。在拇指与食指中点轨迹的计算中，受试者内测试在X、Y、Z轴上分别达到0.9854、0.9946和0.9065的皮尔逊相关系数（PCC），而跨受试者测试结果分别为0.9643、0.9795和0.5852。两种模态的解码轨迹随后被用于在MuJoCo仿真环境中控制Franka Panda机械臂。为提升轨迹保真度，我们引入一种协同控制框架，通过有限状态机内基于运动状态感知的评判器过滤低置信度解码点。该后处理步骤在排除不足20%数据点的情况下，将纯EEG解码的受试者内整体PCC提升至0.93。",
+    "url": "https://arxiv.org/abs/2603.27492v1",
+    "html_url": "https://arxiv.org/html/2603.27492v1",
+    "html_content": "",
+    "preview_text": "Motor kinematics prediction (MKP) from electroencephalography (EEG) is an important research area for developing movement-related brain-computer interfaces (BCIs). While traditional methods often rely on convolutional neural networks (CNNs) or recurrent neural networks (RNNs), Transformer-based models have shown strong ability in modeling long sequential EEG data. In this study, we propose a CNN-attention hybrid model for decoding hand kinematics from EEG during grasp-and-lift tasks, achieving strong performance in within-subject experiments. We further extend this approach to EEG-EMG multimodal decoding, which yields substantially improved results. Within-subject tests achieve PCC values of 0.9854, 0.9946, and 0.9065 for the X, Y, and Z axes, respectively, computed on the midpoint trajectory between the thumb and index finger, while cross-subject tests result in 0.9643, 0.9795, and 0.5852. The decoded trajectories from both modalities are then used to control a Franka Panda robotic arm in a MuJoCo simulation. To enhance trajectory fidelity, we introduce a copilot framework that filters low-confidence decoded points using a motion-state-aware critic within a finite-state machine. This post-processing step improves the overall within-subject PCC of EEG-only decoding to 0.93 while excluding fewer than 20% of the data points.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "brain-computer interfaces",
+        "EEG",
+        "robotic arm",
+        "Transformer",
+        "CNN-attention hybrid model",
+        "multimodal decoding",
+        "trajectory decoding",
+        "post-processing"
+    ],
+    "one_line_summary": "该论文提出了一种基于脑电信号解码手部运动轨迹的混合模型，并用于机器人控制，但未涉及强化学习、VLA模型或相关关键词的核心技术。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-29T03:12:08Z",
+    "created_at": "2026-04-07T15:55:13.172674",
+    "updated_at": "2026-04-07T15:55:13.172684"
+}

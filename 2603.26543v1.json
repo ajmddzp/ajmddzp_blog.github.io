@@ -1,0 +1,39 @@
+{
+    "id": "2603.26543v1",
+    "title": "User Involvement in Robotic Wheelchair Development: A Decade of Limited Progress",
+    "authors": [
+        "Mario Andres Chavarria",
+        "Santiago Price Torrendell",
+        "Aude Billard",
+        "Samia Hurst",
+        "Sébastien Kessler",
+        "Michael Stein",
+        "Kenji Suzuki",
+        "Sophie Weerts",
+        "Diego Paez-Granados",
+        "Minerva Rivas Velarde"
+    ],
+    "abstract": "机器人轮椅（RWs）在提升行动不便人士的自主性与社会参与度方面具有巨大潜力，但许多系统未能实现长期的实际应用。本文通过叙事性文献综述，考察了过去十年（2015-2025年）终端用户在机器人轮椅设计、开发与评估中的参与程度和质量，并依据主流用户参与方法（如用户/人本设计、参与式/协同设计及包容性设计）的核心原则进行评估。研究发现，用户参与仍然有限，且主要集中在后期评估阶段，而非早期的需求定义或迭代式协同设计。在筛选的399篇文献中，仅23项研究（约6%）符合可验证的终端用户参与标准，且多数研究样本量较小（通常约10名参与者），对样本量选择、代理用户使用、实验室验证及非标准化反馈方法的合理性论证不足。研究团队主要由工程领域主导（约89%），且地理分布集中于高收入国家。尽管有充分证据表明，持续的用户参与能提升辅助技术的可用性与采纳度，但在机器人轮椅研究中系统性地实施用户参与仍属罕见。推动该领域发展需要在设计全周期中嵌入参与式方法，并解决制约实质性用户参与的系统性障碍。",
+    "url": "https://arxiv.org/abs/2603.26543v1",
+    "html_url": "https://arxiv.org/html/2603.26543v1",
+    "html_content": "",
+    "preview_text": "Robotic wheelchairs (RWs) offer significant potential to enhance autonomy and participation for people with mobility impairments, yet many systems have failed to achieve sustained real-world adoption. This narrative literature review examined the extent and quality of end-user involvement in RW design, development, and evaluation over the past decade (2015--2025), assessed against core principles shared by major user-involvement approaches (e.g., user-/human-centered design, participatory/co-design, and inclusive design). The findings indicate that user involvement remains limited and is predominantly concentrated in late-stage evaluation rather than in early requirements definition or iterative co-design. Of the 399 records screened, only 23 studies (about 6%) met the inclusion criteria of verifiable end-user involvement, and many relied on small samples, often around ten participants, with limited justification for sample size selection, proxy users, laboratory-based validation, and non-standardized feedback methods. Research teams were largely engineering-dominated (about 89%) and geographically concentrated in high-income countries. Despite strong evidence that sustained user engagement improves usability and adoption in assistive technology, its systematic implementation in RW research remains rare. Advancing the field requires embedding participatory methodologies throughout the design lifecycle and addressing systemic barriers that constrain meaningful user involvement.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [
+        "robotic wheelchairs",
+        "user involvement",
+        "participatory design",
+        "assistive technology",
+        "literature review"
+    ],
+    "one_line_summary": "这篇论文回顾了过去十年中用户参与机器人轮椅开发的情况，发现用户参与度有限且主要集中在后期评估，而非早期设计阶段。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-27T15:51:48Z",
+    "created_at": "2026-04-07T15:54:34.972050",
+    "updated_at": "2026-04-07T15:54:34.972059"
+}
