@@ -1,0 +1,29 @@
+{
+    "id": "2604.01034v1",
+    "title": "Stein Variational Uncertainty-Adaptive Model Predictive Control",
+    "authors": [
+        "Hrishikesh Sathyanarayan",
+        "Ian Abraham"
+    ],
+    "abstract": "我们提出一种针对具有潜在参数不确定性的非线性动力系统的斯坦因变分分布鲁棒控制器。该方法替代了传统的保守最坏情况模糊集优化，通过基于粒子的确定性近似来表征任务相关的不确定性分布，使控制器能够聚焦于对闭环性能影响最显著的参数敏感性。我们的方法通过将最优控制与斯坦因变分推断相结合，生成对潜在参数不确定性具有鲁棒性的控制器，在保持计算并行性的同时避免了对不确定性模型的限制性参数假设。与可能因最坏情况设计而牺牲标称性能的经典分布鲁棒优化不同，本方法通过围绕对任务目标最关键的相关不确定性构建控制律来实现鲁棒性。因此，所提出的框架在单一决策理论表述中，为具有参数不确定性的广泛控制系统类别统一了鲁棒控制与变分推断。我们在典型控制问题上验证了该方法，实验结果表明其相较于标称控制、集成控制及经典分布鲁棒基线方法，在性能与鲁棒性的权衡方面取得了显著提升。",
+    "url": "https://arxiv.org/abs/2604.01034v1",
+    "html_url": "https://arxiv.org/html/2604.01034v1",
+    "html_content": "",
+    "preview_text": "We propose a Stein variational distributionally robust controller for nonlinear dynamical systems with latent parametric uncertainty. The method is an alternative to conservative worst-case ambiguity-set optimization with a deterministic particle-based approximation of a task-dependent uncertainty distribution, enabling the controller to concentrate on parameter sensitivities that most strongly affect closed-loop performance. Our method yields a controller that is robust to latent parameter uncertainty by coupling optimal control with Stein variational inference, and avoiding restrictive parametric assumptions on the uncertainty model while preserving computational parallelism. In contrast to classical DRO, which can sacrifice nominal performance through worst-case design, we find our approach achieves robustness by shaping the control law around relevant uncertainty that are most critical to the task objective. The proposed framework therefore reconciles robust control and variational inference in a single decision-theoretic formulation for broad classes of control systems with parameter uncertainty. We demonstrate our approach on representative control problems that empirically illustrate improved performance-robustness tradeoffs over nominal, ensemble, and classical distributionally robust baselines.",
+    "is_relevant": true,
+    "relevance_score": 4.0,
+    "extracted_keywords": [
+        "constrained reinforcement learning",
+        "safe reinforcement learning",
+        "world model"
+    ],
+    "one_line_summary": "该论文提出了一种基于Stein变分推理的分布鲁棒模型预测控制方法，用于处理非线性动态系统中的潜在参数不确定性，旨在平衡性能与鲁棒性。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-01T15:43:48Z",
+    "created_at": "2026-04-14T15:53:51.171137",
+    "updated_at": "2026-04-14T15:53:51.171145"
+}

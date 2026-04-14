@@ -1,0 +1,33 @@
+{
+    "id": "2604.00364v1",
+    "title": "Implicit Primal-Dual Interior-Point Methods for Quadratic Programming",
+    "authors": [
+        "Jon Arrizabalaga",
+        "Zachary Manchester"
+    ],
+    "abstract": "本文提出了一种利用原对偶内点法求解二次规划问题的新方法。与传统方法将互补性作为卡鲁什-库恩-塔克（KKT）条件中的显式方程处理不同，我们通过构造确保互补性被隐式满足。这一目标通过引入辅助变量，并借助回缩映射将其与对偶变量及松弛变量相关联而实现。特别地，我们证明了相较于常用的指数映射，softplus函数具有更优越的数值特性。由此得到的KKT系统被证明具有谱有界性，从而消除了原对偶方法最突出的局限性：在解附近出现病态条件。这些特性有助于基础线性系统的求解，既可通过避免每次迭代都进行矩阵分解来实现无分解解法（如间接求解器），也能使求解器在低精度算术运算下达到高精度。因此，这一新颖视角为内点法开辟了新的可能性，尤其为大规模问题的高精度求解提供了新途径。",
+    "url": "https://arxiv.org/abs/2604.00364v1",
+    "html_url": "https://arxiv.org/html/2604.00364v1",
+    "html_content": "",
+    "preview_text": "This paper introduces a new method for solving quadratic programs using primal-dual interior-point methods. Instead of handling complementarity as an explicit equation in the Karush-Kuhn-Tucker (KKT) conditions, we ensure that complementarity is implicitly satisfied by construction. This is achieved by introducing an auxiliary variable and relating it to the duals and slacks via a retraction map. Specifically, we prove that the softplus function has favorable numerical properties compared to the commonly used exponential map. The resulting KKT system is guaranteed to be spectrally bounded, thereby eliminating the most pressing limitation of primal-dual methods: ill-conditioning near the solution. These attributes facilitate the solution of the underlying linear system, either by removing the need to compute factorizations at every iteration, enabling factorization-free approaches like indirect solvers, or allowing the solver to achieve high accuracy in low-precision arithmetic. Consequently, this novel perspective opens new opportunities for interior-point methods, especially for solving large-scale problems to high precision.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [
+        "primal-dual interior-point methods",
+        "quadratic programming",
+        "KKT conditions",
+        "softplus function",
+        "spectral boundedness",
+        "ill-conditioning",
+        "large-scale problems"
+    ],
+    "one_line_summary": "本文提出了一种基于隐式互补性的原对偶内点法，用于解决二次规划问题，通过软加函数改善数值稳定性，适用于大规模高精度求解。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-01T01:21:39Z",
+    "created_at": "2026-04-14T15:53:26.749819",
+    "updated_at": "2026-04-14T15:53:26.749826"
+}

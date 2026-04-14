@@ -1,0 +1,31 @@
+{
+    "id": "2603.29272v2",
+    "title": "MaskAdapt: Learning Flexible Motion Adaptation via Mask-Invariant Prior for Physics-Based Characters",
+    "authors": [
+        "Soomin Park",
+        "Eunseong Lee",
+        "Kwang Bin Lee",
+        "Sung-Hee Lee"
+    ],
+    "abstract": "我们提出了MaskAdapt框架，用于实现基于物理的人形控制器灵活运动适应。该框架采用两阶段残差学习范式：第一阶段通过随机身体部位掩蔽和正则化项训练掩码不变的基础策略，该正则化项强制不同掩蔽条件下的动作分布保持一致，从而形成稳健的运动先验，在观测缺失情况下保持稳定，并为后续这些区域的适应预留空间；第二阶段在冻结的基础控制器之上训练残差策略，仅修改目标身体部位，同时保持其他部位的原始行为。我们通过两个应用展示了该设计的通用性：（一）运动合成——通过变化掩码实现在单一序列中进行多部位适应；（二）文本驱动的局部目标跟踪——指定身体部位遵循预训练文本条件自回归运动生成器提供的运动学目标。实验表明，MaskAdapt展现出强大的鲁棒性和适应性，在掩蔽观测下能生成多样化行为，并在目标运动适应方面优于现有方法。",
+    "url": "https://arxiv.org/abs/2603.29272v2",
+    "html_url": "https://arxiv.org/html/2603.29272v2",
+    "html_content": "",
+    "preview_text": "We present MaskAdapt, a framework for flexible motion adaptation in physics-based humanoid control. The framework follows a two-stage residual learning paradigm. In the first stage, we train a mask-invariant base policy using stochastic body-part masking and a regularization term that enforces consistent action distributions across masking conditions. This yields a robust motion prior that remains stable under missing observations, anticipating later adaptation in those regions. In the second stage, a residual policy is trained atop the frozen base controller to modify only the targeted body parts while preserving the original behaviors elsewhere. We demonstrate the versatility of this design through two applications: (i) motion composition, where varying masks enable multi-part adaptation within a single sequence, and (ii) text-driven partial goal tracking, where designated body parts follow kinematic targets provided by a pre-trained text-conditioned autoregressive motion generator. Through experiments, MaskAdapt demonstrates strong robustness and adaptability, producing diverse behaviors under masked observations and delivering superior targeted motion adaptation compared to prior work.",
+    "is_relevant": true,
+    "relevance_score": 4.0,
+    "extracted_keywords": [
+        "locomotion",
+        "whole body control",
+        "fine tune"
+    ],
+    "one_line_summary": "MaskAdapt是一个基于物理的人形控制框架，通过两阶段残差学习实现灵活的运动适应，包括运动组合和文本驱动的部分目标跟踪。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-31T05:13:47Z",
+    "created_at": "2026-04-14T15:53:09.594818",
+    "updated_at": "2026-04-14T15:53:09.594825"
+}

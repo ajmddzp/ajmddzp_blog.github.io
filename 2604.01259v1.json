@@ -1,0 +1,33 @@
+{
+    "id": "2604.01259v1",
+    "title": "Bench2Drive-VL: Benchmarks for Closed-Loop Autonomous Driving with Vision-Language Models",
+    "authors": [
+        "Xiaosong Jia",
+        "Yuqian Shao",
+        "Zhenjie Yang",
+        "Qifeng Li",
+        "Zhiyuan Zhang",
+        "Junchi Yan"
+    ],
+    "abstract": "随着视觉语言模型（VLM）的兴起，其在自动驾驶领域的应用（VLM4AD）受到广泛关注。与此同时，在自动驾驶领域，闭环评估因其能够评估模型在累积误差和分布外输入下的性能，已被普遍认为比开环评估更可靠。然而，现有的VLM4AD基准测试仅通过静态问答数据集在开环环境下评估模型的场景理解能力。这类评估无法衡量VLM在人类采集数据集中极少出现的分布外状态下的表现。\n\n为此，我们提出了Bench2Drive-VL，作为Bench2Drive的扩展，将闭环评估引入基于VLM的驾驶系统。该框架包含以下创新：（1）DriveCommenter——一种闭环生成器，能够为CARLA模拟环境中的所有驾驶场景自动生成多样化且基于行为的问答对，包括以往在仿真中无法评估的严重偏离路线和道路的情况。（2）统一的协议与接口，允许现代VLM直接接入Bench2Drive闭环环境，与传统智能体进行对比。（3）灵活的推理与控制框架，支持多格式视觉输入和可配置的基于图的思维链执行。（4）完整的开发生态系统。这些组件共同构成了面向VLM4AD的综合性闭环基准测试平台。所有代码与标注数据集均已开源。",
+    "url": "https://arxiv.org/abs/2604.01259v1",
+    "html_url": "https://arxiv.org/html/2604.01259v1",
+    "html_content": "",
+    "preview_text": "With the rise of vision-language models (VLM), their application for autonomous driving (VLM4AD) has gained significant attention. Meanwhile, in autonomous driving, closed-loop evaluation has become widely recognized as a more reliable validation method than open-loop evaluation, as it can evaluate the performance of the model under cumulative errors and out-of-distribution inputs. However, existing VLM4AD benchmarks evaluate the model`s scene understanding ability under open-loop, i.e., via static question-answer (QA) dataset. This kind of evaluation fails to assess the VLMs performance under out-of-distribution states rarely appeared in the human collected datasets.To this end, we present Bench2Drive-VL, an extension of Bench2Drive that brings closed-loop evaluation to VLM-based driving, which introduces: (1) DriveCommenter, a closed-loop generator that automatically generates diverse, behavior-grounded question-answer pairs for all driving situations in CARLA,including severe off-route and off-road deviations previously unassessable in simulation. (2) A unified protocol and interface that allows modern VLMs to be directly plugged into the Bench2Drive closed-loop environment to compare with traditional agents. (3) A flexible reasoning and control framework, supporting multi-format visual inputs and configurable graph-based chain-of-thought execution. (4) A complete development ecosystem. Together, these components form a comprehensive closed-loop benchmark for VLM4AD. All codes and annotated datasets are open sourced.",
+    "is_relevant": true,
+    "relevance_score": 4.0,
+    "extracted_keywords": [
+        "VLM",
+        "Vision-Language-Action Model",
+        "VLA for Robotics"
+    ],
+    "one_line_summary": "该论文提出了一个用于自动驾驶的闭环评估基准Bench2Drive-VL，专注于视觉语言模型在驾驶场景中的应用，但与强化学习、动作控制等关键词的直接关联较弱。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-01T11:38:46Z",
+    "created_at": "2026-04-14T15:53:44.815267",
+    "updated_at": "2026-04-14T15:53:44.815274"
+}

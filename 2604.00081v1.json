@@ -1,0 +1,26 @@
+{
+    "id": "2604.00081v1",
+    "title": "Beyond Symbolic Control: Societal Consequences of AI-Driven Workforce Displacement and the Imperative for Genuine Human Oversight Architectures",
+    "authors": [
+        "Richard J. Mitchell"
+    ],
+    "abstract": "人工智能与机器人系统对人类劳动的加速替代，是一场结构性变革，其社会影响远超传统劳动力市场分析的范畴。本文通过系统性跨领域研究，探讨了该趋势对经济结构、心理健康、政治稳定、教育体系、医疗系统及地缘政治秩序可能产生的影响。我们揭示了这一转型过程中一个关键却未被充分审视的维度：名义上的人类监督（即人类在形式上拥有对AI决策的权威）与真正的人类监督（监督者具备理解、评估及否决AI输出的认知途径、技术能力与制度性权力）之间存在治理鸿沟。我们认为，这一被当前治理框架（包括欧盟《人工智能法案》与美国国家标准与技术研究院《人工智能风险管理框架1.0》）普遍忽视的差异，构成了已部署AI治理体系中的根本性架构缺陷。劳动力替代的社会后果加剧了这一问题——具有重大影响的AI决策权正日益集中于少数技术精英与资本持有者手中。我们提出了实现真正人类监督的五项架构要求，并界定了约10-15年的治理窗口期：若延续当前部署路径，社会、经济与制度或将陷入难以逆转的路径依赖困境。",
+    "url": "https://arxiv.org/abs/2604.00081v1",
+    "html_url": "https://arxiv.org/html/2604.00081v1",
+    "html_content": "",
+    "preview_text": "The accelerating displacement of human labor by artificial intelligence (AI) and robotic systems represents a structural transformation whose societal consequences extend far beyond conventional labor market analysis. This paper presents a systematic multi-domain examination of the likely effects on economic structure, psychological well-being, political stability, education, healthcare, and geopolitical order. We identify a critical and underexamined dimension of this transition: the governance gap between nominal human oversight of AI systems -- where humans occupy positions of formal authority over AI decisions -- and genuine human oversight, where those humans possess the cognitive access, technical capability, and institutional authority to meaningfully understand, evaluate, and override AI outputs. We argue that this distinction, largely absent from current governance frameworks including the EU AI Act and NIST AI Risk Management Framework 1.0, represents the primary architectural failure mode in deployed AI governance. The societal consequences of labor displacement intensify this problem by concentrating consequential AI decision-making among an increasingly narrow class of technical and capital actors. We propose five architectural requirements for genuine human oversight systems and characterize the governance window -- estimated at 10-15 years -- before current deployment trajectories risk path-dependent social, economic, and institutional lock-in.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "❌ healthcare"
+    ],
+    "one_line_summary": "论文包含负面关键词「healthcare」，自动标记为不相关",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-03-31T17:25:44Z",
+    "created_at": "2026-04-14T15:53:21.075958",
+    "updated_at": "2026-04-14T15:53:21.075964"
+}

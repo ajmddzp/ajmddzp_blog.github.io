@@ -1,0 +1,29 @@
+{
+    "id": "2604.00350v1",
+    "title": "Go Big or Go Home: Simulating Mobbing Behavior with Braitenbergian Robots",
+    "authors": [
+        "Elaheh Sanoubari"
+    ],
+    "abstract": "我们利用Webots机器人仿真平台，模拟了一组布雷顿伯格机器人在面对捕食者时的协同躲避与围攻行为。围攻是某些动物为抵御捕食者演化出的适应性行为，个体会通过协作攻击或骚扰捕食者以实现自我保护。协调围攻行为的一种方式是发出围攻叫声，以召集同物种的其他个体。我们模仿这一机制，模拟了布雷顿伯格机器人在面对光源（代表无生命的捕食者）时发出围攻叫声的行为：若能召集同伴则实施围攻，否则选择逃离。本研究探讨了围攻叫声的传播范围（无限范围、中距离范围和近距离范围）以及机器人群体规模（十台机器人与三台机器人）对围攻整体成功率的影响。结果表明，这两个变量均具有显著影响。本研究成果对人工生命的行为选择仿真及自主智能体的控制架构设计具有参考价值。",
+    "url": "https://arxiv.org/abs/2604.00350v1",
+    "html_url": "https://arxiv.org/html/2604.00350v1",
+    "html_content": "",
+    "preview_text": "We used the Webots robotics simulation platform to simulate a dyadic avoiding and mobbing predator behavior in a group of Braitenbergian robots. Mobbing is an antipredator adaptation used by some animals in which the individuals cooperatively attack or harass a predator to protect themselves. One way of coordinating a mobbing attack is using mobbing calls to summon other individuals of the mobbing species. We imitated this mechanism and simulated Braitenbergian robots that use mobbing calls when they face a light source (representing an inanimate predator) and mob it if they can summon allies, otherwise, they escape from it. We explore the effects of range of mobbing call (infinite range, mid-range and low-range) and the size of the robot group (ten robots vs three) on the overall success of mobbing. Our results suggest that both variables have significant impacts. This work has implications for simulations of action selection in artificial life and designing control architectures for autonomous agents.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "simulation",
+        "robotics",
+        "control architectures",
+        "artificial life"
+    ],
+    "one_line_summary": "这篇论文使用Webots平台模拟Braitenbergian机器人的群体躲避和围攻捕食者行为，探讨了围攻呼叫范围和机器人群体大小对围攻成功率的影响，与强化学习、VLA等关键词基本无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-01T00:56:50Z",
+    "created_at": "2026-04-14T15:53:25.666627",
+    "updated_at": "2026-04-14T15:53:25.666633"
+}

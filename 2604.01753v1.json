@@ -1,0 +1,35 @@
+{
+    "id": "2604.01753v1",
+    "title": "Analysis of Efficient Transmission Methods of Grid Maps for Intelligent Vehicles",
+    "authors": [
+        "Robin Dehler",
+        "Dominik Authaler",
+        "Aryan Thakur",
+        "Thomas Wodtko",
+        "Michael Buchholz"
+    ],
+    "abstract": "栅格地图是智能车辆或机器人环境建模的基础方法。与基于对象的环境建模相比，栅格地图具有无需对物体类型或形状等属性进行任何假设即可表征环境的显著优势。在基于栅格地图的方法中，环境被划分为若干单元，每个单元包含其对应区域的信息（如占用状态）。这种对整体环境的表征对于实现更高层级的自动驾驶至关重要，但其缺陷在于：以单元级精度建模场景会导致数据量固有庞大。分块栅格地图通过调整特定区域的单元尺寸，在一定程度上缓解了这一问题。然而，对于新型分布式处理架构或车联网应用而言，分块栅格地图的数据量仍然过大。本研究基于分块栅格地图方法，从通信视角探讨数据规模问题，提出一种融合现有压缩算法的分块通信管道，以实现栅格地图数据的高效传输。我们针对车内通信和车联网通信场景对该管道进行了全面分析，并通过两种真实实验设置验证了分析结果。最后，本文总结了智能交通系统中栅格地图数据高效传输的推荐准则。",
+    "url": "https://arxiv.org/abs/2604.01753v1",
+    "html_url": "https://arxiv.org/html/2604.01753v1",
+    "html_content": "",
+    "preview_text": "Grid mapping is a fundamental approach to modeling the environment of intelligent vehicles or robots. Compared with object-based environment modeling, grid maps offer the distinct advantage of representing the environment without requiring any assumptions about objects, such as type or shape. For grid-map-based approaches, the environment is divided into cells, each containing information about its respective area, such as occupancy. This representation of the entire environment is crucial for achieving higher levels of autonomy. However, it has the drawback that modeling the scene at the cell level results in inherently large data sizes. Patched grid maps tackle this issue to a certain extent by adapting cell sizes in specific areas. Nevertheless, the data sizes of patched grid maps are still too large for novel distributed processing setups or vehicle-to-everything (V2X) applications. Our work builds on a patch-based grid-map approach and investigates the size problem from a communication perspective. To address this, we propose a patch-based communication pipeline that leverages existing compression algorithms to transmit grid-map data efficiently. We provide a comprehensive analysis of this pipeline for both intra-vehicle and V2X-based communication. The analysis is verified for these use cases with two real-world experiment setups. Finally, we summarize recommended guidelines for the efficient transmission of grid-map data in intelligent transportation systems.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [
+        "Grid Maps",
+        "Intelligent Vehicles",
+        "Communication",
+        "Compression",
+        "V2X",
+        "Data Transmission"
+    ],
+    "one_line_summary": "该论文研究智能车辆中网格地图的高效传输方法，通过基于补丁的通信管道和压缩算法优化数据传输，与强化学习、VLA等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-02T08:19:19Z",
+    "created_at": "2026-04-14T15:54:30.079605",
+    "updated_at": "2026-04-14T15:54:30.079612"
+}

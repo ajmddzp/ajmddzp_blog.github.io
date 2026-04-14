@@ -1,0 +1,28 @@
+{
+    "id": "2604.00343v1",
+    "title": "Real Time Local Wind Inference for Robust Autonomous Navigation",
+    "authors": [
+        "Spencer Folk"
+    ],
+    "abstract": "本论文提出了一种解决方案，使空中机器人能够利用机载传感器和嵌入式飞行硬件实时感知周围风流场。本研究的核心创新在于融合距离测量与稀疏原位风场测量数据，以预测周边流场分布。我们致力于回答两个基本问题：其一，在密集城市环境中地形数据是否足以实现精确的风场预测；其二，学习型风场模型在运动规划中的应用价值，重点关注能量效率与障碍物规避。通过融合深度学习、流体力学和最优控制等领域的工具，我们构建了基于导航激光雷达的局部风场预测框架，并将局部风场先验模型纳入滚动时域最优控制器，以研究局部风场认知如何影响自主导航过程中的能量消耗与系统鲁棒性。通过在多样化城市风场场景中的仿真验证，我们评估了风场预测器的性能，并量化了将局部风场信息融入运动规划后对城市自主导航坠毁率与能耗指标的改善效果。露天风洞中的亚尺度自由飞行实验表明，这些算法可在嵌入式飞行计算机上实时运行，其带宽足以实现对小型空中机器人的稳定控制。从理念层面，本论文为未知风场环境中的局部风场推断与运动规划贡献了新范式。通过使机器人在无需先验环境知识的情况下快速评估局部风况，这项研究推动了空中机器人向更具挑战性环境的应用拓展。",
+    "url": "https://arxiv.org/abs/2604.00343v1",
+    "html_url": "https://arxiv.org/html/2604.00343v1",
+    "html_content": "",
+    "preview_text": "This thesis presents a solution that enables aerial robots to reason about surrounding wind flow fields in real time using on board sensors and embedded flight hardware. The core novelty of this research is the fusion of range measurements with sparse in situ wind measurements to predict surrounding flow fields. We aim to address two fundamental questions: first, the sufficiency of topographical data for accurate wind prediction in dense urban environments; and second, the utility of learned wind models for motion planning with an emphasis on energy efficiency and obstacle avoidance. Drawing on tools from deep learning, fluid mechanics, and optimal control, we establish a framework for local wind prediction using navigational LiDAR, and then incorporate local wind model priors into a receding-horizon optimal controller to study how local wind knowledge affects energy use and robustness during autonomous navigation. Through simulated demonstrations in diverse urban wind scenarios we evaluate the predictive capabilities of the wind predictor, and quantify improvements to autonomous urban navigation in terms of crash rates and energy consumption when local wind information is integrated into the motion planning. Sub-scale free flight experiments in an open-air wind tunnel demonstrate that these algorithms can run in real time on an embedded flight computer with sufficient bandwidth for stable control of a small aerial robot. Philosophically, this thesis contributes a new paradigm for localized wind inference and motion planning in unknown windy environments. By enabling robots to rapidly assess local wind conditions without prior environmental knowledge, this research accelerates the introduction of aerial robots into increasingly challenging environments.",
+    "is_relevant": false,
+    "relevance_score": 2.0,
+    "extracted_keywords": [
+        "motion planning",
+        "optimal control",
+        "deep learning"
+    ],
+    "one_line_summary": "这篇论文提出了一种基于机载传感器和嵌入式硬件的实时局部风场推断方法，用于增强空中机器人在城市环境中的自主导航鲁棒性和能效。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-01T00:35:54Z",
+    "created_at": "2026-04-14T15:53:25.454005",
+    "updated_at": "2026-04-14T15:53:25.454012"
+}
