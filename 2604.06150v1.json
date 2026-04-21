@@ -1,0 +1,36 @@
+{
+    "id": "2604.06150v1",
+    "title": "Delta6: A Low-Cost, 6-DOF Force-Sensing Flexible End-Effector",
+    "authors": [
+        "Yue Feng",
+        "Weicheng Huang",
+        "Chen Qiu",
+        "Huixu Dong",
+        "I-Ming Chen"
+    ],
+    "abstract": "本文介绍了Delta6，一种低成本、六自由度力/力矩末端执行器，它结合了对抗弹簧与磁编码器，在保持如平板家具般简易组装的同时，实现了精确的力/力矩传感。该全3D打印原型完全采用现成部件组装，可承受每轴峰值力超过±14.4N和±0.33N·m的力矩；通过利用提出的参数化分析模型，这些极限值还可进一步提升。未经校准时，Delta6的全量程误差第99百分位数为7%。采用轻量级序列模型后，最佳性能网络将误差降低至全量程的3.8%。在多计算平台上的基准测试证实，该设备带宽可调，能在更新速率、精度和成本之间实现平衡权衡，而耐久性、热漂移和零校准测试则验证了其鲁棒性。将Delta6安装在由力-阻抗控制器驱动的机械臂上后，系统成功完成了两项高接触性任务：曲面抛光和紧密装配。实验验证了该设计的有效性，表明Delta6是现有六维力传感方案的一种鲁棒且低成本的替代选择。开源地址：https://wings-robotics.github.io/delta6。",
+    "url": "https://arxiv.org/abs/2604.06150v1",
+    "html_url": "https://arxiv.org/html/2604.06150v1",
+    "html_content": "",
+    "preview_text": "This paper presents Delta6, a low-cost, six-degree-of-freedom (6-DOF) force/torque end-effector that combines antagonistic springs with magnetic encoders to deliver accurate wrench sensing while remaining as simple to assemble as flat-pack furniture. A fully 3D-printed prototype, assembled entirely from off-the-shelf parts, withstands peak forces above +/-14.4 N and torques of +/-0.33 N.m per axis; these limits can be further extended by leveraging the proposed parametric analytical model. Without calibration, Delta6 attains a 99th-percentile error of 7% full scale (FS). With lightweight sequence models, the error is reduced to 3.8% FS by the best-performing network. Benchmarks on multiple computing platforms confirm that the device's bandwidth is adjustable, enabling balanced trade-offs among update rate, accuracy, and cost, while durability, thermal drift, and zero-calibration tests confirm its robustness. With Delta6 mounted on a robot arm governed by a force-impedance controller, the system successfully performs two contact-rich tasks: buffing curved surfaces and tight assemblies. Experiments validate the design, showing that Delta6 is a robust, low-cost alternative to existing 6-DOF force sensing solutions. Open-source site: https://wings-robotics.github.io/delta6 .",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "force sensing",
+        "end-effector",
+        "low-cost",
+        "6-DOF",
+        "robotics",
+        "impedance control",
+        "contact-rich tasks"
+    ],
+    "one_line_summary": "Delta6是一种低成本、六自由度力/力矩传感柔性末端执行器，通过拮抗弹簧和磁编码器实现精确力感知，适用于机器人接触密集型任务。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-07T17:52:32Z",
+    "created_at": "2026-04-21T15:55:23.933820",
+    "updated_at": "2026-04-21T15:55:23.933828"
+}

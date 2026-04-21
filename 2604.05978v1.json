@@ -1,0 +1,30 @@
+{
+    "id": "2604.05978v1",
+    "title": "Automating Manual Tasks through Intuitive Robot Programming and Cognitive Robotics",
+    "authors": [
+        "Bijan Kavousian",
+        "Petar Tesic",
+        "Oliver Petrovic",
+        "Christian Brecher"
+    ],
+    "abstract": "本文提出了一种新颖的机器人直觉式终端用户编程概念，其灵感来源于人类间的自然交互。通过大型语言模型和计算机视觉技术，自然语言及辅助性手势被转化为机器人可执行的程序。系统通过澄清式提问与可视化呈现等同样自然的反馈形式，使用户能够审查并调整生成程序，从而确保安全性、透明度与用户接受度。",
+    "url": "https://arxiv.org/abs/2604.05978v1",
+    "html_url": "https://arxiv.org/html/2604.05978v1",
+    "html_content": "",
+    "preview_text": "This paper presents a novel concept for intuitive end-user programming of robots, inspired by natural interaction between humans. Natural language and supportive gestures are translated into robot programs using large language models (LLMs) and computer vision (CV). Through equally natural system feedback in the form of clarification questions and visual representations, the generated program can be reviewed and adjusted, thereby ensuring safety, transparency, and user acceptance.",
+    "is_relevant": false,
+    "relevance_score": 2.0,
+    "extracted_keywords": [
+        "VLM",
+        "fine tune"
+    ],
+    "one_line_summary": "这篇论文提出了一种基于自然语言和手势的直观机器人编程方法，利用大语言模型和计算机视觉，但未直接涉及强化学习、全身控制或加速推理等关键词。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-07T15:08:20Z",
+    "created_at": "2026-04-21T15:54:51.904259",
+    "updated_at": "2026-04-21T15:54:51.904265"
+}

@@ -1,0 +1,26 @@
+{
+    "id": "2604.06073v1",
+    "title": "Intuitive Human-Robot Interaction: Development and Evaluation of a Gesture-Based User Interface for Object Selection",
+    "authors": [
+        "Bijan Kavousian",
+        "Oliver Petrovic",
+        "Werner Herfs"
+    ],
+    "abstract": "手势是人类之间自然的交流方式，也可用于人机交互。本研究提出了一种基于手势的用户界面，通过指向与点击动作实现物体选择。一项包含20名参与者的实验评估了该界面的准确性与选择耗时，结果证明了其在高效协作方面的应用潜力。",
+    "url": "https://arxiv.org/abs/2604.06073v1",
+    "html_url": "https://arxiv.org/html/2604.06073v1",
+    "html_content": "",
+    "preview_text": "Gestures are a natural form of communication between humans and can also be leveraged for human-robot interaction. This work presents a gesture-based user interface for object selection using pointing and click gestures. An experiment with 20 participants evaluates accuracy and selection time, demonstrating the potential for efficient collaboration.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "这篇论文研究基于手势的人机交互界面，用于对象选择，与强化学习、VLA模型、机器人控制等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-07T16:52:59Z",
+    "created_at": "2026-04-21T15:55:14.207877",
+    "updated_at": "2026-04-21T15:55:14.207886"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "2604.05610v1",
+    "title": "Control Architecture and experimental validation of a Novel Surgical Robotic Instrument",
+    "authors": [
+        "Doina Pisla",
+        "Ionut Zima",
+        "Calin Vaida",
+        "Andrei Cailean",
+        "Marius Miclaus",
+        "Adrian Pisla",
+        "Andrei Caprariu",
+        "Vasile Bulbucan",
+        "Bogdan Gherman",
+        "Damien Chablat"
+    ],
+    "abstract": "微创手术（MIS）能减轻患者创伤并缩短恢复时间，但传统腹腔镜器械仍受限于活动范围不足。本研究提出一种四自由度柔性腹腔镜器械的控制架构，该器械集成了末端弯曲、独立末端头旋转、轴体旋转及夹持功能，同时保持10毫米直径以兼容标准套管针。驱动单元与SpaceMouse遥操作通过Raspberry Pi 5平台结合Motoron控制器实现。研究推导并参数化了一种解析式剪刀连杆模型，其预测的钳口开合角度与CAD测量结果（平均绝对误差0.13°）及OptiTrack运动捕捉数据（平均绝对误差1.43°）相符。通过与ATHENA并联机器人集成，在模拟胰腺手术流程中验证了系统的有效性。",
+    "url": "https://arxiv.org/abs/2604.05610v1",
+    "html_url": "https://arxiv.org/html/2604.05610v1",
+    "html_content": "",
+    "preview_text": "Minimally invasive surgery (MIS) reduces patient trauma and shortens recovery time; however, conventional laparoscopic instruments remain constrained by limited range of movements. This work presents the control architecture of a 4-DOF flexible laparoscopic instrument integrating distal bending, independent distal head rotation, shaft rotation, and a gripper, while maintaining a 10 mm diameter compatible with standard trocars. The actuation unit and SpaceMouse teleoperation are implemented on Raspberry Pi 5 with Motoron controllers. An analytical scissor-linkage model is derived and parameterized. The predicted jaw opening corresponds to CAD measurements (MAE 0.13{\\textdegree}) and OptiTrack motion capture (MAE 1.43{\\textdegree}). Integration with the ATHENA parallel robot is validated through a simulated pancreatic surgery procedure.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "这篇论文介绍了一种新型手术机器人仪器的控制架构和实验验证，专注于机械设计、建模和集成，与强化学习、VLA、运动控制等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-07T09:00:59Z",
+    "created_at": "2026-04-21T15:54:04.678509",
+    "updated_at": "2026-04-21T15:54:04.678516"
+}

@@ -1,0 +1,30 @@
+{
+    "id": "2604.05272v1",
+    "title": "Final Report, Center for Computer-Integrated Computer-Integrated Surgical Systems and Technology, NSF ERC Cooperative Agreement EEC9731748, Volume 1",
+    "authors": [
+        "Russell H. Taylor",
+        "Gregory D. Hager",
+        "Ralph Etienne-Cummings. Eric Grimson",
+        "Ron Kikinis",
+        "Cameron Riviere"
+    ],
+    "abstract": "过去十年，医疗机器人已从边缘走向主流。自1998年美国国家科学基金会资助成立计算机集成手术系统与技术工程研究中心以来，医疗机器人已从处理常规任务发展到执行高度复杂的干预及相关工作。\n\nCISST工程研究中心在这一转型中发挥了重要作用。得益于国家科学基金会的支持，该中心建立了专业基础设施，将持续推进我们的使命：将数据与技术整合于临床系统，从而彻底改变外科手术及其他医疗操作的实施方式。\n\n我们构想的革新将触及医疗服务的几乎所有层面：更精准的操作流程、更稳定可预测的跨患者疗效、更优的临床结果、更高的患者安全性、更低的医疗从业者执业风险、为患者/医疗机构/保险公司/政府等多方降低的医疗成本、更轻松快速的术后恢复、更有效的疾病治疗新方法，最终实现患者个体与医疗系统的双重健康提升。\n\n该中心当前开展的基础科学与工程研究，将为所有关注医疗健康的群体——从政府机构到保险公司，从临床医生到患者乃至普通公众——带来深远益处。医疗机器人技术将惠及各方，这其中CISST工程研究中心及其后继者的贡献功不可没。",
+    "url": "https://arxiv.org/abs/2604.05272v1",
+    "html_url": "https://arxiv.org/html/2604.05272v1",
+    "html_content": "",
+    "preview_text": "In the last ten years, medical robotics has moved from the margins to the mainstream. Since the Engineering Research Center for Computer-Integrated Surgical Systems and Technology was Launched in 1998 with National Science Foundation funding, medical robots have been promoted from handling routine tasks to performing highly sophisticated interventions and related assignments.\n  The CISST ERC has played a significant role in this transformation. And thanks to NSF support, the ERC has built the professional infrastructure that will continue our mission: bringing data and technology together in clinical systems that will dramatically change how surgery and other procedures are done.\n  The enhancements we envision touch virtually every aspect of the delivery of care: - More accurate procedures - More consistent, predictable results from one patient to the next - Improved clinical outcomes - Greater patient safety - Reduced liability for healthcare providers - Lower costs for everyone - patients, facilities, insurers, government - Easier, faster recovery for patients - Effective new ways to treat health problems - Healthier patients, and a healthier system\n  The basic science and engineering the ERC is developing now will yield profound benefits for all concerned about health care - from government agencies to insurers, from clinicians to patients to the general public. All will experience the healing touch of medical robotics, thanks in no small part to the work of the CISST ERC and its successors.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "❌ medical"
+    ],
+    "one_line_summary": "论文包含负面关键词「medical」，自动标记为不相关",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-07T00:13:20Z",
+    "created_at": "2026-04-21T15:53:07.437352",
+    "updated_at": "2026-04-21T15:53:07.437358"
+}

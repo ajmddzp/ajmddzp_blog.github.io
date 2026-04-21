@@ -1,0 +1,36 @@
+{
+    "id": "2604.06932v1",
+    "title": "Towards Multi-Object Nonprehensile Transportation via Shared Teleoperation: A Framework Based on Virtual Object Model Predictive Control",
+    "authors": [
+        "Xinyang Fan",
+        "Zhaoyang Chen",
+        "Shu Xin",
+        "Yi Ren",
+        "Zainan Jiang",
+        "Fenglei Ni",
+        "Hong Liu"
+    ],
+    "abstract": "遥操作中的多物体非抓取搬运任务需同时实现轨迹跟踪与托盘姿态控制。现有方法常受限于模型依赖性、参数不确定性及多物体适应性。本研究提出一种共享遥操作框架：人类与机器人协同控制位置，机器人自主管理姿态以满足动态约束。核心贡献包括：1）采用基于虚拟物体的创新方法进行理论动态约束分析，简化轨迹规划约束条件；2）设计基于模型预测控制的轨迹平滑算法，实时执行约束并协调用户跟踪与姿态控制；3）实验验证表明系统能在2.4 m/s²加速度下稳定操控九个物体。相比基准方法，本方案使滑动距离减少72.45%，倾覆率降至0%（基准为13.9%），在复杂场景中展现出强健的适应能力。",
+    "url": "https://arxiv.org/abs/2604.06932v1",
+    "html_url": "https://arxiv.org/html/2604.06932v1",
+    "html_content": "",
+    "preview_text": "Multi-object nonprehensile transportation in teleoperation demands simultaneous trajectory tracking and tray orientation control. Existing methods often struggle with model dependency, uncertain parameters, and multi-object adaptability. We propose a shared teleoperation framework where humans and robots share positioning control, while the robot autonomously manages orientation to satisfy dynamic constraints. Key contributions include: 1) A theoretical dynamic constraint analysis utilizing a novel virtual object (VO)-based method to simplify constraints for trajectory planning. 2) An MPC-based trajectory smoothing algorithm that enforces real-time constraints and coordinates user tracking with orientation control. 3) Validations demonstrating stable manipulation of nine objects at accelerations up to 2.4 m/s2. Compared to the baseline, our approach reduces sliding distance by 72.45% and eliminates tip-overs (0% vs. 13.9%), proving robust adaptability in complex scenarios.",
+    "is_relevant": true,
+    "relevance_score": 3.0,
+    "extracted_keywords": [
+        "whole body control",
+        "constrained reinforcement learning",
+        "safe reinforcement learning",
+        "goal conditioned reinforcement learning",
+        "world model"
+    ],
+    "one_line_summary": "该论文提出了一种基于虚拟对象模型预测控制的共享遥操作框架，用于多物体非抓取运输，通过简化动态约束和实时轨迹平滑实现稳定操作，但未直接涉及强化学习或视觉语言模型。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-08T10:43:34Z",
+    "created_at": "2026-04-21T15:56:10.481596",
+    "updated_at": "2026-04-21T15:56:10.481602"
+}

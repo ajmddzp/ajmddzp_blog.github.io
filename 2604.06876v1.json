@@ -1,0 +1,31 @@
+{
+    "id": "2604.06876v1",
+    "title": "Exploiting Aggregate Programming in a Multi-Robot Service Prototype",
+    "authors": [
+        "Giorgio Audrito",
+        "Andrea Basso",
+        "Daniele Bortoluzzi",
+        "Ferruccio Damiani",
+        "Giordano Scarso",
+        "Gianluca Torta"
+    ],
+    "abstract": "多机器人系统在医疗、勘探和救援任务等多样化应用领域中正变得越来越重要。然而，构建此类系统仍然是一项重大挑战，因为它不仅需要协调任何分布式（多智能体）系统固有的复杂性，还增加了机器人物理特性及其环境带来的复杂性。聚合编程作为一种新兴方法，通过基于邻近通信的方式为工程化弹性分布式系统提供了有前景的解决方案，并已获得实际框架的显著支持。本文提出了一种多机器人服务系统的原型，该原型采用聚合编程方法进行协调软件的设计与实现。该原型已通过仿真测试，并在大学图书馆环境中进行了实际验证。",
+    "url": "https://arxiv.org/abs/2604.06876v1",
+    "html_url": "https://arxiv.org/html/2604.06876v1",
+    "html_content": "",
+    "preview_text": "Multi-robot systems are becoming increasingly relevant within diverse application domains, such as healthcare, exploration, and rescue missions. However, building such systems is still a significant challenge, since it adds the complexities of the physical nature of robots and their environments to those inherent in coordinating any distributed (multi-agent) system. Aggregate Programming (AP) has recently emerged as a promising approach to engineering resilient, distributed systems with proximity-based communication, and is notably supported by practical frameworks.  In this paper we present a prototype of a multi-robot service system, which adopts AP for the design and implementation of its coordination software. The prototype has been validated both with simulations, and with tests in a University library.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "❌ healthcare"
+    ],
+    "one_line_summary": "论文包含负面关键词「healthcare」，自动标记为不相关",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-08T09:37:40Z",
+    "created_at": "2026-04-21T15:56:05.678718",
+    "updated_at": "2026-04-21T15:56:05.678724"
+}
