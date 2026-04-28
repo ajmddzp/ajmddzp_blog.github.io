@@ -1,0 +1,33 @@
+{
+    "id": "2604.12482v2",
+    "title": "Social Learning Strategies for Evolved Virtual Soft Robots",
+    "authors": [
+        "K. Ege de Bruin",
+        "Kyrre Glette",
+        "Kai Olav Ellefsen",
+        "Giorgia Nadizar",
+        "Eric Medvet"
+    ],
+    "abstract": "优化机器人的身体与大脑是一项耦合挑战：形态结构决定了何种控制策略有效，而控制参数又反作用于形态性能的发挥。这种联合优化可通过进化与学习过程的嵌套循环实现——每个机器人的控制参数独立学习。但单个机器人习得的控制参数可能蕴含对其他机器人有价值的信息。为此，我们引入社会学习范式，使机器人能够利用同伴已优化的参数加速自身大脑优化进程。在此框架下，我们系统研究了教师选择策略（包括选择哪些机器人进行学习及学习数量）对优化效果的影响，并在四项任务与环境中对虚拟软体机器人进行实验。特别关注了因机器人优化中身体与大脑紧密耦合而产生的形态相似性经验继承效应。研究结果证实了借鉴他人经验的有效性——在同等计算预算下，社会学习显著优于从零开始学习。此外，尽管最优教师选择策略仍待探索，但研究显示融合多位教师的知识可带来更稳定且鲁棒的改进效果。",
+    "url": "https://arxiv.org/abs/2604.12482v2",
+    "html_url": "https://arxiv.org/html/2604.12482v2",
+    "html_content": "",
+    "preview_text": "Optimizing the body and brain of a robot is a coupled challenge: the morphology determines what control strategies are effective, while the control parameters influence how well the morphology performs. This joint optimization can be done through nested loops of evolutionary and learning processes, where the control parameters of each robot are learned independently. However, the control parameters learned by one robot may contain valuable information for others. Thus, we introduce a social learning approach in which robots can exploit optimized parameters from their peers to accelerate their own brain optimization. Within this framework, we systematically investigate how the selection of teachers, deciding which and how many robots to learn from, affects performance, experimenting with virtual soft robots in four tasks and environments. In particular, we study the effect of inheriting experience from morphologically similar robots due to the tightly coupled body and brain in robot optimization. Our results confirm the effectiveness of building on others' experience, as social learning clearly outperforms learning from scratch under equivalent computational budgets. In addition, while the optimal teacher selection strategy remains open, our findings suggest that incorporating knowledge from multiple teachers can yield more consistent and robust improvements.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "social learning",
+        "evolutionary robotics",
+        "soft robots",
+        "morphology control"
+    ],
+    "one_line_summary": "研究虚拟软体机器人通过社会学习策略加速大脑优化的方法，与强化学习、VLA等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-14T09:05:56Z",
+    "created_at": "2026-04-28T15:53:09.257794",
+    "updated_at": "2026-04-28T15:53:09.257800"
+}

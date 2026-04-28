@@ -1,0 +1,25 @@
+{
+    "id": "2604.12293v2",
+    "title": "Defining an Evaluation Method for External Human-Machine Interfaces",
+    "authors": [
+        "Jose Gonzalez-Belmonte",
+        "Jaerock Kwon"
+    ],
+    "abstract": "随着自动驾驶汽车相关致死事故的增加，车辆与道路上其他交通参与者之间建立通用通信方法的需求也随之增长。过去十年间，人们提出了多种外部人机界面（eHMI）方案试图填补这一通信鸿沟，但至今尚未确定理想方案。本研究提出一套由223个问题构成的通用评估方法，旨在客观评估并比较不同方案以得出结论。该问卷分为七个类别，分别评估任何采用eHMI的提案的七个维度：标准化可行性、成本效益、可及性、理解便捷性、多维度通信能力、位置布局与可读性。为验证该方法，我们将其应用于四项现有方案及一项仅使用动力学运动模式的基准方案，既展示评估方法的应用实例，也为未来比较提供基准分数。测试结果表明，机器与人类间理想的通信方式是经过精心设计的车辆动力学行为与分布合理的文字显示屏的组合，但同时也暴露出eHMI可读性及不同观察者掌握其含义的速度方面存在认知空白。本文针对这些不确定性提出未来研究方向，并建议采用本方法开展进一步测试。",
+    "url": "https://arxiv.org/abs/2604.12293v2",
+    "html_url": "https://arxiv.org/html/2604.12293v2",
+    "html_content": "",
+    "preview_text": "As the number of fatalities involving Autonomous Vehicles increase, the need for a universal method of communicating between vehicles and other agents on the road has also increased. Over the past decade, numerous proposals of external Human-Machine Interfaces (eHMIs) have been brought forward with the purpose of bridging this communication gap, with none yet to be determined as the ideal one. This work proposes a universal evaluation method conformed of 223 questions to objectively evaluate and compare different proposals and arrive at a conclusion. The questionnaire is divided into 7 categories that evaluate different aspects of any given proposal that uses eHMIs: ease of standardization, cost effectiveness, accessibility, ease of understanding, multifacetedness in communication, positioning, and readability. In order to test the method it was used on four existing proposals, plus a baseline using only kinematic motions, in order to both exemplify the application of the evaluation method and offer a baseline score for future comparison. The result of this testing suggests that the ideal method of machine-human communication is a combination of intentionally-designed vehicle kinematics and distributed well-placed text-based displays, but it also reveals knowledge gaps in the readability of eHMIs and the speed at which different observers may learn their meaning. This paper proposes future work related to these uncertainties, along with future testing with the proposed method.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "论文提出了一种评估自动驾驶车辆外部人机界面的通用方法，与强化学习、VLA等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-14T05:04:07Z",
+    "created_at": "2026-04-28T15:53:06.847774",
+    "updated_at": "2026-04-28T15:53:06.847778"
+}

@@ -1,0 +1,31 @@
+{
+    "id": "2604.12753v1",
+    "title": "Reliability-Guided Depth Fusion for Glare-Resilient Navigation Costmaps",
+    "authors": [
+        "Shang-En Tsai",
+        "Wei-Cheng Sun"
+    ],
+    "abstract": "反光地板和玻璃表面产生的镜面眩光常导致RGB-D深度测量数据出现空洞和尖峰，这些噪声在占据网格代价地图中累积为持久性的幻影障碍物。本文提出一种基于显式深度可靠性建模的抗眩光代价地图构建方法：首先通过轻量级深度可靠性图谱（DRM）估计器预测镜面干扰下逐像素测量的可信度，进而利用可靠性引导融合机制（RGF）在受损测量值被纳入地图前，对占据栅格更新过程进行调制。在搭载Intel RealSense D435和Jetson Orin Nano的真实移动机器人平台上的实验表明，该方法在真实反光地板与玻璃表面场景中显著降低了虚假障碍物的插入率，提升了自由空间保持度，且仅带来适度的计算开销。这些结果证明，将眩光问题视为测量可靠性问题来处理，为提升安全关键型室内场景中代价地图正确性与导航鲁棒性提供了一种实用轻量的解决方案。",
+    "url": "https://arxiv.org/abs/2604.12753v1",
+    "html_url": "https://arxiv.org/html/2604.12753v1",
+    "html_content": "",
+    "preview_text": "Specular glare on reflective floors and glass surfaces frequently corrupts RGB-D depth measurements, producing holes and spikes that accumulate as persistent phantom obstacles in occupancy-grid costmaps. This paper proposes a glare-resilient costmap construction method based on explicit depth-reliability modeling. A lightweight Depth Reliability Map (DRM) estimator predicts per-pixel measurement trustworthiness under specular interference, and a Reliability-Guided Fusion (RGF) mechanism uses this signal to modulate occupancy updates before corrupted measurements are accumulated into the map. Experiments on a real mobile robotic platform equipped with an Intel RealSense D435 and a Jetson Orin Nano show that the proposed method substantially reduces false obstacle insertion and improves free-space preservation under real reflective-floor and glass-surface conditions, while introducing only modest computational overhead. These results indicate that treating glare as a measurement-reliability problem provides a practical and lightweight solution for improving costmap correctness and navigation robustness in safety-critical indoor environments.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [
+        "Depth Fusion",
+        "Glare-Resilient",
+        "Navigation Costmaps",
+        "Depth Reliability",
+        "Mobile Robotics"
+    ],
+    "one_line_summary": "提出基于深度可靠性建模的眩光鲁棒代价地图构建方法，用于移动机器人导航。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-14T14:00:51Z",
+    "created_at": "2026-04-28T15:53:13.446027",
+    "updated_at": "2026-04-28T15:53:13.446034"
+}

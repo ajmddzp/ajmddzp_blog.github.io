@@ -1,0 +1,31 @@
+{
+    "id": "2604.14747v1",
+    "title": "Efficient closed-form approaches for pose estimation using Sylvester forms",
+    "authors": [
+        "Jana Vráblíková",
+        "Ezio Malis",
+        "Laurent Busé"
+    ],
+    "abstract": "解决非线性最小二乘问题以进行位姿估计（旋转和平移）是多个实时计算机视觉应用中常见但耗时的核心问题。通过合适的旋转参数化方法，该优化问题可简化为求解多项式方程组，进而获得闭式解。近年来，利用结式矩阵的高效闭式解算器研究取得显著进展，为在保持估计精度的同时缩短计算时间开辟了富有前景的方向。本文提出一类基于结式的新型解算器，通过利用西尔维斯特形式进一步降低求解复杂度。实验证明，所提方法在数值精度上可与当前最先进解算器媲美，并在计算效率上实现超越。我们展示了该方法可应用于两类位姿估计问题：三维点与三维点对应关系的位姿估计，以及三维点与二维点对应关系的位姿估计。",
+    "url": "https://arxiv.org/abs/2604.14747v1",
+    "html_url": "https://arxiv.org/html/2604.14747v1",
+    "html_content": "",
+    "preview_text": "Solving non-linear least-squares problem for pose estimation (rotation and translation) is often a time consuming yet fundamental problem in several real-time computer vision applications. With an adequate rotation parametrization, the optimization problem can be reduced to the solution of a~system of polynomial equations and solved in closed form. Recent advances in efficient closed form solvers utilizing resultant matrices have shown a promising research direction to decrease the computation time while preserving the estimation accuracy. In this paper, we propose a new class of resultant-based solvers that exploit Sylvester forms to further reduce the complexity of the resolution. We demonstrate that our proposed methods are numerically as accurate as the state-of-the-art solvers, and outperform them in terms of computational time. We show that this approach can be applied for pose estimation in two different types of problems: estimating a pose from 3D to 3D correspondences, and estimating a pose from 3D points to 2D points correspondences.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [
+        "pose estimation",
+        "Sylvester forms",
+        "non-linear least-squares",
+        "resultant matrices"
+    ],
+    "one_line_summary": "该论文提出基于Sylvester形式的闭式求解器用于姿态估计，与强化学习、VLA、机器人控制等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-16T07:57:20Z",
+    "created_at": "2026-04-28T15:54:59.466803",
+    "updated_at": "2026-04-28T15:54:59.466809"
+}

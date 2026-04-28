@@ -1,0 +1,26 @@
+{
+    "id": "2604.14857v1",
+    "title": "Graph Theoretical Outlier Rejection for 4D Radar Registration in Feature-Poor Environments",
+    "authors": [
+        "Georg Dorndorf",
+        "Daniel Adolfsson",
+        "Masrur Doostdar"
+    ],
+    "abstract": "汽车4D成像雷达在扬尘及低能见度环境中表现优异，但由于扫描稀疏性以及噪声和多径反射导致的虚警检测，扫描配准仍具挑战性。在特征匮乏的露天矿场景中，因缺乏显著地标导致对应关系可靠性降低，进一步加剧了配准难度。我们通过在迭代最近点（ICP）循环中引入基于图的成对一致性最大化（PCM）作为离群值抑制步骤。提出了一种面向雷达的成对距离不变性评分函数，该函数融合了基于雷达测量模型推导的各向异性逐检测不确定性。采用贪心启发式算法在成对一致性图中寻找最大团来近似求解一致性最大化问题。经优化的对应集显著提升了初始关联集被严重污染时的鲁棒性。我们利用4D成像雷达采集的露天矿数据集，对比了标准欧氏距离残差与考虑不确定性的残差。与未采用PCM的广义ICP（GICP）基准方法相比，本方法在1米片段上相对位姿误差（RPE）降低29.6%，在100米片段上最高降低55%。该方法旨在集成至定位算法流程中，且因采用基于图的贪心启发式算法而适用于在线处理。",
+    "url": "https://arxiv.org/abs/2604.14857v1",
+    "html_url": "https://arxiv.org/html/2604.14857v1",
+    "html_content": "",
+    "preview_text": "Automotive 4D imaging radar is well suited for operation in dusty and low-visibility environments, but scan registration remains challenging due to scan sparsity and spurious detections caused by noise and multipath reflections. This difficulty is compounded in feature-poor open-pit mines, where the lack of distinctive landmarks reduces correspondence reliability. We integrate graph-based pairwise consistency maximization (PCM) as an outlier rejection step within the iterative closest points (ICP) loop. We propose a radar-adapted pairwise distance-invariant scoring function for graph-based (PCM) that incorporates anisotropic, per-detection uncertainty derived from a radar measurement model. The consistency maximization problem is approximated with a greedy heuristic that finds a large clique in the pairwise consistency graph. The refined correspondence set improves robustness when the initial association set is heavily contaminated. We evaluate a standard Euclidean distance residual and our uncertainty-aware residual on an open-pit mine dataset collected with a 4D imaging radar. Compared to the generalized ICP (GICP) baseline without PCM, our method reduces segment relative position error (RPE) by 29.6% on 1 m segments and by up to 55% on 100 m segments. The presented method is intended for integration into localization pipelines and is suitable for online use due to the greedy heuristic in graph-based (PCM).",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "该论文研究4D雷达点云配准中的离群点剔除，与强化学习、VLA、机器人控制等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-16T10:44:47Z",
+    "created_at": "2026-04-28T15:55:17.143004",
+    "updated_at": "2026-04-28T15:55:17.143009"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "2604.13513v1",
+    "title": "A transformable slender microrobot inspired by nematode parasites for interventional endovascular surgery",
+    "authors": [
+        "Xin Yang",
+        "Dongliang Fan",
+        "Yunteng Ma",
+        "Yuxuan Liao",
+        "Diancheng Li",
+        "U Kei Cheang",
+        "Bo Peng",
+        "Hongqiang Wang"
+    ],
+    "abstract": "全球每年约有1790万人死于心血管疾病。由于血管网络的狭窄空间与复杂拓扑结构，以及手术过程中的高风险，此类疾病的治疗极具挑战性。尽管机器人技术展现出潜力，但经过数十年发展，现存技术仍难以兼顾多功能性与高机动性。受寄生、摄食、移动于人体血管系统的线虫启发，本研究开发了一种可变形纤细磁控微型机器人。通过实验与分析优化机器人的制造工艺与几何结构，最终研制出长径比超过100（直径小于200微米，长度大于20毫米）的纤细原型机——其超薄高分子聚合物绳体上均匀分布磁性微球，头部则嵌有大型磁珠。该原型机展现出卓越的柔韧性（最大曲率0.904 mm⁻¹）与运动能力（最大速度125 mm/s）。此外，该仿线虫机器人可穿越半径0.84 mm的急转弯道及三维空间分布的孔洞。我们通过如下实验展示了该微型机器人在介入手术中的潜在应用：引导其穿越狭窄血管模具，通过变形纤细躯体包裹并运输药物（重量为机器人的95倍），最终在目标位置释放药物。同时，该机器人通过变形缠绕进入动脉瘤模型，证明了其栓塞应用的可行性；更成功通过注射器医用针头（直径1.2 mm）完成抽吸与注射，彰显了其卓越的可注射性。",
+    "url": "https://arxiv.org/abs/2604.13513v1",
+    "html_url": "https://arxiv.org/html/2604.13513v1",
+    "html_content": "",
+    "preview_text": "Cardiovascular diseases account for around 17.9 million deaths per year globally, the treatment of which is challenging considering the confined space and complex topology of the vascular network and high risks during operations. Robots, although promising, still face the dilemma of possessing versatility or maneuverability after decades of development. Inspired by nematodes, the parasites living, feeding, and moving in the human body's vascular system, this work develops a transformable slender magnetic microrobot. Based on the experiments and analyses, we optimize the fabrication and geometry of the robot and finally create a slender prototype with an aspect ratio larger than 100 (smaller than 200 microns in diameter and longer than 20 mm in length), which possesses uniformly distributed magnetic beads on the body of an ultrathin polymer string and a big bead on the head. This prototype shows great flexibility (largest curvature 0.904 mm-1) and locomotion capability (the maximum speed: 125 mm/s). Moreover, the nematode-inspired robot can pass through sharp turns with a radius of 0.84 mm and holes distributed in three-dimensional (3D) space. We also display the potential application in interventional surgery of the microrobot by navigating it through a narrow blood vessel mold to wrap and transport a drug (95 times heavier than the robot) by deforming the robot's slender body and releasing the drug to the aim position finally. Moreover, the robot also demonstrates the possible applications in embolization by transforming and winding itself into an aneurysms phantom and exhibits its outstanding injectability by being successfully withdrawn and injected through a medical needle (diameter: 1.2 mm) of a syringe.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "❌ medical"
+    ],
+    "one_line_summary": "论文包含负面关键词「medical」，自动标记为不相关",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-15T05:58:05Z",
+    "created_at": "2026-04-28T15:54:01.533997",
+    "updated_at": "2026-04-28T15:54:01.534002"
+}

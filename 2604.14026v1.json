@@ -1,0 +1,26 @@
+{
+    "id": "2604.14026v1",
+    "title": "Scale-Invariant Sampling in Multi-Arm Bandit Motion Planning for Object Extraction",
+    "authors": [
+        "Servet B. Bayraktar",
+        "Andreas Orthey",
+        "Marc Toussaint"
+    ],
+    "abstract": "物体提取任务常出现在拆解问题中，例如需要从狭窄空间移除螺栓、螺丝或销钉。在此类问题中，物体与环境的距离常处于毫米量级。基于采样的规划器可解决此类问题并提供完备性保障，但几乎所有运动都会与环境发生碰撞，导致采样成为瓶颈。为克服这一难题，我们提出一种新颖的尺度不变采样策略，通过生长-收缩搜索探索构型空间，发现高熵的有效采样尺度。一旦找到有效尺度，我们的框架利用主成分分析（PCA）发掘物体提取的有用方向，从而充分利用该尺度。我们将该采样器嵌入多臂老虎机快速探索随机树（MAB-RRT）规划器，并在八个具有挑战性的三维物体提取场景（涉及螺栓、齿轮、杆件、销钉和插座）中进行测试。为评估框架性能，我们将其与经典采样策略（如均匀采样、基于障碍物的采样、窄通道采样）及现代策略（如配合向量、基于物理的规划、拆解广度优先搜索）进行对比。实验表明，在8个场景中有7个场景的成功率提升了一个数量级。这证明尺度不变采样是拆解任务中通用物体提取的重要概念。",
+    "url": "https://arxiv.org/abs/2604.14026v1",
+    "html_url": "https://arxiv.org/html/2604.14026v1",
+    "html_content": "",
+    "preview_text": "Object extraction tasks often occur in disassembly problems, where bolts, screws, or pins have to be removed from tight, narrow spaces. In such problems, the distance to the environment is often on the millimeter scale. Sampling-based planners can solve such problems and provide completeness guarantees. However, sampling becomes a bottleneck, since almost all motions will result in collisions with the environment. To overcome this problem, we propose a novel scale-invariant sampling strategy which explores the configuration space using a grow-shrink search to find useful, high-entropy sampling scales. Once a useful sampling scale has been found, our framework exploits this scale by using a principal components analysis (PCA) to find useful directions for object extraction. We embed this sampler into a multi-arm bandit rapidly-exploring random tree (MAB-RRT) planner and test it on eight challenging 3D object extraction scenarios, involving bolts, gears, rods, pins, and sockets. To evaluate our framework, we compare it with classical sampling strategies like uniform sampling, obstacle-based sampling, and narrow-passage sampling, and with modern strategies like mate vectors, physics-based planning, and disassembly breadth first search. Our experiments show that scale-invariant sampling improves success rate by one order of magnitude on 7 out of 8 scenarios. This demonstrates that scale-invariant sampling is an important concept for general purpose object extraction in disassembly tasks.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "该论文提出一种尺度不变采样策略用于多臂运动规划中的物体提取，不涉及强化学习、VLA、扩散模型等关键词。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-15T16:07:22Z",
+    "created_at": "2026-04-28T15:54:27.465203",
+    "updated_at": "2026-04-28T15:54:27.465210"
+}

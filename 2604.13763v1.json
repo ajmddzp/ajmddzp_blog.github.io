@@ -1,0 +1,33 @@
+{
+    "id": "2604.13763v1",
+    "title": "A Dynamic-Growing Fuzzy-Neuro Controller, Application to a 3PSP Parallel Robot",
+    "authors": [
+        "Mohsen Jalaeian-Farimani",
+        "Mohammad-R Akbarzadeh-T",
+        "Alireza Akbarzadeh",
+        "Mostafa Ghaemi"
+    ],
+    "abstract": "迄今为止，软计算的多种范式已被用于解决众多现代问题。其中，模糊系统与神经网络的自组织组合能够构建强大的决策系统。本文将动态增长模糊神经控制器（DGFNC）与自适应策略相结合，并应用于3PSP并联机器人位置控制问题。具体而言，对动态增长机制进行了更详细的探讨。与其他自组织方法相比，DGFNC在新增规则时更为保守，因此省略了剪枝机制。取而代之的是通过自适应策略使控制系统适应参数变化。此外，基于滑模的非线性控制器确保了系统稳定性。最终形成的通用控制策略旨在以更少的计算量实现更快的响应，同时保持整体稳定性。考虑到3PSP机器人具有复杂的动力学特性，且此类方法在现代工业系统中具有实用价值，故选用该模型进行研究。多项仿真结果验证了所提出的DGFNC策略应用于3PSP机器人的优越性。",
+    "url": "https://arxiv.org/abs/2604.13763v1",
+    "html_url": "https://arxiv.org/html/2604.13763v1",
+    "html_content": "",
+    "preview_text": "To date, various paradigms of soft-Computing have been used to solve many modern problems. Among them, a self organizing combination of fuzzy systems and neural networks can make a powerful decision making system. Here, a Dynamic Growing Fuzzy Neural Controller (DGFNC) is combined with an adaptive strategy and applied to a 3PSP parallel robot position control problem. Specifically, the dynamic growing mechanism is considered in more detail. In contrast to other self-organizing methods, DGFNC adds new rules more conservatively; hence the pruning mechanism is omitted. Instead, the adaptive strategy 'adapts' the control system to parameter variation. Furthermore, a sliding mode-based nonlinear controller ensures system stability. The resulting general control strategy aims to achieve faster response with less computation while maintaining overall stability. Finally, the 3PSP is chosen due to its complex dynamics and the utility of such approaches in modern industrial systems. Several simulations support the merits of the proposed DGFNC strategy as applied to the 3PSP robot.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [
+        "fuzzy neural controller",
+        "parallel robot",
+        "position control",
+        "adaptive strategy",
+        "sliding mode control"
+    ],
+    "one_line_summary": "该论文提出一种动态增长模糊神经控制器用于3PSP并联机器人位置控制，与强化学习、VLA、扩散模型等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-15T11:48:51Z",
+    "created_at": "2026-04-28T15:54:17.493833",
+    "updated_at": "2026-04-28T15:54:17.493841"
+}
