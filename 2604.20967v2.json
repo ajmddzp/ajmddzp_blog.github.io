@@ -1,0 +1,35 @@
+{
+    "id": "2604.20967v2",
+    "title": "Clinical Evaluation of a Tongue-Controlled Wrist Abduction-Adduction Assistance in a 6-DoF Upper-Limb Exoskeleton for Individuals with ALS and SCI",
+    "authors": [
+        "Juwairiya S. Khan",
+        "Mostafa Mohammadi",
+        "Alexander L. Ammitzbøll",
+        "Ellen-Merete Hagen",
+        "Jakob Blicher Izabella Obál",
+        "Ana S. S. Cardoso",
+        "Oguzhan Kirtas",
+        "Rasmus L. Kæseler",
+        "John Rasmussen",
+        "Lotte N. S. Andreasen Struijk"
+    ],
+    "abstract": "上肢外骨骼（ULEs）具有恢复严重运动障碍患者功能独立性的潜力，但腕部自由度（DoF），特别是外展-内收（Ab-Ad）的临床相关性尚未得到充分评估。本研究探究了在两项日常生活活动（ADLs）中腕部外展-内收辅助对功能表现和用户感知的影响。在一项受试者内研究中，我们评估了舌控6自由度上肢外骨骼EXOTIC2的腕部外展-内收辅助功能，研究对象包括1名肌萎缩侧索硬化症患者和5名脊髓损伤患者。参与者在两种条件下使用EXOTIC2完成饮水及划棒任务：启用与禁用腕部外展-内收辅助。结果评估指标包括任务成功率、任务完成时间、运动学参数，以及涵盖舒适度、功能感知与接受度的可用性问卷。启用腕部外展-内收辅助后，两项日常生活活动的任务成功率均得到提升，溢液事件（从77.8%降至22.2%）和放置失败事件（从66.7%降至16.7%）持续减少。参与者利用腕部可用活动范围中的任务特异性子集，表明在功能范围内实现有效控制比最大关节行程更为关键。问卷反馈显示，增加该自由度并未导致不适感上升，且用户感知到任务表现有所改善。结论表明，腕部外展-内收辅助可增强辅助外骨骼使用中的功能性任务表现，且不损害用户舒适度。但其有效性取决于任务情境、控制可用性及个体用户策略。本研究提供了以用户为中心的临床相关证据，支持在上肢外骨骼中纳入腕部外展-内收功能，强调在辅助设备设计中平衡功能性与可用性的重要性。",
+    "url": "https://arxiv.org/abs/2604.20967v2",
+    "html_url": "https://arxiv.org/html/2604.20967v2",
+    "html_content": "",
+    "preview_text": "Upper-limb exoskeletons (ULEs) have the potential to restore functional independence in individuals with severe motor impairments; however, the clinical relevance of wrist degrees of freedom (DoF), particularly abduction-adduction (Ab-Ad), remains insufficiently evaluated. This study investigates the functional and user-perceived impact of wrist Ab-Ad assistance during two activities of daily living (ADLs). Wrist Ab-Ad assistance in a tongue-controlled 6-DoF ULE, EXOTIC2, was evaluated in a within-subject study involving one individual with amyotrophic lateral sclerosis and five individuals with spinal cord injury. Participants performed drinking and scratch stick leveling tasks with EXOTIC2 under two conditions: with and without wrist Ab-Ad assistance. Outcome measure included task success, task completion time, kinematic measures, and a usability questionnaire capturing comfort, functional perception, and acceptance. Enabling wrist Ab-Ad improved task success rates across both ADLs, with consistent reductions in spillage (from 77.8% spillages to 22.2%) and failed placements (from 66.7% to 16.7%). Participants utilized task-specific subsets of the available wrist range of motion, indicating that effective control within functional ranges was more critical than maximal joint excursion. Questionnaire responses indicated no increase in discomfort with the additional DoF and reflected perceived improvements in task performance. In conclusion, wrist Ab-Ad assistance enhances functional task performance in assistive exoskeleton use without compromising user comfort. However, its effectiveness depends on task context, control usability, and individual user strategies. This study provides clinically relevant, user-centered evidence supporting the inclusion of wrist Ab-Ad in ULEs, emphasizing the importance of balancing functional capability with usability in assistive device design.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "❌ clinical"
+    ],
+    "one_line_summary": "论文包含负面关键词「clinical」，自动标记为不相关",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-22T18:01:22Z",
+    "created_at": "2026-05-05T15:53:21.798503",
+    "updated_at": "2026-05-05T15:53:21.798511"
+}

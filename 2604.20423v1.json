@@ -1,0 +1,32 @@
+{
+    "id": "2604.20423v1",
+    "title": "OVPD: A Virtual-Physical Fusion Testing Dataset of OnSite Auton-omous Driving Challenge",
+    "authors": [
+        "Yuhang Zhang",
+        "Jiarui Zhang",
+        "Bowen Jian",
+        "Xin Zhou",
+        "Zhichao Lv",
+        "Peng Hang",
+        "Rongjie Yu",
+        "Ye Tian",
+        "Jian Sun"
+    ],
+    "abstract": "自动驾驶算法的快速迭代催生了对高保真、可复现、可诊断测试数据的持续增长需求。然而现有公开数据集普遍缺乏真实车辆动力学反馈及与周围交通流、道路基础设施的闭环交互，难以准确反映部署就绪度。为填补这一空白，我们发布OVPD（现场虚实融合数据集），该数据集源自2025现场自动驾驶挑战赛，是一项虚实融合的测试数据集。OVPD以真实车辆在环测试为核心，通过集成虚拟背景交通流与车路协同感知，在试验场构建可控、可交互的闭环测试环境。数据集包含20支参赛队伍在15个原子场景构成的场景链中的20段测试片段，总时长近3小时的多模态数据，涵盖车辆轨迹与状态、控制指令及数字孪生渲染的全景环视观测。OVPD支持长尾规划与决策验证、开环或平台赋能闭环评估，以及安全性、高效性、舒适性、规则合规性和交通影响等维度综合评价，为故障诊断与迭代优化提供可操作依据。数据集访问地址：https://huggingface.co/datasets/Yuhang253820/Onsite_OPVD",
+    "url": "https://arxiv.org/abs/2604.20423v1",
+    "html_url": "https://arxiv.org/html/2604.20423v1",
+    "html_content": "",
+    "preview_text": "The rapid iteration of autonomous driving algorithms has created a growing demand for high-fidelity, replayable, and diagnosable testing data. However, many public datasets lack real vehicle dynamics feedback and closed-loop interaction with surrounding traffic and road infrastructure, limiting their ability to reflect deployment readiness. To address this gap, we present OVPD (OnSite Virtual-Physical Dataset), a virtual-physical fusion testing dataset released from the 2025 OnSite Autonomous Driving Challenge. Centered on real-vehicle-in-the-loop testing, OVPD integrates virtual background traffic with vehicle-infrastructure perception to build controllable and interactive closed-loop test environments on a proving ground. The dataset contains 20 testing clips from 20 teams over a scenario chain of 15 atomic scenarios, totaling nearly 3 hours of multi-modal data, including vehicle trajectories and states, control commands, and digital-twin-rendered surround-view observations. OVPD supports long-tail planning and decision-making validation, open-loop or platform-enabled closed-loop evaluation, and comprehensive assessment across safety, efficiency, comfort, rule compliance, and traffic impact, providing actionable evidence for failure diagnosis and iterative improvement. The dataset is available via: https://huggingface.co/datasets/Yuhang253820/Onsite_OPVD",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "该论文介绍了一个自动驾驶测试数据集，与强化学习、VLA、机器人控制等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-22T10:44:19Z",
+    "created_at": "2026-05-05T15:53:18.501622",
+    "updated_at": "2026-05-05T15:53:18.501628"
+}

@@ -1,0 +1,28 @@
+{
+    "id": "2604.20428v1",
+    "title": "Lexicographic Minimum-Violation Motion Planning using Signal Temporal Logic",
+    "authors": [
+        "Patrick Halder",
+        "Lothar Kiltz",
+        "Hannes Homburger",
+        "Johannes Reuter",
+        "Matthias Althoff"
+    ],
+    "abstract": "自动驾驶车辆的路径规划通常需要满足多项存在条件性冲突的规约。当无法同时满足所有规约时，最小违规路径规划通过根据规约优先级最小化违规行为来维持系统运行。信号时序逻辑（STL）为严格定义这些规约提供了形式化语言，并支持对违规行为进行定量评估。然而，规约的全序化会产生字典序优化问题，而使用标准方法求解此类问题的计算成本通常较高。我们通过非均匀量化和位移操作，将多目标字典序优化问题转化为单目标标量优化问题来解决这一挑战。具体而言，我们扩展了一种确定性模型预测路径积分（MPPI）求解器，使其能够在无二次输入成本的情况下高效求解优化问题。此外，本文还提出了一种结合空间违规与时间违规的新型谓词鲁棒性度量指标。实验结果表明，所提方法在单目标求解器框架下，为基于字典序STL的最小违规路径规划提供了兼具可解释性与可扩展性的解决方案。",
+    "url": "https://arxiv.org/abs/2604.20428v1",
+    "html_url": "https://arxiv.org/html/2604.20428v1",
+    "html_content": "",
+    "preview_text": "Motion planning for autonomous vehicles often requires satisfying multiple conditionally conflicting specifications. In situations where not all specifications can be met simultaneously, minimum-violation motion planning maintains system operation by minimizing violations of specifications in accordance with their priorities. Signal temporal logic (STL) provides a formal language for rigorously defining these specifications and enables the quantitative evaluation of their violations. However, a total ordering of specifications yields a lexicographic optimization problem, which is typically computationally expensive to solve using standard methods. We address this problem by transforming the multi-objective lexicographic optimization problem into a single-objective scalar optimization problem using non-uniform quantization and bit-shifting. Specifically, we extend a deterministic model predictive path integral (MPPI) solver to efficiently solve optimization problems without quadratic input cost. Additionally, a novel predicate-robustness measure that combines spatial and temporal violations is introduced. Our results show that the proposed method offers an interpretable and scalable solution for lexicographic STL minimum-violation motion planning within a single-objective solver framework.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "论文研究基于信号时序逻辑的自动驾驶最小违规运动规划，与强化学习、VLA等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-22T10:49:09Z",
+    "created_at": "2026-05-05T15:53:18.607055",
+    "updated_at": "2026-05-05T15:53:18.607060"
+}

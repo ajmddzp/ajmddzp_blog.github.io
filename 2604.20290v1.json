@@ -1,0 +1,34 @@
+{
+    "id": "2604.20290v1",
+    "title": "Onboard Wind Estimation for Small UAVs Equipped with Low-Cost Sensors: An Aerodynamic Model-Integrated Filtering Approach",
+    "authors": [
+        "Bingchen Cheng",
+        "Tielin Ma",
+        "Jingcheng Fu",
+        "Lulu Tao",
+        "Tianhui Guo"
+    ],
+    "abstract": "为实现小型无人机（UAV）节能飞行的自主风场估计，本研究提出一种仅利用自主飞行所需低成本基础机载传感器（无需额外测风装置）进行飞行状态与风场联合估计的方法。该方法核心包括融合气动模型的扩展卡尔曼滤波（EKF）与自适应移动平均估计（AMAE）技术，有效提升了风场估计的精度与平滑度。仿真结果表明，该方法无需流场角测量即可高效估计稳态与时变三维风矢量。研究同时分析了气动模型精度对风场估计误差的影响以评估实际应用性。飞行试验验证了该方法有效性及其实时机载计算可行性。此外，系统分析了测试过程中遇到的不确定性与误差源，为后续算法优化奠定基础。",
+    "url": "https://arxiv.org/abs/2604.20290v1",
+    "html_url": "https://arxiv.org/html/2604.20290v1",
+    "html_content": "",
+    "preview_text": "To enable autonomous wind estimation for energy-efficient flight in small unmanned aerial vehicles (UAVs), this study proposes a method that estimates flight states and wind using only the low-cost essential onboard sensors required for autonomous flight, without relying on additional wind measurement devices. The core of the method includes an Extended Kalman Filter (EKF) integrated with the aerodynamic model and an Adaptive Moving Average Estimation (AMAE) technique, which improves the accuracy and smoothness of the wind estimation. Simulation results show that the approach efficiently estimates both steady and time-varying 3D wind vectors without requiring flow angle measurements. The impact of aerodynamic model accuracy on wind estimation errors is also analyzed to assess practical applicability. Flight tests validate the effectiveness of the method and its feasibility for real-time onboard computation. Additionally, uncertainties and error sources encountered during testing are systematically examined, providing a foundation for further refinement.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [
+        "wind estimation",
+        "UAV",
+        "Extended Kalman Filter",
+        "aerodynamic model",
+        "low-cost sensors"
+    ],
+    "one_line_summary": "该论文研究小型无人机基于低成本传感器的风估计方法，与强化学习、VLA、运动控制等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-22T07:39:06Z",
+    "created_at": "2026-05-05T15:53:16.112847",
+    "updated_at": "2026-05-05T15:53:16.112853"
+}

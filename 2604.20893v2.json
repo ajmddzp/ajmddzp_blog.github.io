@@ -1,0 +1,27 @@
+{
+    "id": "2604.20893v2",
+    "title": "Design, Modelling and Experimental Evaluation of a Tendon-driven Wrist Abduction-Adduction Mechanism for an upper limb exoskeleton",
+    "authors": [
+        "Juwairiya S. Khan",
+        "Mostafa Mohammadi",
+        "John Rasmussen",
+        "Lotte N. S. Andreasen Struijk"
+    ],
+    "abstract": "腕部外骨骼在康复和辅助应用中具有重要作用，然而传统驱动机制（如电机或气动装置）往往带来不必要的重量、摩擦和复杂性。本文提出了一种用于腕部外展-内收的新型单线缆（肌腱）扭簧辅助驱动机制，以及基于仿真选择其刚度参数的方法。该机制采用单根鲍登线缆，通过螺旋扭簧（钟表弹簧）施加被动张力，无需对抗驱动即可保持线缆持续张紧。通过对该机构进行运动学和动力学建模，估算了所需扭矩并确定了最优弹簧参数。基于仿真参数指导设计出功能性原型机，并在五种不同手臂位置和负载条件下，使用三种弹簧配置对五名无运动功能障碍参与者进行了实验评估，以涵盖用户差异性和建模不确定性。实验结果显示，实验结果与仿真趋势一致，其中标称弹簧配置实现了平衡的运动范围、扭矩需求和重复性。研究结果表明，基于仿真的刚度选择可有效指导紧凑型线缆驱动腕部外骨骼的设计，同时减少对经验调校的依赖。",
+    "url": "https://arxiv.org/abs/2604.20893v2",
+    "html_url": "https://arxiv.org/html/2604.20893v2",
+    "html_content": "",
+    "preview_text": "Wrist exoskeletons play a vital role in rehabilitation and assistive applications, yet conventional actuation mechanisms such as electric motors or pneumatics often introduce undesirable weight, friction, and complexity. This paper presents a novel single-cable (tendon), torsional-spring-assisted actuation mechanism for wrist abduction-adduction, and a simulation-based method for selecting its stiffness parameters. The mechanism employs a single Bowden cable passively tensioned by a spiral torsional spring (clock spring) to maintain continuous cable tension without antagonistic actuation. Kinematic and dynamic modeling of the mechanism was performed to estimate the required torque and identify optimal spring parameters. These simulation-derived parameters guided the design of a functional prototype, which was experimentally evaluated with five participants with no motor disabilities (NMD) under varying arm positions and loading conditions using three spring configurations to account for user variability and modeling uncertainties. Experimental results show consistent agreement with simulation-derived trends, with the nominal spring configuration achieving balanced motion range, torque demand, and repeatability. The results demonstrate that simulation-informed stiffness selection can effectively guide the design of compact, cable-driven wrist exoskeletons while reducing reliance on empirical tuning.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "该论文研究上肢外骨骼的肌腱驱动手腕机构设计与建模，与强化学习、VLA、运动控制等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-21T08:48:23Z",
+    "created_at": "2026-05-05T15:53:07.952297",
+    "updated_at": "2026-05-05T15:53:07.952303"
+}

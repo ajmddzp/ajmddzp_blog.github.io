@@ -1,0 +1,30 @@
+{
+    "id": "2604.20557v1",
+    "title": "Passive Variable Impedance For Shared Control",
+    "authors": [
+        "Maximilian Mühlbauer",
+        "Nepomuk Werner",
+        "Ribin Balachandran",
+        "Thomas Hulin",
+        "João Silvério",
+        "Freek Stulp",
+        "Alin Albu-Schäffer"
+    ],
+    "abstract": "共享控制方法通常采用阻抗控制来跟踪机械臂的目标位姿。这类控制器的引导行为取决于所使用的刚度增益，通过实时调整刚度可实现自适应引导。当多个重要性动态变化的目标位姿需同时被跟踪时，相应输出力旋量必须通过随时间调整的加权系数进行仲裁。本研究将阻抗控制中可变刚度的稳定性问题与不同控制器输出力旋量加权叠加的仲裁过程统一纳入整体框架，通过识别闭环系统中的无源性违例现象，提出系统无源化方法。该方案可稳定标准阻抗控制器，为开发新型灵活共享控制方法奠定基础。研究中未对刚度矩阵或仲裁因子的设计施加约束：两者均可采用含非对角元素的矩阵形式，且允许任意时变。所提方法通过仿真及多系统真实机器人实验验证，证明了其有效性，并展示了可根据共享控制方法需求定制的多样化行为模式。",
+    "url": "https://arxiv.org/abs/2604.20557v1",
+    "html_url": "https://arxiv.org/html/2604.20557v1",
+    "html_content": "",
+    "preview_text": "Shared Control methods often use impedance control to track target poses in a robotic manipulator. The guidance behavior of such controllers is shaped by the used stiffness gains, which can be varying over time to achieve an adaptive guiding. When multiple target poses are tracked at the same time with varying importance, the corresponding output wrenches have to be arbitrated with weightings changing over time. In this work, we study the stabilization of both variable stiffness in impedance control as well as the arbitration of different controllers through a scaled addition of their output wrenches, reformulating both into a holistic framework. We identify passivity violations in the closed loop system and provide methods to passivate the system. The resulting approach can be used to stabilize standard impedance controllers, allowing for the development of novel and flexible shared control methods. We do not constrain the design of stiffness matrices or arbitration factors; both can be matrix-valued including off-diagonal elements and change arbitrarily over time. The proposed methods are furthermore validated in simulation as well as in real robot experiments on different systems, proving their effectiveness and showcasing different behaviors which can be utilized depending on the requirements of the shared control approach.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "该论文研究共享控制中的被动可变阻抗，与强化学习、VLA、运动控制等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-22T13:39:39Z",
+    "created_at": "2026-05-05T15:53:19.380155",
+    "updated_at": "2026-05-05T15:53:19.380163"
+}

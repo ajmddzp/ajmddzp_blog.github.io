@@ -1,0 +1,29 @@
+{
+    "id": "2604.21377v1",
+    "title": "A Replicable Robotics Awareness Method Using LLM-Enabled Robotics Interaction: Evidence from a Corporate Challenge",
+    "authors": [
+        "S. A. Prieto",
+        "M. A. Gopee",
+        "Y. Ben Arab",
+        "B. García de Soto",
+        "J. Esteba",
+        "P. Olivera Brizzio"
+    ],
+    "abstract": "大型语言模型正越来越多地被探索作为人类与机器人系统之间的交互界面，但现有证据有限，难以证明此类技术不仅可用于交互，还能作为一种结构化手段，在实际组织环境中向非专业用户引入机器人系统。本文提出并评估了一种基于挑战的机器人认知方法，该方法通过在阿联酋阿布扎比港口集团（AD Ports Group）员工中开展的一项由大语言模型驱动的人形机器人活动得以实现。活动中，参与者使用基于大语言模型控制框架解析的语音指令，在取材于物流场景的任务环境中与一台人形机器人进行协作。该活动设计为团队化、角色驱动的体验，旨在让参与者在无需具备机器人专业知识的前提下接触具身人工智能与人机协作。为评估该方法，活动后开放了为期16天的问卷，收集到102份有效回复。结果显示，整体接受度较高：满意度达8.46/10（满分10分），对机器人与人工智能的兴趣提升至4.47/5（满分5分），对新型人机协作形式的理解提升至4.45/5。与机器人直接互动的参与者还反馈了自然交互体验（4.37/5），并强烈感知到随着活动推进交互难度持续降低（4.74/5）。同时，在可靠性和可预测性方面出现的较低评分，也指出了未来版本需应对的重要技术及设计挑战。研究结论表明，基于挑战、以大语言模型赋能的人形机器人互动，可成为工业及运营环境中一种有前景且可复制的机器人认知推广方法。",
+    "url": "https://arxiv.org/abs/2604.21377v1",
+    "html_url": "https://arxiv.org/html/2604.21377v1",
+    "html_content": "",
+    "preview_text": "Large language models are increasingly being explored as interfaces between humans and robotic systems, yet there remains limited evidence on how such technologies can be used not only for interaction, but also as a structured means of introducing robotics to non-specialist users in real organizational settings. This paper introduces and evaluates a challenge-based method for robotics awareness, implemented through an LLM-enabled humanoid robot activity conducted with employees of AD Ports Group in the United Arab Emirates. In the event, participants engaged with a humanoid robot in a logistics-inspired task environment using voice commands interpreted through an LLM-based control framework. The activity was designed as a team-based, role-driven experience intended to expose participants to embodied AI and human-robot collaboration without requiring prior robotics expertise. To evaluate the approach, a post-event survey remained open for 16 days and collected 102 responses. Results indicate strong overall reception, with high satisfaction (8.46/10), increased interest in robotics and AI (4.47/5), and improved understanding of emerging forms of human-robot collaboration (4.45/5). Participants who interacted directly with the robot also reported natural interaction (4.37/5) and a strong sense that interaction became easier as the activity progressed (4.74/5). At the same time, lower ratings for reliability and predictability point to important technical and design challenges for future iterations. The findings suggest that challenge-based, LLM-enabled humanoid interaction can serve as a promising and replicable method for robotics awareness in industrial and operational environments.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "该论文主要研究基于LLM的人形机器人交互方法在组织环境中提升机器人认知，与强化学习、VLA、运动控制等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-23T07:45:17Z",
+    "created_at": "2026-05-05T15:53:25.871225",
+    "updated_at": "2026-05-05T15:53:25.871232"
+}
