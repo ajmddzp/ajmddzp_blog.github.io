@@ -1,0 +1,33 @@
+{
+    "id": "2604.25766v2",
+    "title": "Sensitivity-Based Tube NMPC for Cooperative Aerial Structures Under Parametric Uncertainty",
+    "authors": [
+        "Giuseppe Silano",
+        "Quentin Sablé",
+        "Marco Tognon",
+        "Luigi Iannelli",
+        "Antonio Franchi"
+    ],
+    "abstract": "本文提出了一种基于灵敏度的管式非线性模型预测控制（NMPC）框架，用于解决有界参数不确定性下的协同空中链式系统。我们考虑由刚性连杆连接的两飞行器平面链系统，采用输入速率驱动建模以限制推力和扭矩的摆率与幅值。通过沿预测时域传播一阶参数状态灵敏度并利用其在线计算约束紧缩裕度，实现了对连杆质量、长度及惯性等不确定性的鲁棒性。我们通过平滑余弦嵌入强化了连杆间距离约束及推力幅值边界的鲁棒性。该方法在MATLAB中实现，并通过边界逼近机动和蒙特卡洛不确定性采样进行验证。结果表明，在保持与标称NMPC相近跟踪性能的同时，该方法在不确定性下具有更优的约束裕度。",
+    "url": "https://arxiv.org/abs/2604.25766v2",
+    "html_url": "https://arxiv.org/html/2604.25766v2",
+    "html_content": "",
+    "preview_text": "This paper presents a sensitivity-based tube Nonlinear Model Predictive Control (NMPC) framework for cooperative aerial chains under bounded parametric uncertainty. We consider a planar two-vehicle chain connected by rigid links, modeled with input-rate actuation to enforce slew-rate and magnitude limits on thrust and torque. Robustness to uncertainty in link mass, length, and inertia is achieved by propagating first-order parametric state sensitivities along the horizon and using them to compute online constraint-tightening margins. We robustify an inter-link separation constraint, implemented via a smooth cosine embedding, and thrust-magnitude bounds. The method is implemented in MATLAB and evaluated with boundary-hugging maneuvers and Monte-Carlo uncertainty sampling. Results show improved constraint margins under uncertainty with tracking performance comparable to nominal NMPC.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [
+        "NMPC",
+        "tube NMPC",
+        "parametric uncertainty",
+        "cooperative aerial structures"
+    ],
+    "one_line_summary": "本文提出基于灵敏度的管式非线性模型预测控制框架，用于参数不确定性下的协作空中结构，与强化学习、VLA等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-28T15:29:40Z",
+    "created_at": "2026-05-12T15:53:11.362566",
+    "updated_at": "2026-05-12T15:53:11.362571"
+}

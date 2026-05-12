@@ -1,0 +1,33 @@
+{
+    "id": "2605.00291v1",
+    "title": "An End-to-End Decision-Aware Multi-Scale Attention-Based Model for Explainable Autonomous Driving",
+    "authors": [
+        "Maryam Sadat Hosseini Azad",
+        "Shahriar Baradaran Shokouhi",
+        "Amir Abbas Hamidi Imani",
+        "Shahin Atakishiyev",
+        "Randy Goebel"
+    ],
+    "abstract": "计算机视觉的应用正逐渐扩展到各个领域。这些系统通常采用具有黑箱特性的深度学习模型。若无法解释神经网络的行为，特别是其决策过程，就无法评估其效率、预测系统故障或在现实场景中有效部署。由于全自动驾驶系统不可避免地依赖深度学习，研究者已提出多种方法来解释其行为，但现有方法存在推理缺陷和不可靠的评估指标，导致无法全面理解自动驾驶中的复杂模型，阻碍了真正可靠系统的开发。本研究提出一种基于多尺度注意力的模型，其推理模块通过输入驾驶决策，为每个决策同步生成针对特定场景的因果解释。为定量评估模型性能，我们采用F1分数指标，并提出名为联合F1分数的新指标，以展示模型在可解释人工智能（XAI）方面准确可靠的性能。除BDD-OIA数据集外，我们采用nu-AR数据集进一步验证所提网络的泛化能力和鲁棒性。结果表明，我们的推理网络在性能上优于经典模型和当前最先进模型。",
+    "url": "https://arxiv.org/abs/2605.00291v1",
+    "html_url": "https://arxiv.org/html/2605.00291v1",
+    "html_content": "",
+    "preview_text": "The application of computer vision is gradually increasing across various domains. They employ deep learning models with a black-box nature. Without the ability to explain the behavior of neural networks, especially their decision-making processes, it is not possible to recognize their efficiency, predict system failures, or effectively implement them in real-world applications. Due to the inevitable use of deep learning in fully automated driving systems, many methods have been proposed to explain their behavior; however, they suffer from flawed reasoning and unreliable metrics, which have prevented a comprehensive understanding of complex models in autonomous vehicles and hindered the development of truly reliable systems. In this study, we propose a multi-scale attention-based model in which driving decisions are fed into the reasoning component to provide case-specific explanations for each decision simultaneously. For quantitative evaluation of our model's performance, we employ the F1-score metric, and also proposed a new metric called the Joint F1 score to demonstrate the accurate and reliable performance of the model in terms of Explainable Artificial Intelligence (XAI). In addition to the BDD-OIA dataset, the nu-AR dataset is utilized to further validate the generalization capability and robustness of the proposed network. The results demonstrate the superiority of our reasoning network over the classic and state-of-the-art models.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "Explainable AI",
+        "Autonomous Driving",
+        "Attention Model",
+        "Multi-Scale"
+    ],
+    "one_line_summary": "提出一种端到端的多尺度注意力模型，用于可解释的自动驾驶决策。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-30T23:27:39Z",
+    "created_at": "2026-05-12T15:53:54.575176",
+    "updated_at": "2026-05-12T15:53:54.575182"
+}

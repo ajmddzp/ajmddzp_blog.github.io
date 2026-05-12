@@ -1,0 +1,26 @@
+{
+    "id": "2604.27168v2",
+    "title": "The Field of Safe Motion: Operationalizing Affordances in the Field of Safe Travel Using Reachability Analysis",
+    "authors": [
+        "Leif Johnson",
+        "Trent Victor",
+        "Johan Engström"
+    ],
+    "abstract": "我们提出\"安全运动场\"（FSM）这一量化安全模型，通过考虑驾驶员的身体能力及其他道路使用者的可预见行为，判定驾驶员在任何时刻是否保持无碰撞逃生路线（即\"出路\"）。\"安全行驶场\"（FST）为表征驾驶员可获取的感官信息类型和行动可能性提供了理论框架。然而，自约90年前首次提出以来，FST本质上仍停留在概念层面——至今缺乏具体的计算可操作化方案。与此同时，可达性分析通过使用可解释的运动学模型，为评估道路使用者的可行行动提供了量化基础，但这类模型至今主要局限于工程与机器人学文献。将这两种方法相结合，可形成一种可解释的量化工具，用于评估广泛驾驶场景下的驾驶行为。除具备可解释性外，我们的方法仅依赖少量易于列举和推理的基本假设。此外，结合运动学假设的可解释可达性模型，为界定道路使用者合理可预见的未来位置的不确定性提供了途径。我们通过不同驾驶场景验证了FSM的适用性，并讨论了该模型的优势与局限性。",
+    "url": "https://arxiv.org/abs/2604.27168v2",
+    "html_url": "https://arxiv.org/html/2604.27168v2",
+    "html_content": "",
+    "preview_text": "We present the Field of Safe Motion (FSM), a quantitative safety model for determining whether a driver maintains a collision-free escape route, or \"out,\" at any given moment by accounting for that driver's physical capabilities and the foreseeable actions of other road users. The Field of Safe Travel (FST) provides a framework for representing the types of sensory information and actions available to drivers. However, the FST has remained conceptual in nature since its initial publication almost 90 years ago -- and a concrete computational operationalization is still lacking. At the same time, reachability analysis provides a quantitative basis for assessing the possible actions available to road users, using interpretable kinematic models, but reachability models have so far remained confined largely to the engineering and robotics literature. Bringing these two approaches together provides for an interpretable, quantitative tool for assessing driving behavior across a wide range of driving scenarios. Beyond being interpretable, our approach relies on a relatively small set of basic assumptions that are easy to enumerate and reason about. Furthermore, an interpretable reachability model paired with kinematic assumptions provides a way to bound uncertainty about road users' reasonably foreseeable future locations. We demonstrate the applicability of the FSM to different driving scenarios and discuss the strengths and weaknesses of the model.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "该论文提出基于可达性分析的安全运动场模型，用于评估驾驶场景中的安全逃生路线，与强化学习、VLA、机器人控制等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-29T20:17:30Z",
+    "created_at": "2026-05-12T15:53:27.827037",
+    "updated_at": "2026-05-12T15:53:27.827042"
+}

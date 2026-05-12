@@ -1,0 +1,32 @@
+{
+    "id": "2604.28057v1",
+    "title": "Framework for Collaborative Operation of Autonomous Delivery Vehicles Within a Marshaling Yard",
+    "authors": [
+        "James O'Hara",
+        "Karl Wunderlich",
+        "Gregory Stevens"
+    ],
+    "abstract": "随着自动驾驶车辆在城市道路中逐步部署，但仅限特定场景且存在大量边缘案例问题，类似编组场这样的封闭设施为将低级别车辆自动驾驶与固定基础设施相结合、实现完全无人化且无需担忧边缘案例提供了成熟的应用场景。在配送编组场内，电动车队需依次完成充电、检查、清洁和装载等任务，随后装载新货物驶出场站。通过车辆与基础设施的混合自动化，这些车辆无需驾驶员即可实现全自主导航，从而缩短任务转移时间并提升车辆吞吐量。然而，基于静态规则的孤立自主运行极易引发死锁，导致设施故障并临时中断运营。我们的协同式自主解决方案采用去中心化的动态优先级评分机制，根据编组场实时状态优化车辆任务分配以提升吞吐量。通过搭建包含三种编组场规模（小/中/大）和三种需求强度（低/中/高）的模拟设施，我们验证了该协同方案在所有规模与需求组合下均能显著提升车辆吞吐量，并在高需求条件下有效降低设施故障率。",
+    "url": "https://arxiv.org/abs/2604.28057v1",
+    "html_url": "https://arxiv.org/html/2604.28057v1",
+    "html_content": "",
+    "preview_text": "As autonomous vehicles slowly deploy into urban roads for limited use cases with significant edge case issues, closed facilities like marshaling yards provide a ripe case for combining lower-level vehicle autonomy with fixed infrastructure to create full autonomy without similar edge case concerns. Within a delivery marshaling yard, electric fleet vehicles complete a set of sequential tasks (charging, inspection, cleaning, and loading) before exiting the yard with their new load of deliveries. Hybrid automation of the vehicles and infrastructure can allow these vehicles to reach full autonomy and navigate the facility without the need of a driver, allowing for quicker movement between tasks increasing vehicle throughput. However, isolated autonomous operations based on static rules are prone to gridlock causing facility failures that temporarily shut down operations. Our orchestrated autonomy solution uses decentralized, dynamic priority scoring of vehicles based on the current status of the marshaling yard to optimally assign vehicles to tasks to increase vehicle throughput. Using a simulated facility with three marshaling yard sizes (small, medium, and large) and three demand levels (low, medium, high), we demonstrated that our orchestration solution increases vehicle throughput above static, isolated autonomy for all combinations of yard size and demand, while reducing facility failures at high demand levels.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [
+        "autonomous vehicles",
+        "marshaling yard",
+        "orchestration",
+        "dynamic priority scoring",
+        "vehicle throughput"
+    ],
+    "one_line_summary": "论文提出一种在编组场内通过动态优先级评分协调自动驾驶车辆完成任务的框架，以提高车辆吞吐量并减少故障。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-30T16:02:59Z",
+    "created_at": "2026-05-12T15:53:40.383749",
+    "updated_at": "2026-05-12T15:53:40.383754"
+}

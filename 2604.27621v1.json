@@ -1,0 +1,30 @@
+{
+    "id": "2604.27621v1",
+    "title": "Robot Learning from Human Videos: A Survey",
+    "authors": [
+        "Junyi Ma",
+        "Erhang Zhang",
+        "Haoran Yang",
+        "Ditao Li",
+        "Chenyang Xu",
+        "Guangming Wang",
+        "Hesheng Wang"
+    ],
+    "abstract": "限制具身人工智能和机器人技术进一步发展的一个关键瓶颈是机器人数据规模化所带来的挑战。为解决这一问题，近年来，受人类活动视频的丰富性以及计算机视觉进步的推动，从人类视频数据中学习机器人操作技能的研究领域迅速发展。这类研究有望使机器人能够通过大量现成的人类示范资源被动获取技能，从而显著促进通用型机器人系统的可扩展学习。为此，我们撰写了这篇综述，对机器人领域中基于人类视频的学习技术进行全面且最新的回顾，重点关注人机技能迁移和数据基础。我们首先回顾了机器人领域的策略学习基础，然后介绍了整合人类视频的基本接口。随后，我们提出了一种将人类视频迁移至机器人技能的分层分类法，涵盖任务导向、观测导向和动作导向路径，并对其与不同数据配置和学习范式的耦合进行了跨家族分析。此外，我们探讨了数据基础，包括广泛使用的人类视频数据集和视频生成方案，并提供了数据集开发与利用的大规模统计趋势。最后，我们强调了该领域固有的挑战与局限性，并描绘了未来研究的潜在方向。本综述的论文列表可在 https://github.com/IRMVLab/awesome-robot-learning-from-human-videos 获取。",
+    "url": "https://arxiv.org/abs/2604.27621v1",
+    "html_url": "https://arxiv.org/html/2604.27621v1",
+    "html_content": "",
+    "preview_text": "A critical bottleneck hindering further advancement in embodied AI and robotics is the challenge of scaling robot data. To address this, the field of learning robot manipulation skills from human video data has attracted rapidly growing attention in recent years, driven by the abundance of human activity videos and advances in computer vision. This line of research promises to enable robots to acquire skills passively from the vast and readily available resource of human demonstrations, substantially favoring scalable learning for generalist robotic systems. Therefore, we present this survey to provide a comprehensive and up-to-date review of human-video-based learning techniques in robotics, focusing on both human-robot skill transfer and data foundations. We first review the policy learning foundations in robotics, and then describe the fundamental interfaces to incorporate human videos. Subsequently, we introduce a hierarchical taxonomy of transferring human videos to robot skills, covering task-, observation-, and action-oriented pathways, along with a cross-family analysis of their couplings with different data configurations and learning paradigms. In addition, we investigate the data foundations including widely-used human video datasets and video generation schemes, and provide large-scale statistical trends in dataset development and utilization. Ultimately, we emphasize the challenges and limitations intrinsic to this field, and delineate potential avenues for future research. The paper list of our survey is available at https://github.com/IRMVLab/awesome-robot-learning-from-human-videos.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "该论文综述从人类视频中学习机器人技能的方法，不涉及强化学习、VLA、扩散模型等关键词。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-04-30T09:11:25Z",
+    "created_at": "2026-05-12T15:53:32.536000",
+    "updated_at": "2026-05-12T15:53:32.536008"
+}
