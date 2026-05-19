@@ -1,0 +1,33 @@
+{
+    "id": "2605.06246v1",
+    "title": "Structure-Preserving Gaussian Processes Via Discrete Euler-Lagrange Equations",
+    "authors": [
+        "Jan-Hendrik Ewering",
+        "Kathrin Flaßkamp",
+        "Niklas Wahlström",
+        "Thomas B. Schön",
+        "Thomas Seel"
+    ],
+    "abstract": "本文提出拉格朗日高斯过程（LGPs），通过离散受迫欧拉-拉格朗日方程实现动力学的概率学习与数据高效建模。关键创新在于：当系统无外力作用时，该方法通过构造过程自动保持拉格朗日-达朗贝尔原理的几何结构——该原理支配着动力系统的运动规律。这使得学习到的物理一致性模型能够克服系统能量的异常偏移，从而提供稳定的长期预测。该方法的理论核心是构建于离散受迫欧拉-拉格朗日方程与变分离散格式之上的高斯过程条件化线性算子。与现有研究不同，该技术仅通过离散位置快照（无需获取系统速度或动量数据）即可学习动力学特性。这种特性特别适用于仅能获取位置测量的实际场景，例如运动捕捉或视觉伺服应用。我们通过多个合成与真实世界案例（包括具有迟滞特性的真实软体机器人）验证了LGPs的数据效率与泛化能力。实验结果表明，LGPs仅需稀疏位置数据即可学习含不确定性量化的物理一致性动力学，并实现稳定的长期预测。",
+    "url": "https://arxiv.org/abs/2605.06246v1",
+    "html_url": "https://arxiv.org/html/2605.06246v1",
+    "html_content": "",
+    "preview_text": "In this paper, we propose Lagrangian Gaussian Processes (LGPs) for probabilistic and data-efficient learning of dynamics via discrete forced Euler-Lagrange equations. Importantly, the geometric structure of the Lagrange-d'Alembert principle, which governs the motion of dynamical systems, is preserved by construction in the absence of external forces. This allows learning physically consistent models that overcome erroneous drift in the system's energy, thereby providing stable long-term predictions. At the core of our approach lie linear operators for Gaussian process conditioning, constructed from discrete forced Euler-Lagrange equations and variational discretization schemes. Thereby and unlike prior work, the method enables learning dynamics from discrete position snapshots, i.e., without access to a system's velocities or momenta. This is particularly relevant for a large class of practical scenarios where only position measurements are available, for instance, in motion capture or visual servoing applications. We demonstrate the data-efficiency and generalization capabilities of the LGPs in various synthetic and real-world case studies, including a real-world soft robot with hysteresis. The experimental results underscore that the LGPs learn physically consistent dynamics with uncertainty quantification solely from sparse positional data and enable stable long-term predictions.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [
+        "Gaussian Processes",
+        "Lagrangian",
+        "dynamics",
+        "Euler-Lagrange equations"
+    ],
+    "one_line_summary": "提出拉格朗日高斯过程，通过离散欧拉-拉格朗日方程学习动力学，保持几何结构。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-05-07T13:26:47Z",
+    "created_at": "2026-05-19T15:56:56.535221",
+    "updated_at": "2026-05-19T15:56:56.535229"
+}

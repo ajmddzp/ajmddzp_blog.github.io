@@ -1,0 +1,26 @@
+{
+    "id": "2605.03315v1",
+    "title": "TACO: Trajectory Aligning Cross-view Optimisation",
+    "authors": [
+        "Tavis Shore",
+        "Oscar Mendez",
+        "Simon Hadfield"
+    ],
+    "abstract": "跨视角地理定位（CVGL）通过将地面图像与卫星影像进行匹配以提供绝对位置修正，作为一种替代全球导航卫星系统（GNSS）的方案，适用于信号被遮挡、干扰或欺骗的场景。近年来，细粒度CVGL方法实现了亚瓦片级的度量位姿回归，但此前仅在单次定位场景中评估，从未作为实时定位管道中的主定位手段。惯性传感虽能提供高频率的相对运动信息，但缺乏绝对锚点会导致无界漂移累积。我们提出TACO——一种紧耦合的惯性测量单元（IMU）+细粒度CVGL定位系统。该系统仅在启动时消耗一次GNSS读数，之后完全依赖板载传感器运行。通过闭式跨轨误差模型，系统在IMU漂移超出匹配器捕获半径前触发CVGL；采用前向偏置的五点多裁剪搜索策略，确保每次定位仅需五次前向推理即可维持恒定计算成本。偏航残差门控机制可剔除与板载罗盘不一致的定位结果，各向异性机体坐标系噪声模型则根据每次定位置信度缩放无迹卡尔曼滤波（UKF）更新量。经校验的闭环因子图提供离线平滑轨迹。在KITTI原始数据集上，TACO将中位绝对轨迹误差（ATE）从97.0米（纯IMU）降至16.3米，降低5.9倍，且每帧融合成本低于0.1毫秒，相机工作负载仅占5-10%。代码开源：github.com/tavisshore/TACO。",
+    "url": "https://arxiv.org/abs/2605.03315v1",
+    "html_url": "https://arxiv.org/html/2605.03315v1",
+    "html_content": "",
+    "preview_text": "Cross-View Geo-localisation (CVGL) matches ground imagery against satellite tiles to give absolute position fixes, an alternative to GNSS where signals are occluded, jammed, or spoofed. Recent fine-grained CVGL methods regress sub-tile metric pose, but have only been evaluated as one-shot localisers, never as the primary fix in a live pipeline. Inertial sensing provides high-rate relative motion, but accumulates unbounded drift without an absolute anchor. We propose TACO, a tightly-coupled IMU + fine-grained CVGL pipeline that consumes a single GNSS reading at start-up and thereafter operates on onboard sensing alone. A closed-form cross-track error model triggers CVGL before IMU drift exceeds the matcher's capture radius, and a forward-biased five-point multi-crop search keeps inference cost fixed at five forward passes per fix. A yaw-residual gate rejects fixes that disagree with the onboard compass, and an anisotropic body-frame noise model scales each Unscented Kalman Filter update by per-fix confidence. A factor graph with vetted loop closures provides an offline smoothed trajectory. On the KITTI raw dataset, TACO reduces median Absolute Trajectory Error (ATE) from 97.0m (IMU-only) to 16.3m, a 5.9 times reduction, at <0.1 ms per-frame fusion cost and a 5-10% camera duty cycle. Code is available: github.com/tavisshore/TACO.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "该论文提出TACO，一种紧耦合IMU与细粒度跨视角地理定位的管道，用于替代GNSS，与强化学习、VLA、机器人控制等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-05-05T03:04:49Z",
+    "created_at": "2026-05-19T15:53:09.359233",
+    "updated_at": "2026-05-19T15:53:09.359239"
+}

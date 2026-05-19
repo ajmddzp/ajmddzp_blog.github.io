@@ -1,0 +1,30 @@
+{
+    "id": "2605.05328v1",
+    "title": "Query2Uncertainty: Robust Uncertainty Quantification and Calibration for 3D Object Detection under Distribution Shift",
+    "authors": [
+        "Till Beemelmanns",
+        "Alexey Nekrasov",
+        "Stefan Vilceanu",
+        "Jonas Steinhaus",
+        "Timo Woopen",
+        "Bastian Leibe",
+        "Lutz Eckstein"
+    ],
+    "abstract": "三维物体检测的可靠不确定性估计对于部署安全的自主系统至关重要，然而现代检测器的校准效果仍不理想，尤其是在分布偏移情况下。尽管事后校准方法可改善此问题并在分布内测试中提供更优校准效果，但这类方法在分布偏移场景中难以适应。针对这一挑战，本文提出了一种密度感知校准方法，将事后校准器与DETR类三维物体检测器中潜在目标查询的特征密度相结合。这些查询可形成紧凑且具备位置与类别感知能力的特征，特别适合密度估计，使本方法能够在分布偏移场景中调整模型置信度。通过在目标查询特征上拟合密度估计器，本方法可同时重新校准分类与边界框回归的不确定性。在多视角摄像头与激光雷达检测器上的实验表明，本方法在分布内与分布偏移场景中均显著优于标准事后校准方法。相关代码已开源：https://tillbeemelmanns.github.io/query2uncertainty/。",
+    "url": "https://arxiv.org/abs/2605.05328v1",
+    "html_url": "https://arxiv.org/html/2605.05328v1",
+    "html_content": "",
+    "preview_text": "Reliable uncertainty estimation for 3D object detection is critical for deploying safe autonomous systems, yet modern detectors remain poorly calibrated, especially under distribution shifts. Although post-hoc calibration methods address this issue and provide improved calibration for in-distribution tests, they fail to adapt in distribution-shifted scenarios. In this work, we address this issue and introduce a density-aware calibration method that couples post-hoc calibrators with the feature density of latent object queries from DETR-style 3D object detectors. These queries form a compact, location and class-aware feature, ideal for density estimation, allowing our approach to adjust model confidences in distribution-shift scenarios. By fitting a density estimator on these query features, our approach jointly recalibrates both classification and bounding box regression uncertainties. On both a multi-view camera and LiDAR-based detector, our approach consistently outperforms standard post-hoc methods in both in-distribution and distribution-shifted scenarios. Code available https://tillbeemelmanns.github.io/query2uncertainty/ .",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "该论文研究3D目标检测的不确定性量化与校准，与强化学习、VLA、机器人控制等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-05-06T18:01:19Z",
+    "created_at": "2026-05-19T15:55:04.709459",
+    "updated_at": "2026-05-19T15:55:04.709465"
+}

@@ -1,0 +1,32 @@
+{
+    "id": "2605.04408v1",
+    "title": "Autonomous Laparoscope Control through Unified Mechanics-Based Representation of Multimodal Intraoperative Information",
+    "authors": [
+        "Xiaojian Li",
+        "Jin Fang",
+        "Yudong Shi",
+        "Xilin Xiao",
+        "Kai Yan",
+        "Kang Min",
+        "Ling Li",
+        "Hua Tang",
+        "Hangjie Mo"
+    ],
+    "abstract": "持镜机器人能够为外科医生提供稳定的腹腔镜视野，并减轻人类助手的负担。为保持术中理想视野，机器人需根据术中信息持续调整腹腔镜位姿。然而，术中多模态信号（如位置、力/力矩、图像等）在物理意义和量纲上存在显著差异，难以建立统一表征并生成可直接用于腹腔镜控制的指令。针对该问题，本文提出一种基于多模态信息统一力学建模的持镜机器人控制方法。首先，我们设计了多种术中信息源（包括位置、力/力矩和图像）的映射策略，将其统一为操作空间中的等效力螺旋表征。继而采用任务优先级方案，将力螺旋分别注入任务空间和零空间，通过任务优先级投影综合生成腹腔镜控制指令，实现多模态信息在统一框架下的一致性表征与协调融合。最后，以术中运动远程中心(RCM)位置、力/力矩传感器读数及腹腔镜图像为例，构建了RCM约束力螺旋以强制执行RCM几何约束并降低穿刺点接触力、腹腔镜操控力螺旋实现顺应性拖拽、以及器械追踪力螺旋实现器械自主视觉跟踪。手术模型实验与活体猪实验表明，该方法在维持RCM约束并降低穿刺点持续载荷的同时，支持包括顺应性腹腔镜操控和自主器械跟踪在内的多任务操作。",
+    "url": "https://arxiv.org/abs/2605.04408v1",
+    "html_url": "https://arxiv.org/html/2605.04408v1",
+    "html_content": "",
+    "preview_text": "Laparoscope-holding robots can provide surgeons with a stable laparoscopic field of view (FOV) and reduce the burden on human assistants. To maintain an ideal intraoperative FOV, the robot must continuously adjust the laparoscope pose according to intraoperative information. However, intraoperative multimodal signals, such as position, force/torque, and images, differ markedly in physical meaning and units, making it difficult to build a unified representation and to generate control commands that can be used directly for laparoscope control. To address this issue, we propose a laparoscope-holding robot control method based on unified mechanics modeling of multimodal information. First, we design mapping strategies for multiple intraoperative sources, including position, force/torque, and images, and unify them into an equivalent-wrench representation in the operational space. Then, using a task-priority scheme, we inject the wrenches into the task space and the null space, respectively, and synthesize laparoscope control commands via task-priority projection, thereby achieving consistent representation and coordinated fusion of multimodal information within a single framework. Finally, taking the intraoperative remote center of motion (RCM) position, force/torque sensor readings, and laparoscopic images as examples, we construct an RCM-constraint wrench to enforce the RCM geometric constraint and reduce the contact force at the trocar site, a laparoscope-manipulation wrench to enable compliant dragging, and an instrument-tracking wrench to achieve autonomous visual tracking of the instruments. Experiments on a surgical phantom and in vivo porcine trials demonstrate that the proposed method supports multi-task operation, including compliant laparoscope manipulation and autonomous instrument tracking, while maintaining the RCM constraint and reducing sustained trocar-site loading.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "该论文提出基于统一力学建模的多模态信息腹腔镜控制方法，不涉及强化学习、VLA、扩散模型等关键词。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-05-06T02:01:41Z",
+    "created_at": "2026-05-19T15:53:48.197256",
+    "updated_at": "2026-05-19T15:53:48.197262"
+}

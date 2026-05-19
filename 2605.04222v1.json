@@ -1,0 +1,31 @@
+{
+    "id": "2605.04222v1",
+    "title": "Safety by Invariance, Liveness through Refinement: Heterogeneous Contract Framework for Co-Design of Layered Control",
+    "authors": [
+        "Yoshinari Takayama",
+        "Alessio Iovine",
+        "Bart Besselink",
+        "Guillaume Sandou",
+        "Adnane Saoud"
+    ],
+    "abstract": "现实控制系统需在满足连续时间安全约束的同时实现长时域目标（活性），这一需求催生了分层控制架构（LCAs）。然而现有LCA研究存在三大缺陷：（i）缺乏贯穿离散规划与连续执行的统一规范语言；（ii）异质时间尺度子系统互联时，缺乏保证规范可传递的形式化方法；（iii）由于依赖朴素输入滤波规则，层间缺乏组合化隔离。本文通过将安全性-活性分解引入异质假设-保证框架，填补上述三个空白：在连续时间层通过不变性强制实现安全性，在离散时间层通过精化实现活性，并利用垂直精化与时间兼容条件形式化层间协调。我们通过结合MPC规划器、输入-状态稳定（ISS）底层控制器和参考调节桥接器的新型LCA实例化该契约，并在包含电池与超级电容的混合储能系统（HESS）上完成验证。",
+    "url": "https://arxiv.org/abs/2605.04222v1",
+    "html_url": "https://arxiv.org/html/2605.04222v1",
+    "html_content": "",
+    "preview_text": "Real-world control systems must achieve long-horizon objectives (liveness) while respecting continuous-time safety constraints, a combination that motivates hierarchical layered control architectures (LCAs). Existing LCA research, however, lacks (i) a uniform specification language across discrete planning and continuous execution, (ii) formal guarantees that specifications are preserved when interconnecting subsystems at heterogeneous time scales, and (iii) compositional separation between layers, owing to reliance on naive input-filtering laws. This paper addresses all three gaps by importing the safety--liveness decomposition into a heterogeneous assume--guarantee framework: \\emph{safety is enforced by invariance} at the continuous-time layer, while \\emph{liveness is achieved through refinement} at the discrete-time layer, with inter-layer coordination formalized via vertical refinement and timing-compatibility conditions. We instantiate this contract with a novel LCA combining an MPC planner, an input-to-state stabilizing (ISS) low-level controller, and a reference-governor bridge, and validate it on a Hybrid Energy Storage System (HESS) comprising a battery and a supercapacitor.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "safe reinforcement learning",
+        "constrained reinforcement learning"
+    ],
+    "one_line_summary": "论文提出异构契约框架用于分层控制系统的安全与活性协同设计，不涉及强化学习或视觉-语言-动作模型。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-05-05T19:05:46Z",
+    "created_at": "2026-05-19T15:53:36.477196",
+    "updated_at": "2026-05-19T15:53:36.477203"
+}

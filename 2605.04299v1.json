@@ -1,0 +1,25 @@
+{
+    "id": "2605.04299v1",
+    "title": "Beyond Fixed Thresholds and Domain-Specific Benchmarks for Explainable Multi-Task Classification in Autonomous Vehicles",
+    "authors": [
+        "Maryam Sadat Hosseini Azad",
+        "Shahriar Baradaran Shokouhi"
+    ],
+    "abstract": "场景理解是自动驾驶系统的关键组成部分，这需要借助深度学习模型来实现。然而，深度学习方法本质上是黑箱模型，在自动驾驶应用中缺乏透明性和安全性。为提升系统透明度，多任务视觉理解已成为可解释自动驾驶感知系统的核心——通过同时预测多种驾驶行为及其潜在解释，既保障安全导航，又增强人类对自动驾驶车辆的信任。为设计高精度且具有跨文化适应性的可解释自动驾驶系统，我们提出了一种全面的置信度阈值敏感度分析方法，通过评估不同阈值来为各任务确定最优决策边界。分析表明，传统的固定阈值方法在多任务场景中表现欠佳。通过广泛实验验证，我们提出的自适应阈值选择方法能有效提升各任务的F1分数。此外，我们构建了IUST-XAI-AD新型数据集，包含958张带有驾驶决策人工标注及相应推理的图像。该数据集填补了特定驾驶场景领域评估基准的关键空白，相较于现有数据集提供了更具挑战性的测试环境。实验结果表明，置信度阈值敏感度分析能显著提升模型性能，而IUST-XAI-AD数据集的引入则揭示了跨文化驾驶行为模式的重要规律。本研究的综合贡献既包含方法论的进步，也提供了实用评估工具，可加速开发更可靠、可解释且具有文化适应性的自动驾驶系统，促进其全球部署。",
+    "url": "https://arxiv.org/abs/2605.04299v1",
+    "html_url": "https://arxiv.org/html/2605.04299v1",
+    "html_content": "",
+    "preview_text": "Scene understanding is a vital part of autonomous driving systems, which requires the use of deep learning models. Deep learning methods are intrinsically black box models, which lack transparency and safety in autonomous driving. To make these systems transparent, multi-task visual understanding has become crucial for explainable autonomous driving perception systems, where simultaneous prediction of multiple driving behaviors and their underlying explanations is essential for safe navigation and human trust in autonomous vehicles. In order to design an accurate and cross-cultural explainable autonomous driving system, we introduce a comprehensive confidence threshold sensitivity analysis that evaluates various threshold values to identify optimal decision boundaries for different tasks. Our analysis demonstrates that traditional fixed threshold approaches are suboptimal for multi-task scenarios. Through extensive evaluation, we demonstrate that our adaptive threshold selection methodology improves F1-scores across different tasks. In addition, we introduce IUST-XAI-AD, a novel dataset consisting of 958 images with human annotations for driving decisions and corresponding reasoning. This dataset addresses the critical gap in domain-specific evaluation benchmarks for distinct driving contexts and provides a more challenging test environment compared to existing datasets. Experimental results demonstrate that confidence threshold sensitivity analysis can significantly improve model performance, while the introduction of the IUST-XAI-AD dataset reveals important insights about cross-cultural driving behavior patterns. The combined contributions of this work provide both methodological advances and practical evaluation tools that can accelerate the development of more reliable, explainable, and culturally-adaptive autonomous driving systems for global deployment.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "论文关注自动驾驶中的可解释多任务分类，与强化学习、VLA、机器人控制等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-05-05T21:07:11Z",
+    "created_at": "2026-05-19T15:53:45.506396",
+    "updated_at": "2026-05-19T15:53:45.506403"
+}

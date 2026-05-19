@@ -1,0 +1,31 @@
+{
+    "id": "2605.04607v1",
+    "title": "Right Model, Right Time: Real-Time Cascaded-Fidelity MPC for Bipedal Walking",
+    "authors": [
+        "Franek Stark",
+        "Felix Wiebe",
+        "Shubham Vyas",
+        "Dennis Mronga",
+        "Frank Kirchner"
+    ],
+    "abstract": "本文提出了一种用于双足行走的多阶段全身模型预测控制方法，在近端预测层采用详细的全身模型，而在后续预测层使用简化的单刚体模型。该方法在保持预测能力的同时降低了计算复杂度。所生成的非线性最优控制问题通过acados中的序列二次规划（SQP）求解。基于预先指定的接触时序和目标步行速度，该控制器无需依赖预先选定的落脚位置，即可优化关节力矩。该控制器在18自由度双足机器人HyPer-2的MuJoCo仿真环境中得到验证。",
+    "url": "https://arxiv.org/abs/2605.04607v1",
+    "html_url": "https://arxiv.org/html/2605.04607v1",
+    "html_content": "",
+    "preview_text": "This paper presents a multi-phase whole-body model predictive control approach for bipedal walking, combining a detailed whole-body model in the near horizon with a simplified single-rigid-body model in the later prediction steps. This reduces computational complexity while retaining prediction capabilities. The resulting nonlinear optimal control problem is solved using sequential quadratic programming (SQP) in acados. Using a prior specified contact schedule and a target walking speed, the controller optimizes joint torques without depending on prior selected foot step locations. The controller is validated in MuJoCo simulation on the 18-DoF bipedal robot HyPer-2",
+    "is_relevant": false,
+    "relevance_score": 2.0,
+    "extracted_keywords": [
+        "whole body control",
+        "locomotion"
+    ],
+    "one_line_summary": "提出一种结合近端全身模型和远端简化模型的分阶段模型预测控制方法，用于双足步行。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-05-06T07:54:49Z",
+    "created_at": "2026-05-19T15:54:03.270907",
+    "updated_at": "2026-05-19T15:54:03.270915"
+}

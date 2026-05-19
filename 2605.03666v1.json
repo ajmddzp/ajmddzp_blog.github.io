@@ -1,0 +1,27 @@
+{
+    "id": "2605.03666v1",
+    "title": "Sensorless State Estimation and Control for Agile Cable-Suspended Payload Transport by Quadrotors",
+    "authors": [
+        "Ana Maria Nascimento",
+        "Augusto Sales",
+        "Antonio Marcus Lima",
+        "Tiago Nascimento"
+    ],
+    "abstract": "本工作提出了一种利用无人机进行缆绳悬挂负载空中操控的新型控制与估计方法。现有技术中的常见方法存在实际应用局限性，主要依赖直接负载测量和拉格朗日动力学建模方法。由于缺乏系统简洁的动力学模型，我们提出采用乌德瓦迪亚-卡拉巴方法显式纳入缆绳几何约束。该公式化方法能够一致推导出缆绳张力，并将其直接集成到非线性模型预测控制的预测模型中。此外，我们提出了基于相同几何约束的无传感器负载状态估计方法。真实机器人实验结果表明，与基于不完整模型的策略相比，将负载动力学显式纳入优化问题可显著降低轨迹跟踪误差，并实现更优的整体性能。",
+    "url": "https://arxiv.org/abs/2605.03666v1",
+    "html_url": "https://arxiv.org/html/2605.03666v1",
+    "html_content": "",
+    "preview_text": "This work proposes a novel control and estimation approach for aerial manipulation of a cable-suspended load using Unmanned Aerial Vehicles (UAVs). Common approaches in the state of the art have practical limitations, relying on direct load measurements and Lagrangian methods for dynamic modeling. The lack of a straightforward dynamic model of the system led us to propose adopting the Udwadia-Kalaba method to explicitly incorporate the cable's geometric constraints. This formulation allowed for the consistent derivation of the tension force and its direct integration into the NMPC prediction model. Additionally, we propose a sensorless load state estimation based on the same geometric constraints. Results from real-robot experiments demonstrated that the explicit inclusion of load dynamics in the optimization problem significantly reduces trajectory-tracking errors and yields better overall performance compared to strategies based on incomplete models.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "该论文研究四旋翼无人机缆绳悬挂负载的传感器less状态估计与控制，与强化学习、VLA、运动控制等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-05-05T11:57:31Z",
+    "created_at": "2026-05-19T15:53:14.984416",
+    "updated_at": "2026-05-19T15:53:14.984424"
+}
