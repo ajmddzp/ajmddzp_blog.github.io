@@ -1,0 +1,29 @@
+{
+    "id": "2605.11381v1",
+    "title": "Kairos: A Scalable Serving System for Physical AI",
+    "authors": [
+        "Yinwei Dai",
+        "Ganesh Ananthanarayanan",
+        "Landon Cox",
+        "Xenofon Foukas",
+        "Bozidar Radunovic",
+        "Ravi Netravali"
+    ],
+    "abstract": "物理人工智能正经历快速发展，前沿基础模型使其在通用环境中的能力持续增强。物理人工智能任务在推理特性上与数字人工智能存在显著差异，其包含多轮推理-动作执行循环，每轮推理生成连续动作序列，并异步交织推理与执行过程。这使得现有数字人工智能服务系统无法适配物理人工智能——这一缺陷对实现其广泛应用尤为关键，尤其考虑到模型规模及需服务的机器人集群数量。为填补这一空白，我们设计了Kairos——首个将\"生成-执行\"循环作为核心范式、深度参与执行阶段的多机器人服务系统。在涵盖多种物理人工智能模型与机器人的测试中，Kairos将端到端任务平均延迟较现有最优数字人工智能服务方案降低31.8%–66.5%，且性能增益随机器人集群规模扩大而提升。",
+    "url": "https://arxiv.org/abs/2605.11381v1",
+    "html_url": "https://arxiv.org/html/2605.11381v1",
+    "html_content": "",
+    "preview_text": "Physical AI is experiencing rapid growth with frontier foundation models increasing its capabilities across general environments. Physical AI tasks are characterized by inference properties that are markedly different from digital AI. They consist of multiple rounds of inference and action execution, generating a chunk of actions in each inference round, and asynchronously interleaving inference and execution. This makes existing digital AI serving systems unsuited for physical AI; a shortcoming that is critical for enabling their wide adoption, considering their size and the scale of the robot fleets they have to serve. To fill this gap, we design Kairos, the first multi-robot serving system that makes the generate-execute loop a first-class citizen, with active involvement in the execution phase. Across a wide range of physical AI models and robots, Kairos reduces the average end-to-end task latency by 31.8--66.5% over state-of-the-art digital AI serving practices, with gains scaling with the robot fleet size.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "该论文主要关注物理AI的推理服务系统，与强化学习、VLA、运动控制等关键词无直接关联。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-05-12T01:13:30Z",
+    "created_at": "2026-05-26T15:53:05.257021",
+    "updated_at": "2026-05-26T15:53:05.257027"
+}

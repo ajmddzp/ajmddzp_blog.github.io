@@ -1,0 +1,32 @@
+{
+    "id": "2605.12628v1",
+    "title": "Multistep Belief Space Dynamics Learning For Risk-Aware Control",
+    "authors": [
+        "Jason Gibson",
+        "Bogdan Vlahov",
+        "Patrick Spieler",
+        "Evangelos A. Theodorou"
+    ],
+    "abstract": "随着自动驾驶车辆从简化的研究场景走向实际应用，人类驾驶的动态行为与自主系统之间仍存在巨大差距。要满足真实世界的复杂需求，风险感知行为需要自然发展。风险感知规划与控制面临的核心问题在于：如何预测动力学不确定性随时间演化的规律，并制定既考虑这些不确定性又不过于保守的优化方案。本文提出了一种可实时优化的分布动力学学习框架，用于模型预测控制（MPC）。我们深入探讨了在MPC中学习分布动力学时结构化的重要性。基于大规模真实越野驾驶数据集开展的严谨消融研究表明，偏离我们提出的结构会带来显著影响。此外，我们还将学习模型与规划栈部署至全尺寸车辆，在具有挑战性的越野环境中进行测试。该规划架构能够根据环境自然调节车速，在数公里复杂地形上持续展现出智能行为。",
+    "url": "https://arxiv.org/abs/2605.12628v1",
+    "html_url": "https://arxiv.org/html/2605.12628v1",
+    "html_content": "",
+    "preview_text": "As autonomous vehicles move from a simplified research setting to practical use, there exists a large gap between the dynamic behavior of a human driving and an autonomous system. Risk-aware behavior needs to naturally develop in order to scale to the demands of the real world. A major issue for risk-aware planning and control has been predicting how dynamical uncertainty evolves through time and optimizing plans that account for this without being overly conservative. Here, we present a learning framework to predict distributional dynamics that can be optimized in real time for Model Predictive Control (MPC). We explore the importance of structure when learning distributional dynamics for use in MPC. A rigorous ablation study is conducted on a large dataset of real world off-road driving that shows the impact of deviations from our proposed structure. Furthermore, we deploy our learned model and planning stack on a full sized vehicle in challenging off-road conditions. Our planning architecture is able to naturally regulate the speed of the vehicle based on the environment and consistently demonstrates intelligent behavior over miles of diverse terrain.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "risk-aware control",
+        "model predictive control",
+        "distributional dynamics",
+        "off-road driving"
+    ],
+    "one_line_summary": "提出一种多步信念空间动力学学习框架，用于风险感知的模型预测控制，并在真实越野驾驶中验证。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-05-12T18:11:12Z",
+    "created_at": "2026-05-26T15:55:47.170247",
+    "updated_at": "2026-05-26T15:55:47.170253"
+}

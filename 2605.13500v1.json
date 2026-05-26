@@ -1,0 +1,25 @@
+{
+    "id": "2605.13500v1",
+    "title": "Uncertainty-Aware 3D Position Refinement for Multi-UAV Systems",
+    "authors": [
+        "Hosam Alamleh",
+        "Damir Pulatov"
+    ],
+    "abstract": "可靠的实时三维定位对多无人机导航、避碰及编队飞行至关重要，然而在GNSS多路径效应、非视距接收、垂直漂移和蓄意干扰等条件下，机载定位估计性能会显著退化。本文提出一种轻量级分布式三维位置精化层，通过融合每架无人机的本地估计结果、邻居共享状态摘要及无人机间测距或邻近约束来提升鲁棒性。该方法采用不确定性感知的邻域融合机制：根据各无人机报告的协方差对其先验信息加权，并根据链路质量、测距不确定性和学习得到的信任度分数对邻居约束进行加权。为支持实际部署，框架通过膨胀或替换弱先验信息显式处理冷启动和临时定位丢失问题，允许受信任的邻域约束在绝对定位恢复前引导并稳定估计。为减轻故障或恶意参与者的影响，每架无人机实施经时间平滑的局部测距一致性检验，对报告位置与观测的无人机间距离不兼容的邻居降低权重或予以排除。在三维空域中针对10架无人机的仿真实验表明：所提精化方法能显著降低冷启动阶段的平均定位误差，在局部估计稳定后仍保持竞争力，且随着恶意节点比例增加，相比无信任融合方案保持更低的误差。这些结果表明该方法可作为无人机群在复杂环境中运行的实用鲁棒性增强层。",
+    "url": "https://arxiv.org/abs/2605.13500v1",
+    "html_url": "https://arxiv.org/html/2605.13500v1",
+    "html_content": "",
+    "preview_text": "Reliable real-time 3D localization is essential for multi-UAV navigation, collision avoidance, and coordinated flight, yet onboard estimates can degrade under GNSS multipath, non-line-of-sight reception, vertical drift, and intentional interference. This paper presents a decentralized, lightweight 3D position-refinement layer that improves robustness by fusing each Unmanned Aerial Vehicle (UAV)'s local estimate with neighbor-shared state summaries and inter-UAV range or proximity constraints. The method performs uncertainty-aware neighborhood fusion by weighting each UAV's prior according to its reported covariance and weighting neighbor constraints according to link quality, ranging uncertainty, and a learned trust score. To support practical deployment, the framework explicitly handles cold start and temporary localization loss by inflating or substituting weak priors, allowing trusted neighborhood constraints to bootstrap and stabilize estimates until absolute sensing recovers. To mitigate the impact of faulty or malicious participants, each UAV applies a local range-consistency check, smoothed over time, to down-weight or exclude neighbors whose reported positions are incompatible with observed inter-UAV distances. Simulation experiments with 10 UAVs in a 3D volume show that the proposed refinement substantially reduces mean localization error during cold start, remains competitive after local estimators stabilize, and maintains lower error as the fraction of malicious nodes increases compared with fusion without trust. These results suggest that the approach can serve as a practical resilience layer for swarm operation in challenging environments.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "该论文研究多无人机系统的3D定位精化，与强化学习、VLA、运动控制等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-05-13T13:22:14Z",
+    "created_at": "2026-05-26T15:58:01.464024",
+    "updated_at": "2026-05-26T15:58:01.464030"
+}
