@@ -1,0 +1,24 @@
+{
+    "id": "2605.20595v1",
+    "title": "Intent-First Aerial V2V for Tactical Coordination and Separation: Protocol and Performance Under Density and Disturbance",
+    "authors": [
+        "Mehrnaz Sabet"
+    ],
+    "abstract": "密集的低空飞行作业不仅需要飞行前的航路协调和最后的避撞手段。一旦航空器升空，扰动可能在战略重新授权能够吸收的较短时间尺度上出现，而避撞手段既为时过晚又具有破坏性，无法作为常规交通管理手段。尽管战术间隔被视为中间层，但要实现大规模应用，需要一种可部署的邻域通信机制，为本地协调提供新鲜、可信的信息。本文提出了据我们所知首个面向密集无人机系统交通管理（UTM）作业的控制器耦合特性描述，该机制基于全空域、侧链类、意图优先的车对车（V2V）战术邻域交换协议栈。与仅感知广播不同，该协议将更新的状态与意图信标（用于本地感知、协同感知及降级模式评估）与事件触发消息（用于让行、排序、释放及应急协调）相结合。我们使用具备认证新鲜度检查的侧链类C-V2X模块，在基于全空域V2V协议栈上实现并评估该模型。评估采用了场景驱动的大流量压力测试，并由实时、场地锚定基础设施支持。结果表明，V2V可减少陈旧信念发散，通过协同感知保持可观测性，拒绝无效战术消息，抑制虚假本地推理，并结构化共享资源协调。所实现的协议栈为低至中等密度环境下的战术间隔提供了可行的通信层，但随着密度、损伤及复杂性的增加，将转向有保护的降级模式。这些发现表明，意图优先的空中V2V可作为扰动驱动城市空域中扩展战术协调的有限赋能手段。",
+    "url": "https://arxiv.org/abs/2605.20595v1",
+    "html_url": "https://arxiv.org/html/2605.20595v1",
+    "html_content": "",
+    "preview_text": "Dense low-altitude aerial operations require more than pre-flight route coordination and last-resort collision avoidance. Once aircraft are airborne, disturbances can emerge on timescales shorter than strategic reauthorization can absorb, while collision avoidance is too late and disruptive to serve as routine traffic management. Although tactical separation is recognized as the intermediate layer, realizing it at scale requires a deployable neighborhood communication mechanism that provides fresh, trusted information for local coordination. This paper presents what is, to our knowledge, the first controller-coupled characterization of an all-airborne, sidelink-class, intent-first vehicle-to-vehicle (V2V) tactical neighborhood exchange stack for dense Unmanned Aircraft System Traffic Management (UTM) operations. Unlike awareness-only broadcast, the proposed exchange combines refreshed state and intent beacons for local awareness, cooperative perception, and degraded-mode assessment with event-triggered messages for yielding, sequencing, release, and contingency coordination. We implement and evaluate this model on an all-airborne V2V stack using sidelink-class C-V2X modules with authenticated freshness checks. Evaluation uses a scenario-driven, high-volume stress campaign supported by real-time, field-anchored infrastructure. Results show that V2V reduces stale-belief divergence, preserves observability through cooperative perception, rejects invalid tactical messages, suppresses false local inference, and structures shared-resource coordination. The implemented stack provides a viable communication layer for tactical separation in lower-to-moderate regimes, but transitions toward guarded fallback as density, impairment, and complexity increase. These findings position intent-first aerial V2V as a bounded enabler for scaling tactical coordination in disturbance-driven urban airspace.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "论文研究无人机空中交通管理中的V2V通信协议，与强化学习、VLA等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-05-20T01:04:17Z",
+    "created_at": "2026-06-02T15:58:40.919807",
+    "updated_at": "2026-06-02T15:58:40.919811"
+}

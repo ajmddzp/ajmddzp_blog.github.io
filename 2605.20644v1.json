@@ -1,0 +1,35 @@
+{
+    "id": "2605.20644v1",
+    "title": "Design for Manufacturing: A Manufacturability Knowledge-Integrated Reinforcement Learning Framework for Free-Form Pipe Routing in Aeroengines",
+    "authors": [
+        "Caicheng Wang",
+        "Zili Wang",
+        "Shuyou Zhang",
+        "Yongzhe Xiang",
+        "Zheyi Li",
+        "Liangyou Li",
+        "Jianrong Tan"
+    ],
+    "abstract": "制造设计在先进航空发动机研发中扮演关键角色，其复杂部件需要仔细考量可制造性。然而，当前管道敷设实践仍与下游制造环节严重脱节，导致需通过高强度的试错迭代来实现可制造设计。针对该问题，本研究提出基于弗莱纳框架的管路敷设优化方法（FPRO），这是一种融合可制造性知识的强化学习方法，专用于航空发动机自由形态管道设计。FPRO将敷设问题转化为弗莱纳坐标系下的边界值问题，在该框架中管道路径通过曲率与挠率轮廓表征，并采用三次埃尔米特插值生成。为整合设计与制造，领域特定制造知识被嵌入为曲率与挠率允许范围的约束条件。路径优化采用近端策略优化算法结合随机探索与阶段引导奖励机制，随后通过统一映射公式将优化路径转化为弯曲模具运动轨迹，实现六轴自由弯曲机的直接加工。实验结果表明：与笛卡尔坐标方法相比，FPRO持续生成无碰撞、可制造路径，且几何轮廓更平滑；相较于现有强化学习基线方法，该方法在终端对齐精度、路径长度、避障性能及可制造性方面均实现更快收敛与更优表现。实际验证证实制造管道与数字设计间的高度几何一致性，证明了FPRO的实践可行性。",
+    "url": "https://arxiv.org/abs/2605.20644v1",
+    "html_url": "https://arxiv.org/html/2605.20644v1",
+    "html_content": "",
+    "preview_text": "Design for manufacturing plays a critical role in advanced aeroengine development, where complex components necessitate careful consideration of manufacturability. However, current practices in pipe routing remain largely decoupled from down-stream manufacturing, leading to labor-intensive, trial-and-error iterations to achieve manufacturable designs. To address this problem, this study proposes the Frenet-based pipe routing optimization (FPRO) framework, a manufacturability knowledge-integrated reinforcement learning approach for free-form pipe design in aeroengines. FPRO formulates the routing problem as a boundary value problem in the Frenet frame. In this framework, the pipe path is represented by curvature and torsion profiles, which are generated using cubic Hermite interpolation. To integrate design and manufacturing, domain-specific manufacturing knowledge is embedded as constraints on the permissible ranges of curvature and torsion. The path optimization is performed using the proximal policy optimization algorithm with stochastic exploration and a stage-guided reward mechanism. A unified mapping formulation then translates the optimized path into motion trajectories for the bending die, enabling direct fabrication on a six-axis free-bending machine. Experimental results demonstrate that FPRO consistently generates collision-free, manufacturable paths with smoother geometric profiles compared to Cartesian-based methods. It also achieves faster convergence and superior performance in terminal alignment, path length, obstacle avoidance, and manufacturability compared to state-of-the-art reinforcement learning baselines. Real-world validation confirms the close geometric correspondence between the manufactured pipe and its digital design, validating the practical feasibility of FPRO.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [
+        "Reinforcement Learning",
+        "locomotion",
+        "whole body control",
+        "constrained reinforcement learning"
+    ],
+    "one_line_summary": "该论文提出了一种基于强化学习的航空发动机自由管道布线优化框架，专注于制造可行性，与机器人运动控制、视觉语言模型等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-05-20T03:07:00Z",
+    "created_at": "2026-06-02T15:58:51.867846",
+    "updated_at": "2026-06-02T15:58:51.867851"
+}

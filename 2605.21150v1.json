@@ -1,0 +1,25 @@
+{
+    "id": "2605.21150v1",
+    "title": "EllipseLIO: Adaptive LiDAR Inertial Odometry with an Ellipsoid Representation",
+    "authors": [
+        "Rowan Border",
+        "Margarita Chli"
+    ],
+    "abstract": "激光雷达惯性里程计（LIDAR Inertial Odometry, LIO）是许多需要在不依赖外部定位（如GPS）条件下导航的移动机器人系统中的关键组件。在异构环境及采用不同类型激光雷达传感器的自主运行平台中，需要一种无需人工干预即可适应不同场景的LIO方法。\n\n现有LIO方法在参数适当调校后，通常能在相似环境和传感器配置下提供可靠且精确的里程计结果。然而，当采用统一参数配置时，多数方法难以在异构环境与传感器条件下维持稳定的里程计性能。\n\n本文提出EllipseLIO——一种实时LIO方法，通过采用适应传感器能力与环境特点的激光雷达扫描滤波与配准技术，无需针对特定场景进行参数调校即可实现跨场景泛化能力。在包含多样化挑战场景的五组数据集上，将EllipseLIO与当前最优LIO方法进行对比实验，结果表明EllipseLIO在所有方法中表现最佳：其平均里程计误差比次优方法降低38%，并且是唯一在所有实验中均未出现发散现象的方法。EllipseLIO的开源版本将发布于github.com/v4rl-ucy/ellipselio。",
+    "url": "https://arxiv.org/abs/2605.21150v1",
+    "html_url": "https://arxiv.org/html/2605.21150v1",
+    "html_content": "",
+    "preview_text": "LiDAR Inertial Odometry (LIO) is a critical component for many mobile robots that need to navigate without relying on external positioning (e.g., GPS). Platforms that operate autonomously in different environments and with heterogeneous LiDAR sensors require a LIO approach that can adapt to these different scenarios without human intervention.\n  Existing LIO approaches can typically provide reliable and accurate odometry in scenarios with similar environments and sensors when suitably tuned. However, many approaches struggle to retain robust odometry across heterogeneous environments and sensors while using a consistent configuration.\n  This paper presents EllipseLIO, a real-time LIO approach that generalises between scenarios by using methods for LiDAR scan filtering and registration that adapt to the sensor capabilities and environment without requiring scenario-specific tuning. Experiments with EllipseLIO and state-of-the-art LIO approaches on five datasets with diverse and challenging scenarios demonstrate that EllipseLIO is the best-performing approach overall. It achieves a 38% lower odometry error on average than the second-best approach and is the only approach that does not diverge in any experiment. An open-source version of EllipseLIO will be available at github.com/v4rl-ucy/ellipselio.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "该论文研究LiDAR惯性里程计，与强化学习、VLA、运动控制等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-05-20T13:24:58Z",
+    "created_at": "2026-06-02T16:01:45.403303",
+    "updated_at": "2026-06-02T16:01:45.403308"
+}

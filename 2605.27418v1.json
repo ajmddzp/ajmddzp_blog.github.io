@@ -1,0 +1,25 @@
+{
+    "id": "2605.27418v1",
+    "title": "Differentiable Model Predictive Safety for Heterogeneous Mobility at Urban Intersections",
+    "authors": [
+        "Wenzhe Song",
+        "Hao Zhang"
+    ],
+    "abstract": "自动驾驶汽车与移动机器人在城市环境中的即将融合，为未来智能交通系统带来了关键的安全挑战。本文针对非受控交叉口处具有不同动力学特性的异构智能体协同问题展开研究。我们提出了一种名为可微分模型预测安全（DMPS）的创新框架，该框架将模型预测控制的前瞻能力嵌入数据驱动的端到端强化学习架构中。DMPS智能体通过学习潜在动力学模型，基于自身行为预测未来轨迹，再利用可微分的安全评估器对这些轨迹的风险进行评价。关键在于，通过贯穿整个展开预测模型的反向传播机制，智能体能高效计算当前行为对未来安全性的梯度，从而实现最小化且精准的在线安全校正。将该方法集成至多智能体训练体系后，在高密度混合车辆-机器人交通模拟中，碰撞率被有效控制在5.6%以下，在保持能源与通行效率的同时实现了最优安全性能。",
+    "url": "https://arxiv.org/abs/2605.27418v1",
+    "html_url": "https://arxiv.org/html/2605.27418v1",
+    "html_content": "",
+    "preview_text": "The imminent integration of autonomous vehicles and mobile robots in urban settings presents a critical safety challenge for future intelligent transportation systems. This paper addresses the complex problem of coordinating heterogeneous agents with disparate dynamics at unregulated intersections. We introduce a novel framework, differentiable model predictive safety (DMPS), which embeds the foresight of model-predictive control into a data-driven, end-to-end reinforcement learning architecture. DMPS agents learn a latent dynamics model to predict future trajectories contingent on their actions. A learned, differentiable safety critic then evaluates the risk of these trajectories. Crucially, by leveraging backpropagation through the entire unrolled predictive model, agents can efficiently compute the gradient of future safety with respect to their current action, enabling a minimal and precise online safety correction. Integrated into a multi-agent training scheme, DMPS virtually eliminates collisions to less than 5.6% in high-density, mixed vehicle-robot traffic simulations, demonstrating state-of-the-art safety without compromising energy and traffic efficiency.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "该论文研究城市交叉口异构移动体的可微模型预测安全，与强化学习、VLA、运动控制等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-05-19T00:42:57Z",
+    "created_at": "2026-06-02T15:53:08.053038",
+    "updated_at": "2026-06-02T15:53:08.053043"
+}
