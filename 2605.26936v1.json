@@ -1,0 +1,27 @@
+{
+    "id": "2605.26936v1",
+    "title": "A Bioinspired Underwater Robot with a Latch-Mediated Soft Bistable Mechanism",
+    "authors": [
+        "Chongze Bi",
+        "Wenjie Wu",
+        "Zonghao Zuo",
+        "Li Wen"
+    ],
+    "abstract": "近几十年来，水下机器人技术取得了显著进展。然而，微型水下机器人的发展仍受限于传统能源的低能量密度。自然界提供了令人瞩目的解决方案——螳螂虾、跳蚤等生物利用闩锁介导的弹簧驱动系统，通过解耦储能与释能机制实现快速运动。尽管对闩锁介导弹簧驱动系统已有广泛研究，但在简单紧凑结构中复现这种快速、非对称驱动仍具挑战。本研究提出一种仿生软体双稳态致动器，集成闩锁机构，通过单电机实现非对称能量输入与释放。结合鳍状结构，该设计实现了高效水下推进与机动操控。实验结果表明，该装置能稳定产生周期性拍动、精准转向，最大推力达0.528 N，冲量达0.147 N·s，垂直位移达30 mm。通过调节鳍片角度，机器人可实现垂直上升、斜向前进及侧向平移等多种运动模式。本研究为紧凑型水下机器人的运动控制提供了创新性能效方案，为探索、环境监测及巡检等领域的先进仿生设计奠定基础。",
+    "url": "https://arxiv.org/abs/2605.26936v1",
+    "html_url": "https://arxiv.org/html/2605.26936v1",
+    "html_content": "",
+    "preview_text": "Underwater robotics has advanced significantly over recent decades. however, the development of miniaturized underwater robots remains limited by low energy densities of traditional power sources. Nature offers compelling solutions-organisms like mantis shrimps and fleas utilize latch-mediated spring actuation (LaMSA) systems that achieve rapid movements through a decoupled energy storage and release mechanism. Despite extensive studies of LaMSA, replicating such rapid, asymmetric actuation within simple, compact structures remains challenging. In this work, we introduce a bioinspired, soft bistable actuator with an integrated latch mechanism that enables asymmetric energy input and release using a single motor. Coupled with fin structures, this design facilitates efficient underwater propulsion and maneuverability. Experimental results demonstrate stable periodic flapping, precise steering, and a maximum thrust of 0.528 N, impulse of 0.147 Ns, and vertical displacement of 30 mm. By modulating fin angles, the robot achieves versatile motions, including vertical ascent, diagonal forward movement, and lateral translation. This study presents a novel, energy-efficient approach for controlling motion in compact underwater robots, paving the way for advanced biomimetic designs with potential applications in exploration, environmental monitoring, and inspection.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "该论文介绍了一种基于闩锁介导的软双稳态机构的仿生水下机器人，与强化学习、VLA等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-05-26T12:29:05Z",
+    "created_at": "2026-06-09T15:53:09.504952",
+    "updated_at": "2026-06-09T15:53:09.504962"
+}

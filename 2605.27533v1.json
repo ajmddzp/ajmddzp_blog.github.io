@@ -1,0 +1,26 @@
+{
+    "id": "2605.27533v1",
+    "title": "Inducing Calmness With Pocket-Sized Robotics: Reducing Movement and Heart Rate in Children through Hand-Held Tactile Interactions",
+    "authors": [
+        "Morten Roed Frederiksen",
+        "Kasper Støy",
+        "Maja Matarić"
+    ],
+    "abstract": "儿童在兴奋或不安状态下，注意力、自我调节能力及身体平静状态易受影响。通过触觉交互促进具身自我调节的技术可成为简单易行的平静促进手段。本研究探讨手持式触觉设备交互如何影响典型发育儿童平静状态的生理与行为指标。在心率调节研究基础上，我们揭示了触觉交互对全身运动与姿势稳定性的新发现。采用手持式节律振动匹配游戏装置引导儿童集中注意力并保持静止，共18名儿童参与被试内实验，在触觉交互与无交互两种条件下同步记录心率和身体运动数据。结果显示：触觉游戏交互使生理唤醒水平降低（心率下降3.56次/分钟，p<0.01），身体躁动程度减轻（整体运动减少38%，p<0.05），其中注意力相关身体区域趋于静止的效果最显著（运动量减少45%）。研究表明，短暂的手持式触觉游戏交互能下调生理激活水平，促进维持注意力和行为调节所需的平静专注状态。",
+    "url": "https://arxiv.org/abs/2605.27533v1",
+    "html_url": "https://arxiv.org/html/2605.27533v1",
+    "html_content": "",
+    "preview_text": "Periods of heightened arousal or restlessness can interfere with children's ability to focus, self-regulation, and physically calm. Technologies that encourage embodied self-regulation through tactile interaction may provide a simple and accessible means of promoting calmness. This paper investigates how interaction with a pocket-sized tactile device influences physiological and behavioral markers of calmness in typically developing children. Building on prior work examining heart rate modulation, we present new findings on how tactile interaction affects full-body movement and postural stability. We employ a device that engages children through a hand-held rhythmic vibration-matching game, designed to focus attention and encourage stillness. Eighteen children participated in a within-subjects study that involved two conditions: with and without tactile interaction with a hand-held device, while having their heart rate and body movement recorded. Results show that the tactile game interaction reduced physiological arousal (heart rate decreased by 3.56 bpm, p < 0.01) and physical restlessness (overall movement decreased by 38%, p < 0.05), with attention-related body regions showing the greatest change toward stillness (45% reduction in movement). These findings demonstrate that brief tactile game-like engagement with a hand-held device can down-regulate physiological activation, promoting the calm and focused states toward sustained attention and behavior regulation.",
+    "is_relevant": false,
+    "relevance_score": 0.0,
+    "extracted_keywords": [],
+    "one_line_summary": "该论文研究手持触觉设备对儿童生理和行为平静度的影响，与强化学习、VLA、机器人控制等关键词无关。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-05-26T18:06:48Z",
+    "created_at": "2026-06-09T15:53:14.659444",
+    "updated_at": "2026-06-09T15:53:14.659451"
+}

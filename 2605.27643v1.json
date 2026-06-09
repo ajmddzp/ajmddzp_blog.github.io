@@ -1,0 +1,35 @@
+{
+    "id": "2605.27643v1",
+    "title": "Agentic Language-to-Objective Synthesis for Optofluidic Assembly",
+    "authors": [
+        "Ivan Saraev",
+        "Elena Erben",
+        "Weida Liao",
+        "Fan Nan",
+        "Gerhard Neumann",
+        "Eric Lauga",
+        "Moritz Kreysing"
+    ],
+    "abstract": "基于光学的先进制造日益需要可编程、闭环控制的工具，能够在微小尺度上将人类设计意图转化为可执行的操作。然而，在机器人技术和制造模式中仍存在一个关键瓶颈：如何将用户意图转化为机器可读且可靠执行的目标。尽管微型机器人技术通过光学驱动流体提供了多功能操纵能力，但数学可处理的目标规范仍依赖人工设定且难以复用。在此，我们提出\"语音到目标\"（Speak-to-Objective）模块化智能管线，该管线利用条件化大型语言模型（LLM）将语音或书面指令转化为完全可微的目标函数，从而在约束感知逆求解器（SLSQP）和实验性光流控平台上实现微粒组装。该方法采用\"感知→构建→提案→执行→报告与学习\"的紧凑闭环，将目标函数作为意图与驱动之间的接口，将\"组装/图案化什么\"与\"如何驱动\"相分离，同时从用户反馈中学习。该管线整合几何、间距及分配/拓扑项，生成鲁棒的描述性目标（支持从部分轨迹恢复组装并在扰动后重建），以及精确放置的显式目标，且所有操作均独立于特定执行器。以激光诱导热粘性流作为物理驱动模式，我们展示了在微流控环境中通过自然语言可编程、基于光学的微尺度粒子图案组装。除对可编程微组装的直接影响外，本研究以激光诱导光流控驱动作为降维实验平台，揭示了自主驱动、AI辅助的光学制造平台的发展方向——在此平台中，自然语言、可微分目标与激光驱动被整合为可复用的数字化工作流程。",
+    "url": "https://arxiv.org/abs/2605.27643v1",
+    "html_url": "https://arxiv.org/html/2605.27643v1",
+    "html_content": "",
+    "preview_text": "Light-based advanced manufacturing increasingly requires programmable, closed-loop tools that translate human design intent into executable operations at small length scales. Yet a key bottleneck persists across robotic and manufacturing modalities: turning user intent into machine-readable objectives that are reliably executable. While micro-robotics offers versatile manipulation via optical actuation of fluids, mathematically tractable goal specification remains manual and hard to reuse. Here, we introduce Speak-to-Objective, a modular agentic pipeline that uses a conditioned Large Language Model (LLM) to translate spoken or written commands into fully differentiable objective functions for assembling microparticles in a constraint-aware inverse solver (SLSQP) and on an experimental optofluidic platform. The approach employs a compact loop - perceive -> compose -> propose -> act -> report & learn - that treats the objective as the interface between intent and actuation, separating what to assemble or pattern from how to actuate, while learning from user feedback. The pipeline composes geometry, spacing, and assignment/topology terms to generate robust descriptive objectives that assemble from partial traces and recover after perturbations, as well as explicit objectives for precise placement, all in an actuator-agnostic fashion. Using laser-induced thermoviscous flows as the physical actuation modality, we demonstrate natural-language-programmable, light-based microscale assembly of particle patterns in a microfluidic environment. Beyond its immediate impact on programmable microassembly, and using laser-induced optofluidic actuation as a reduced-complexity experimental platform, our work points toward self-driving, AI-assisted optical manufacturing platforms in which natural language, differentiable objectives, and laser-based actuation are coupled into a reusable digital workflow.",
+    "is_relevant": false,
+    "relevance_score": 1.0,
+    "extracted_keywords": [
+        "Large Language Model",
+        "differentiable objective",
+        "optics",
+        "microassembly"
+    ],
+    "one_line_summary": "使用大语言模型将自然语言转化为可微目标函数，用于光流控微粒子组装。",
+    "detailed_summary": "",
+    "qa_pairs": [],
+    "is_hidden": false,
+    "is_starred": false,
+    "flag": true,
+    "published_date": "2026-05-26T20:03:54Z",
+    "created_at": "2026-06-09T15:53:15.379003",
+    "updated_at": "2026-06-09T15:53:15.379014"
+}
